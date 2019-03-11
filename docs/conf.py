@@ -95,6 +95,14 @@ html_theme_options = {
 }
 '''
 
+html_theme_options = {
+    'logo_only': False,
+    'style_nav_header_background': '#f4f4f4',
+}
+html_logo = "_static/img/logo-color.png"
+html_show_sourcelink = True
+
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.

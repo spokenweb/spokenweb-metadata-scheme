@@ -3,22 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SpokenWeb Metadata Scheme and Cataloguing Process
-#################################################
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
-    1-intro
-    2-troubleshoot
-    3-data-entry
-    4-photograph
-    5-metadata-fields
-    
-----
+  1-intro
+  2-troubleshoot
+  3-data-entry
+  4-photograph
+  5-metadata-fields
 
-********************
+####################
 List of Contributors
-********************
+####################
 
 This Version 1 scheme and process was developed and authored by members of the SpokenWeb Metadata Task Force between August and November 2018.  
 
@@ -46,4 +44,3 @@ This Version 1 scheme and process was developed and authored by members of the S
 | Aurelio Meza (Concordia U)
 | Tomasz Neugebauer (Concordia U)
 | Jared Wiercinski (Concordia U)
-
