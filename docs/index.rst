@@ -34,6 +34,7 @@ This Version 1 scheme and process was developed and authored by members of the S
 | Tomasz Neugebauer (Concordia U)
 | Jared Wiercinski (Concordia U)
 
+
 **Version 2 contributors:**
 
 | Jason Camlot (Concordia U)
