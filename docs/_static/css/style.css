@@ -22,6 +22,7 @@ a {
 .wy-nav-content a:visited { color:#893025; }
 
 .wy-nav-top { background:#f4f4f4; color:#303030; }
+.wy-nav-top a { color:#303030; }
 
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a { color:#303030; }
 
