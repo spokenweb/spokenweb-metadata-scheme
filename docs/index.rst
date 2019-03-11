@@ -14,6 +14,8 @@ SpokenWeb Metadata Scheme and Cataloguing Process
   4-photograph
   5-metadata-fields
 
+----
+
 ####################
 List of Contributors
 ####################
