@@ -17,18 +17,29 @@ SpokenWeb Metadata Scheme and Cataloguing Process
 ----
 
 ####################
-List of Contributors
+List of Authors/ Contributors
 ####################
 
-This Version 1 scheme and process was developed and authored by members of the SpokenWeb Metadata Task Force between August and November 2018.  
-
-**Version 1 contributors:**
+**Version 1 authors:**
 
 | Jason Camlot (Concordia U)
 | Rebecca Dowson (SFU)
 | Ian Ferrier (Wired on Words)
 | Deanna Fong (SFU)
-| Roma Kail (University of Victoria in the University of Toronto)
+| Roma Kail (Victoria University in the UofT)
+| Sean Luyk (U Alberta)
+| Aurelio Meza (Concordia U)
+| Tomasz Neugebauer (Concordia U)
+| Jared Wiercinski (Concordia U)
+
+
+**Version 2 authors:**
+
+| Jason Camlot (Concordia U)
+| Rebecca Dowson (SFU)
+| Ian Ferrier (Wired on Words)
+| Deanna Fong (SFU)
+| Roma Kail (Victoria University in the UofT)
 | Sean Luyk (U Alberta)
 | Aurelio Meza (Concordia U)
 | Tomasz Neugebauer (Concordia U)
@@ -37,12 +48,9 @@ This Version 1 scheme and process was developed and authored by members of the S
 
 **Version 2 contributors:**
 
-| Jason Camlot (Concordia U)
-| Rebecca Dowson (SFU)
-| Ian Ferrier (Wired on Words)
-| Deanna Fong (SFU)
-| Roma Kail (University of Victoria in the University of Toronto)
-| Sean Luyk (U Alberta)
-| Aurelio Meza (Concordia U)
-| Tomasz Neugebauer (Concordia U)
-| Jared Wiercinski (Concordia U)
+| Ali Barillaro (Concordia U)
+| Lee Hannigan (U Alberta)
+| Eva Lu (Victoria University in the UofT)
+| Cole Mash (SFU)
+| Holly Pickering (U Alberta)
+| Nathan Chandler (U Calgary)
