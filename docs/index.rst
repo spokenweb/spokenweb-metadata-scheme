@@ -16,9 +16,9 @@ SpokenWeb Metadata Scheme and Cataloguing Process
 
 ----
 
-####################
+#############################
 List of Authors/ Contributors
-####################
+#############################
 
 **Version 1 authors:**
 
@@ -39,10 +39,10 @@ List of Authors/ Contributors
 | Rebecca Dowson (SFU)
 | Ian Ferrier (Wired on Words)
 | Deanna Fong (SFU)
-| Roma Kail (Victoria University in the UofT)
+| Roma Kail (Victoria University in the UofT) (also Metadata Controller)
 | Sean Luyk (U Alberta)
 | Aurelio Meza (Concordia U)
-| Tomasz Neugebauer (Concordia U)
+| Tomasz Neugebauer (Concordia U) (also Metadata Controller)
 | Jared Wiercinski (Concordia U)
 
 
@@ -54,3 +54,9 @@ List of Authors/ Contributors
 | Cole Mash (SFU)
 | Holly Pickering (U Alberta)
 | Nathan Chandler (U Calgary)
+
+
+**Metadata Controllers:**
+
+| Roma Kail (Victoria University in the UofT)
+| Tomasz Neugebauer (Concordia U)
