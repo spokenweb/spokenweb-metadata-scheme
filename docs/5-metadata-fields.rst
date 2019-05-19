@@ -458,26 +458,26 @@ Responsibility can be extended to include not just voices/speakers on a given re
 
 **Definitions**
 
-+-------------------------------+-----------------------------------------+--------------+
-| **Field Name**                | **Description                           | **Usage**    |
-+-------------------------------+-----------------------------------------+--------------+
-| Creator                       | Creators are the primary persons or     | *Required    |
-| (`dc: creator <http://purl.org| bodies associated with the creation of  | *Repeatable  |
-| /dc/elements/1.1/creator>`_)  | the content.                            |              |
-+-------------------------------+-----------------------------------------+--------------+
-| Contributor (`dc: contributor | Contributors are persons or bodies      | *Required    |
-| <http://purl.org/dc/elements/ | associated with the item but not        | *Repeatable  |
-| 1.1/contributor>`_)           | considered primary to the creation of   |              |
-|                               | its content. Examples of this would be  |              |
-|                               | performers in a band or opera,          |              |
-|                               | conductor, arranger, cinematographer,   |              |
-|                               | and choreographer.                      |              |
-+-------------------------------+-----------------------------------------+--------------+
-| Role (`MODS: role term        | Designates the relationship (role) of   | *Conditional |
-| <http://https://www.loc.gov/  | the entity recorded in name to the      | (mandatory   |
-| standards/mods/userguide/     | resource described in the record.       | if present)  |
-| name.html#roleterm>`_)        |                                         |              |
-+-------------------------------+-----------------------------------------+--------------+
++--------------------------------+-----------------------------------------+------------------+
+| **Field Name**                 | **Description**                         | **Usage**        |
++--------------------------------+-----------------------------------------+------------------+
+| Creator                        | Creators are the primary persons or     | * Required       |
+| (`dc: creator <http://purl.org | bodies associated with the creation of  | * Repeatable     |
+| /dc/elements/1.1/creator>`_)   | the content.                            |                  |
++--------------------------------+-----------------------------------------+------------------+
+| Contributor (`dc: contributor  | Contributors are persons or bodies      | * Conditional    |
+| <http://purl.org/dc/elements/  | associated with the item but not        |   (mandatory     |
+| 1.1/contributor>`_)            | considered primary to the creation of   |   if present)    |
+|                                | its content. Examples of this would be  | * Required       |
+|                                | performers in a band or opera,          |                  |
+|                                | conductor, arranger, cinematographer,   |                  |
+|                                | and choreographer.                      |                  |
++--------------------------------+-----------------------------------------+------------------+
+| Role (`MODS: role term         | Designates the relationship (role) of   | * Conditional    |
+| <http://https://www.loc.gov/   | the entity recorded in name to the      |   (mandatory     |
+| standards/mods/userguide/      | resource described in the record.       |   if present)    |
+| name.html#roleterm>`_)         |                                         | * Non-Repeatable |
++--------------------------------+-----------------------------------------+------------------+
 
 **Creator and Contributor Roles**
 
@@ -497,8 +497,8 @@ Enter URL to the applicable authority record in the corresponding URI fields.  F
 
 **Data Entry Syntax**
 
-  * In both the creator and contributor fields the following format should be used:  Last, First, YYYY (birth)-YYYY (death/ - for living creators/contributors)
-  * Where exact dates are not known, add a question mark, e.g. 194?-2007
+  * In both the creator and contributor fields the following format should be used:  Last, First
+  * For each creator and contributor fields, enter YYYY (birth)-YYYY (death/ - for living creators/contributors). Where exact dates are not known, add a question mark, e.g. 194?-2007
   * Where a creator or contributor is unknown, record as Unknown [role], e.g. Unknown Speaker
 
 **Sources of Information**
@@ -513,27 +513,31 @@ Statement of responsibility can apply to different levels of a given resource:
 
 **Sample Records** (based on various entries from `Robert Creeley Penn Sound author page <http://writing.upenn.edu/pennsound/x/Creeley.php>`_)
 
-+--------------------------------------------------------------------------------------------------------+
-| **EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn on "Contemporary Poetry"** |
-+------------------------------------+-----------+----------------------------+--------------------------+
-| Creator                            | Role      | Contributor                | Role                     |
-+------------------------------------+-----------+----------------------------+--------------------------+
-| Creeley, Robert White, 1926 - 2005 | Performer | Blackburn, Paul, 1926-1971 | Broadcaster              |
-+------------------------------------+-----------+----------------------------+--------------------------+
++-------------------------------------------------------------------------------------------+
+| **EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn               |
+| on "Contemporary Poetry"**                                                                |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
+| Creator               | Date      | Role      | Contributor     | Date      | Role        |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
+| Creeley, Robert White | 1926-2005 | Performer | Blackburn, Paul | 1926-1971 | Broadcaster |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
 
-+--------------------------------------------------------------------------------------+
-| **EXAMPLE 2: Ballade pour Robert Creeley, c. 1993**                                  |
-+------------------------------------+--------+----------------------------+-----------+
-| Creator                            | Role   | Contributor                | Role      |
-+------------------------------------+--------+----------------------------+-----------+
-| Creeley, Robert White, 1926 - 2005 | Author | Darras, Jacques, 1939 -    | Recordist |
-+------------------------------------+--------+----------------------------+-----------+
++-------------------------------------------------------------------------------------------+
+| **EXAMPLE 2: Ballade pour Robert Creeley, c. 1993**                                       |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
+| Creator               | Date      | Role      | Contributor     | Date      | Role        |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
+| Creeley, Robert White | 1926-2005 | Author    | Darras, Jacques | 1939-     | Recordist   |
++-----------------------+-----------+-----------+-----------------+-----------+-------------+
 
 **Creator/Contributor Notes**
 
 * It may be necessary to include creator and/or contributor information in other fields such as a title, general note or table of contents where additional information is required, or the use of a role term is not desirable/complete. For example:
+
   * From recording Creeley sent to Paul Blackburn, 1963
+
   * Creeley discusses his life and work and reads poems, with Pierre Joris, to the improvised jazz of Steve Lacy
+
 * It is acceptable to duplicate information in a creator/contributor field with the more detailed explanatory information found elsewhere
 
 ----
@@ -559,7 +563,7 @@ If the information is taken from a source other than one of these sources, this 
     * Production Date– when the recording was produced 
     * Publication Date- when the recording was broadcast, distributed or first made public
 
-  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Select Unknown if the date cannot be determined.
+  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave blank if the date cannot be determined.
 
   3. Enter as outlined below according to the prescribed syntax and punctuation.  It is very important that all date entries use this specific syntax:
 

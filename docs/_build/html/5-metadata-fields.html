@@ -597,13 +597,13 @@ Such material is available</td>
 <p><strong>Definitions</strong></p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="36%" />
-<col width="48%" />
-<col width="16%" />
+<col width="35%" />
+<col width="45%" />
+<col width="20%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td><strong>Field Name</strong></td>
-<td><a href="#id6"><span class="problematic" id="id7">**</span></a>Description</td>
+<td><strong>Description</strong></td>
 <td><strong>Usage</strong></td>
 </tr>
 <tr class="row-even"><td>Creator
@@ -611,8 +611,11 @@ Such material is available</td>
 <td>Creators are the primary persons or
 bodies associated with the creation of
 the content.</td>
-<td><a href="#id8"><span class="problematic" id="id9">*</span></a>Required
-<a href="#id10"><span class="problematic" id="id11">*</span></a>Repeatable</td>
+<td><ul class="first last simple">
+<li>Required</li>
+<li>Repeatable</li>
+</ul>
+</td>
 </tr>
 <tr class="row-odd"><td>Contributor (<a class="reference external" href="http://purl.org/dc/elements/1.1/contributor">dc: contributor</a>)</td>
 <td>Contributors are persons or bodies
@@ -622,16 +625,25 @@ its content. Examples of this would be
 performers in a band or opera,
 conductor, arranger, cinematographer,
 and choreographer.</td>
-<td><a href="#id12"><span class="problematic" id="id13">*</span></a>Required
-<a href="#id14"><span class="problematic" id="id15">*</span></a>Repeatable</td>
+<td><ul class="first last simple">
+<li>Conditional
+(mandatory
+if present)</li>
+<li>Required</li>
+</ul>
+</td>
 </tr>
 <tr class="row-even"><td>Role (<a class="reference external" href="http://https://www.loc.gov/standards/mods/userguide/name.html#roleterm">MODS: role term</a>)</td>
 <td>Designates the relationship (role) of
 the entity recorded in name to the
 resource described in the record.</td>
-<td><a href="#id16"><span class="problematic" id="id17">*</span></a>Conditional
+<td><ul class="first last simple">
+<li>Conditional
 (mandatory
-if present)</td>
+if present)</li>
+<li>Non-Repeatable</li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
@@ -656,8 +668,8 @@ Authorized names of creators and contributors should be drawn from established a
 <p><strong>Data Entry Syntax</strong></p>
 <blockquote>
 <div><ul class="simple">
-<li>In both the creator and contributor fields the following format should be used:  Last, First, YYYY (birth)-YYYY (death/ - for living creators/contributors)</li>
-<li>Where exact dates are not known, add a question mark, e.g. 194?-2007</li>
+<li>In both the creator and contributor fields the following format should be used:  Last, First</li>
+<li>For each creator and contributor fields, enter YYYY (birth)-YYYY (death/ - for living creators/contributors). Where exact dates are not known, add a question mark, e.g. 194?-2007</li>
 <li>Where a creator or contributor is unknown, record as Unknown [role], e.g. Unknown Speaker</li>
 </ul>
 </div></blockquote>
@@ -680,53 +692,68 @@ Statement of responsibility can apply to different levels of a given resource:</
 <p><strong>Sample Records</strong> (based on various entries from <a class="reference external" href="http://writing.upenn.edu/pennsound/x/Creeley.php">Robert Creeley Penn Sound author page</a>)</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="36%" />
-<col width="11%" />
-<col width="28%" />
-<col width="26%" />
+<col width="27%" />
+<col width="13%" />
+<col width="13%" />
+<col width="20%" />
+<col width="13%" />
+<col width="15%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td colspan="4"><strong>EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn on “Contemporary Poetry”</strong></td>
+<tr class="row-odd"><td colspan="6"><strong>EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn
+on “Contemporary Poetry”</strong></td>
 </tr>
 <tr class="row-even"><td>Creator</td>
+<td>Date</td>
 <td>Role</td>
 <td>Contributor</td>
+<td>Date</td>
 <td>Role</td>
 </tr>
-<tr class="row-odd"><td>Creeley, Robert White, 1926 - 2005</td>
+<tr class="row-odd"><td>Creeley, Robert White</td>
+<td>1926-2005</td>
 <td>Performer</td>
-<td>Blackburn, Paul, 1926-1971</td>
+<td>Blackburn, Paul</td>
+<td>1926-1971</td>
 <td>Broadcaster</td>
 </tr>
 </tbody>
 </table>
 <table border="1" class="docutils">
 <colgroup>
-<col width="43%" />
-<col width="10%" />
-<col width="34%" />
+<col width="27%" />
 <col width="13%" />
+<col width="13%" />
+<col width="20%" />
+<col width="13%" />
+<col width="15%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td colspan="4"><strong>EXAMPLE 2: Ballade pour Robert Creeley, c. 1993</strong></td>
+<tr class="row-odd"><td colspan="6"><strong>EXAMPLE 2: Ballade pour Robert Creeley, c. 1993</strong></td>
 </tr>
 <tr class="row-even"><td>Creator</td>
+<td>Date</td>
 <td>Role</td>
 <td>Contributor</td>
+<td>Date</td>
 <td>Role</td>
 </tr>
-<tr class="row-odd"><td>Creeley, Robert White, 1926 - 2005</td>
+<tr class="row-odd"><td>Creeley, Robert White</td>
+<td>1926-2005</td>
 <td>Author</td>
-<td>Darras, Jacques, 1939 -</td>
+<td>Darras, Jacques</td>
+<td>1939-</td>
 <td>Recordist</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Creator/Contributor Notes</strong></p>
 <ul class="simple">
-<li>It may be necessary to include creator and/or contributor information in other fields such as a title, general note or table of contents where additional information is required, or the use of a role term is not desirable/complete. For example:
-* From recording Creeley sent to Paul Blackburn, 1963
-* Creeley discusses his life and work and reads poems, with Pierre Joris, to the improvised jazz of Steve Lacy</li>
+<li>It may be necessary to include creator and/or contributor information in other fields such as a title, general note or table of contents where additional information is required, or the use of a role term is not desirable/complete. For example:<ul>
+<li>From recording Creeley sent to Paul Blackburn, 1963</li>
+<li>Creeley discusses his life and work and reads poems, with Pierre Joris, to the improvised jazz of Steve Lacy</li>
+</ul>
+</li>
 <li>It is acceptable to duplicate information in a creator/contributor field with the more detailed explanatory information found elsewhere</li>
 </ul>
 </div>
@@ -753,7 +780,7 @@ Statement of responsibility can apply to different levels of a given resource:</
 </ul>
 </div></blockquote>
 <ol class="arabic simple" start="2">
-<li>The Date Field is required: this means that the elements of this field cannot be left empty – some value must be entered. Select Unknown if the date cannot be determined.</li>
+<li>The Date Field is required: this means that the elements of this field cannot be left empty – some value must be entered. Leave blank if the date cannot be determined.</li>
 <li>Enter as outlined below according to the prescribed syntax and punctuation.  It is very important that all date entries use this specific syntax:</li>
 </ol>
 <blockquote>
