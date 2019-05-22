@@ -91,7 +91,7 @@ Identify the AV Type with either Audio or Video.
 5.5. Physical Items Fields
 **************************
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please consult with the Metadata Task Force (or propose a suggestion from the `IASA Glossary <https://www.iasa-web.org/cataloguing-rules/appendix-d-glossary>`_).  
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please consult with the Metadata Task Force (or propose a suggestion from the `IASA Glossary <https://www.iasa-web.org/cataloguing-rules/appendix-d-glossary>`__).  
 
   * Reel to Reel
   * 8-Track Cartridge
@@ -278,10 +278,10 @@ Example: [Phyllis Webb at Sir George Williams University, 1966]
 
 The following is the order of preference for the source of title information:
 
-  1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`_ itself (including any permanently affixed labels, or title frames, or the audio itself);
-  2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`_ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`_ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
-  3. a container that is an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`_ (e.g. sound `cartridge <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#21>`_, video `cassette <http://http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`_, sleeve, container for video); or from
-  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`_ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`_ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`_ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`_ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`_ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`_ itself. If the information is taken from a secondary source, cite the source in a **Title Source**. 
+  1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
+  2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
+  3. a container that is an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. sound `cartridge <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#21>`__, video `cassette <http://http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__, sleeve, container for video); or from
+  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself. If the information is taken from a secondary source, cite the source in a **Title Source**. 
   5. For the unidentified information, listen to the recording.
 
 For listing titles of individual works that are read within a given recording, see procedures for timestamping in the **Contents Field** (below).
@@ -463,11 +463,11 @@ Responsibility can be extended to include not just voices/speakers on a given re
 +--------------------------------+-----------------------------------------+------------------+
 | Creator                        | Creators are the primary persons or     | * Required       |
 | (`dc: creator <http://purl.org | bodies associated with the creation of  | * Repeatable     |
-| /dc/elements/1.1/creator>`_)   | the content.                            |                  |
+| /dc/elements/1.1/creator>`__)  | the content.                            |                  |
 +--------------------------------+-----------------------------------------+------------------+
 | Contributor (`dc: contributor  | Contributors are persons or bodies      | * Conditional    |
 | <http://purl.org/dc/elements/  | associated with the item but not        |   (mandatory     |
-| 1.1/contributor>`_)            | considered primary to the creation of   |   if present)    |
+| 1.1/contributor>`__)           | considered primary to the creation of   |   if present)    |
 |                                | its content. Examples of this would be  | * Required       |
 |                                | performers in a band or opera,          |                  |
 |                                | conductor, arranger, cinematographer,   |                  |
@@ -476,22 +476,22 @@ Responsibility can be extended to include not just voices/speakers on a given re
 | Role (`MODS: role term         | Designates the relationship (role) of   | * Conditional    |
 | <http://https://www.loc.gov/   | the entity recorded in name to the      |   (mandatory     |
 | standards/mods/userguide/      | resource described in the record.       |   if present)    |
-| name.html#roleterm>`_)         |                                         | * Non-Repeatable |
+| name.html#roleterm>`__)        |                                         | * Non-Repeatable |
 +--------------------------------+-----------------------------------------+------------------+
 
 **Creator and Contributor Roles**
 
-  * Assign roles to both creators and contributors where known. Role terms should be drawn from the `MARC 21 Code List for Relators <http://https://www.loc.gov/marc/relators/relacode.html>`_, although a separate controlled vocabulary of relator terms specific to audiotextual works is in development
+  * Assign roles to both creators and contributors where known. Role terms should be drawn from the `MARC 21 Code List for Relators <https://www.loc.gov/marc/relators/relaterm.html>`__, although a separate controlled vocabulary of relator terms specific to audiotextual works is in development
 
   * A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required 
 
 **Creator and Contributor URI Fields**
 Authorized names of creators and contributors should be drawn from established authority lists where possible. 
 
-  * `Library of Congress Name Authority File <http://id.loc.gov/authorities/names.html>`_
-  * `Canadiana Authorities <https://www.collectionscanada.gc.ca/canadiana-authorities/index/index?lang=eng>`_
-  * `Dictionary of Canadian Biography <http://www.biographi.ca/en/index.php>`_
-  * `Virtual Internet Authority File (VIAF) <https://viaf.org/>`_
+  * `Library of Congress Name Authority File <http://id.loc.gov/authorities/names.html>`__
+  * `Canadiana Authorities <https://www.collectionscanada.gc.ca/canadiana-authorities/index/index?lang=eng>`__
+  * `Dictionary of Canadian Biography <http://www.biographi.ca/en/index.php>`__
+  * `Virtual Internet Authority File (VIAF) <https://viaf.org/>`__
   
 Enter URL to the applicable authority record in the corresponding URI fields.  For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092.   
 
@@ -511,7 +511,7 @@ Statement of responsibility can apply to different levels of a given resource:
   * An entire recording (e.g. Series Organizer Jason Camlot)
   * A section of a recording (e.g. a reading by Robert Creeley)
 
-**Sample Records** (based on various entries from `Robert Creeley Penn Sound author page <http://writing.upenn.edu/pennsound/x/Creeley.php>`_)
+**Sample Records** (based on various entries from `Robert Creeley Penn Sound author page <http://writing.upenn.edu/pennsound/x/Creeley.php>`__)
 
 +-------------------------------------------------------------------------------------------+
 | **EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn               |
@@ -600,17 +600,17 @@ Where was a recording made?  Answering this question may provide us with interes
     .. image:: _static/img/image1.png
     
     |
-    2. Click on “details”:
+    | 2. Click on “details”:
 
     .. image:: _static/img/image2.png
 
     |
-    3. Copy/paste information from the entry for the location in OSM:
+    | 3. Copy/paste information from the entry for the location in OSM:
 
     .. image:: _static/img/image3.png
-    
-|    
-**Venue:** For Venue, you may find a specific location name from the source material. 
+
+| 
+| **Venue:** For Venue, you may find a specific location name from the source material. 
 
 **Cataloguing Procedures and Syntax:**
 
@@ -665,6 +665,7 @@ Additional Field: **Rights Note**
 One of the following 13 statements should be specified, using a URL:
 
   1. The Public Domain Mark (PDM) - Digital Objects which are no longer protected by copyright. Objects that are labelled as being in the public domain can be used by anyone without any restrictions.
+    
     Specify the URL: https://creativecommons.org/publicdomain/mark/1.0/.
 
   2. No Copyright - non commercial re-use only (NoC-NC) -  public domain Digital Objects which have been digitised as an outcome of a public-private partnership, where the terms of the contractual agreement limit commercial use for a certain period of time. 
