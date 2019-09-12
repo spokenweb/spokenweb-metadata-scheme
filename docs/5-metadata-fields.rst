@@ -200,7 +200,7 @@ Where possible, include the following additional information in the Notes field:
   
     Example:
     
-    * Issued with illustrated sleeve and liner notes
+    * Issued with illustrated sleeve and liner notes, so liner notes could be entered in this field. 
 
   **Other physical description:**
   
@@ -481,9 +481,32 @@ Responsibility can be extended to include not just voices/speakers on a given re
 
 **Creator and Contributor Roles**
 
-  * Assign roles to both creators and contributors where known. Role terms should be drawn from the `MARC 21 Code List for Relators <https://www.loc.gov/marc/relators/relaterm.html>`__, although a separate controlled vocabulary of relator terms specific to audiotextual works is in development
+  * Assign roles to both creators and contributors where known. Role terms should be drawn from the following list:
+•	Author
+•	Performer
+•	Narrator
+•	Presenter
+•	Interviewer
+•	Producer
+•	Publisher
+•	Distributor
+•	Manufacturer
+•	Producer
+•	Publisher
+•	Distributor
+•	Recordist
+•	Series organizer
+•	Collector
+•	Archivist
+•	Reader
+•	Speaker
+•	Storyteller
+•	Elder
 
-  * A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required 
+
+  * A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
+  Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation. 
+
 
 **Creator and Contributor URI Fields**
 Authorized names of creators and contributors should be drawn from established authority lists where possible. 
@@ -562,6 +585,7 @@ If the information is taken from a source other than one of these sources, this 
 
     * Production Date– when the recording was produced 
     * Publication Date- when the recording was broadcast, distributed or first made public
+    * Performance Date- when the reading/event was performed
 
   2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave blank if the date cannot be determined.
 
@@ -779,3 +803,8 @@ For more complex structure that includes a hierarchy of labels:
     	<span label="Native Realm" begin="00:04:18.00" end="00:06:08.00"/>
     </div>
   </item>
+  ******************
+5.19. Contents Notes
+********************
+
+Tags or short description of the reading should be recorded here. Any idiocyncratic information should be recorded in this field. 
