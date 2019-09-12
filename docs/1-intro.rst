@@ -2,7 +2,7 @@
 1. Introduction
 ###############
 
-Welcome to the SpokenWeb metadata cataloguing project!!  Broadly speaking, a metadata scheme is a rationalized way of describing a collection with a set of rules according to which a controlled “language” operates. In this context, language means an artificial construct defined for the purposes of describing our collections in a systematic and consistent way. 
+Welcome to the SpokenWeb metadata cataloguing project!  Broadly speaking, a metadata scheme is a rationalized way of describing a collection with a set of rules according to which a controlled “language” operates. In this context, language means an artificial construct defined for the purposes of describing our collections in a systematic and consistent way. 
 
 The following *SpokenWeb Metadata Scheme* consists of two documents: 1) **an Excel spreadsheet** is WHAT needs to be used to enter information about a collection, and 2) **the cataloguing rules (authority control and cataloguing procedures)** are documents designed to explain HOW to enter information in the Excel file.
     
