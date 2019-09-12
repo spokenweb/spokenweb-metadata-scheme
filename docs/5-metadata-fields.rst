@@ -803,7 +803,7 @@ For more complex structure that includes a hierarchy of labels:
     	<span label="Native Realm" begin="00:04:18.00" end="00:06:08.00"/>
     </div>
   </item>
-  ******************
+********************
 5.19. Contents Notes
 ********************
 
