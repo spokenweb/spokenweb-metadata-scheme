@@ -805,8 +805,9 @@ For more complex structure that includes a hierarchy of labels:
   </item>
   
   NOTE: Bold text, or text with other RTF styles applied in a custom editor, will just be saved as text.
+  
 ********************
 5.19. Contents Notes
 ********************
 
-Tags or short description of the reading should be recorded here. Any idiocyncratic information should be recorded in this field. 
+Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field. 
