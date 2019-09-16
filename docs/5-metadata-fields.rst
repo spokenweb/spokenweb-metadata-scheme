@@ -65,7 +65,7 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 **General Guidelines:**
 
   * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item.
-  * Pick only one Item to be described. It can be made up of multiple parts and formats. Include in the Notes any information about related items, such as additional copies, versions or available formats of the Item.
+  * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event. 
   * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving” (IASA). Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files (as defined by IASA)” that will allow the configuration of equipment to play back the files correctly (IASA). System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
@@ -803,6 +803,8 @@ For more complex structure that includes a hierarchy of labels:
     	<span label="Native Realm" begin="00:04:18.00" end="00:06:08.00"/>
     </div>
   </item>
+  
+  NOTE: Bold text, or text with other RTF styles applied in a custom editor, will just be saved as text.
 ********************
 5.19. Contents Notes
 ********************
