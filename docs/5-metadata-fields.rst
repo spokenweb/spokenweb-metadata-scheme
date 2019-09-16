@@ -779,7 +779,7 @@ The basic procedure for generating a timestamped contents list entails using a t
 
 As you are producing your timestamped contents description of the recording you should timestamp and thus signal the start and end of each event of discrete significance.  For our purposes this will usually mean changes in speaker and discrete literary works read.  For example, If you are listening to a reading that has someone introducing the reader, you would first timestamp the beginning of the introduction and title this with the term Introduction and then the name of the Introducer.  For example, Warren Tallman introduces Robert Creely. Then, when the reader steps up to the microphone you would indicate that with a new timestamp followed by the name of the reader.  If the reader is introducing a poem, you would follow his/her name by Introduces and then the title of the poem, for example, Dorothy Livesay introduces Outrider.  Then when the reading of that actual poem begins you would timestamp that moment with the name of the reader and the title of the poem, so, Dorothy Livesay reads Outrider
 
-A proper timestamping tool is in development; however, if you choose to do timestamping manually, format the timestamps following XML as below.  For a simple series of timestamps:
+A proper timestamping tool is in development; however, if you choose to do timestamping manually, format the timestamps following XML as below. NOTE: Bold text, or text with other RTF styles applied in a custom editor, will just be saved as text.For a simple series of timestamps:
 
 .. code-block:: xml
 
@@ -804,7 +804,6 @@ For more complex structure that includes a hierarchy of labels:
     </div>
   </item>
   
-  NOTE: Bold text, or text with other RTF styles applied in a custom editor, will just be saved as text.
   
 ********************
 5.19. Contents Notes
