@@ -77,8 +77,10 @@ List of Authors/ Contributors
 **Version 3 contributors:**
 
 | Ali Barillaro (Concordia U)
+| Jakob Knudsen (SFU)
 | Linara Kolosov (SFU)
 | Cole Mash (SFU)
+| Andrew Roberge (Concordia U)
 
 
 **Metadata Controllers:**
