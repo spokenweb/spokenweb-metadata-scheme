@@ -481,32 +481,33 @@ Responsibility can be extended to include not just voices/speakers on a given re
 
 **Creator and Contributor Roles**
 
-  * Assign roles to both creators and contributors where known. Role terms should be drawn from the following list:
+Assign roles to both creators and contributors where known. Role terms should be drawn from the following list:
 
-    •	Author
-    •	Performer
-    •	Narrator
-    •	Presenter
-    •	Interviewer
-    •	Producer
-    •	Publisher
-    •	Distributor
-    •	Manufacturer
-    •	Producer
-    •	Publisher
-    •	Distributor
-    •	Recordist
-    •	Series organizer
-    •	Collector
-    •	Archivist
-    •	Reader
-    •	Speaker
-    •	Storyteller
-    •	Elder
-    •	Donor
+  •	Author
+  •	Performer
+  •	Narrator
+  •	Presenter
+  •	Interviewer
+  •	Producer
+  •	Publisher
+  •	Distributor
+  •	Manufacturer
+  •	Producer
+  •	Publisher
+  •	Distributor
+  •	Recordist
+  •	Series organizer
+  •	Collector
+  •	Archivist
+  •	Reader
+  •	Speaker
+  •	Storyteller
+  •	Elder
+  •	Donor
 
-  * A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
-  Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation. 
+A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
+
+Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation. 
 
 **Creator and Contributor URI Fields**
 Authorized names of creators and contributors should be drawn from established authority lists where possible. 
