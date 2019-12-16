@@ -502,6 +502,7 @@ Responsibility can be extended to include not just voices/speakers on a given re
 •	Speaker
 •	Storyteller
 •	Elder
+•	Donor
 
 
   * A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
