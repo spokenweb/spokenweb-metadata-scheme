@@ -356,13 +356,13 @@ Note that most frequently used Production Context would be: Documentary recordin
 5.12. Genre
 ***********
 
-In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context [21].  The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording.  In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
+In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [21]  The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [22]  In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
 
-**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc.  In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre. 
+**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [23]  In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre. 
 
-NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext.  For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
+NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [24]  For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
 
-Genre should be chosen from the following controlled vocabulary of terms. Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
+Genre should be chosen from the following controlled vocabulary of terms. [25] Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
 
 Here is the list of terms you must draw from:
 
@@ -383,7 +383,7 @@ Here is the list of terms you must draw from:
     * Fiction
     * Poetry
   
-**Definitions of genre terms**
+**Definitions of genre terms** [26]
 
 **Conversations:** The informal exchange of ideas and information between two or more people by spoken words.
 
@@ -456,7 +456,7 @@ Special attention should be paid to include the different kinds of contribution 
 
 Responsibility can be extended to include not just voices/speakers on a given recording, but other creators/contributors not present. For example, a performance of a poem by another author would constitute a kind of responsibility.
 
-**Definitions**
+**Definitions**[27]
 
 +--------------------------------+-----------------------------------------+------------------+
 | **Field Name**                 | **Description**                         | **Usage**        |
@@ -674,9 +674,9 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 5.16. Rights Fields
 *******************
 
-Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. 
+Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. [28] 
 
-The rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. These statements provide a best practice for use by both international, national and regional aggregators of cultural heritage data, and the individual institutions and organizations that contribute data to them.
+The rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users.[29] These statements provide a best practice for use by both international, national and regional aggregators of cultural heritage data, and the individual institutions and organizations that contribute data to them. [30]
 
 Required Field: **Rights**
 
