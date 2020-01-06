@@ -811,3 +811,24 @@ For more complex structure that includes a hierarchy of labels:
 ********************
 
 Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field. 
+
+
+[2]
+[3]cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf
+[4]www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf, 3.4.4
+[5]iasa-web.org/cataloguing-rules
+[6] IASA
+[7] www.iasa-web.org/cataloguing-rules/appendix-d-glossary
+[8]"IASA Appendix D Glossary"
+[9]"IASA Appendix D GLossary"
+[10] ISADG - 3.1.5
+[11] IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
+[12] RAD 8.5 C6
+[13] RAD 8.5 C7 
+[14] Based on IASA 5.C.6 expanded AACR2 6.5 C7
+[15] ISAD G 3.4.4
+[16] archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
+[17]IFLA, 0.8,p.16
+[18] Anglo American Cataloguing Rules (2005) 
+[19] 
+[20]
