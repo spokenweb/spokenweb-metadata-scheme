@@ -832,3 +832,13 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 [18] Anglo American Cataloguing Rules (2005) 
 [19] 
 [20]
+[21]www.loc.gov/aba/publications/FreeLCGTFT/GENRE.pdf
+[22]LOC
+[23]LOC
+[24]LOC
+[25]LOC
+[26]www.merriam-webster.com/; other dictionaries and common sense
+[27]dublincore.org/documents/2012/06/14/dces Accessed 12 October 2018, v.1, 1 + loc.gov/standards/mods/mods-outline-3-7.html#name, v.3
+[28]
+[29]
+[30]
