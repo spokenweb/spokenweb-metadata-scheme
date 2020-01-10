@@ -814,7 +814,7 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 
 
 [2]
-[3]cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf
+[3]"Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
 [4]www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf, 3.4.4
 [5]iasa-web.org/cataloguing-rules
 [6] IASA
