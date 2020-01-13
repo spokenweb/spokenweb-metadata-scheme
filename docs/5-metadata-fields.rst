@@ -815,30 +815,30 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 
 [2]
 [3]"Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
-[4]www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf, 3.4.4
-[5]iasa-web.org/cataloguing-rules
-[6] IASA
-[7] www.iasa-web.org/cataloguing-rules/appendix-d-glossary
-[8]"IASA Appendix D Glossary"
-[9]"IASA Appendix D GLossary"
-[10] ISADG - 3.1.5
-[11] IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
-[12] RAD 8.5 C6
-[13] RAD 8.5 C7 
-[14] Based on IASA 5.C.6 expanded AACR2 6.5 C7
-[15] ISAD G 3.4.4
-[16] archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
-[17]IFLA, 0.8,p.16
+[4]"Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
+[5]"Area 5: Introduction," Physical Description, IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives  https://www.iasa-web.org/cataloguing-rules/50-introduction.
+[6]IASA, "Area 5: Introduction"
+[7]"Appendix D Glossary," IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives, https://www.iasa-web.org/cataloguing-rules/appendix-d-glossary.
+[8]IASA, "Appendix D Glossary"
+[9]IASA, "Appendix D Glossary"
+[10]ISAD(G), 3.1.5, p.16
+[11]IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
+[12]"RAD," 8.5C6, p. 8-17
+[13]"RAD,"  8.5C7, p.8 - 17
+[14]Based on IASA 5.C.6 expanded AACR2 6.5 C7
+[15]"ISAD(G)" 3.4.4, p.29
+[16]"International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
+[17]IFLA, 0.8, p.16
 [18] Anglo American Cataloguing Rules (2005) 
 [19] 
 [20]
-[21]www.loc.gov/aba/publications/FreeLCGTFT/GENRE.pdf
-[22]LOC
-[23]LOC
-[24]LOC
-[25]LOC
+[21]"Introduction to Library of Congress Genre/Form Terms for Library and Archival Materials," Library of Congress (LOC), April 2019, https://www.loc.gov/aba/publications/FreeLCGFT/2019%20LCGFT%20intro.pdf
+[22]LOC, "Genre/Form Terms"
+[23]LOC, "Genre/Form Terms"
+[24]LOC, "Genre/Form Terms"
+[25]LOC, "Genre/Form Terms"
 [26]www.merriam-webster.com/; other dictionaries and common sense
-[27]dublincore.org/documents/2012/06/14/dces Accessed 12 October 2018, v.1, 1 + loc.gov/standards/mods/mods-outline-3-7.html#name, v.3
+[27]"Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
 [28]
 [29]
 [30]
