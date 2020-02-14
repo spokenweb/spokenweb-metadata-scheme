@@ -12,7 +12,7 @@ Each metadata field will help us to describe the object, as well as the process 
 5.1. Cataloguer
 ***************
 
-That’s you.  The cataloguer refers to the individual who is cataloguing a particular artifact.[2]  Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.  Select your name from the drop-down menu. Let your supervisor know if your name does not appear in the drop-down menu and we can add it. 
+That’s you.  The cataloguer refers to the individual who is cataloguing a particular artifact. [2]_  Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.  Select your name from the drop-down menu. Let your supervisor know if your name does not appear in the drop-down menu and we can add it. 
 
 **Cataloguer Last Name, First Name:** Select your name from the drop-down menu 
 
@@ -26,7 +26,7 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 
 **Contributing Unit:** Select from the drop-down menu, Contributing Unit Special, for example Collections and Rare Books (if available)
 
-**Source Collection:** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]
+**Source Collection:** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
 
 **Source Collection Description:** Copy/paste source collection description from online library catalogue into the corresponding field or develop one with your supervisor (it should include some interesting things about a collection, such as names of poets featured on artifacts, year of broadcast, etc.).
 
@@ -64,9 +64,9 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 
 **General Guidelines:**
 
-  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]
+  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
   * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event. 
-  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5] Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly.[6] System requirements and modes of access should be described in the Note field.
+  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
@@ -91,7 +91,7 @@ Identify the AV Type with either Audio or Video.
 5.5. Physical Items Fields
 **************************
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please consult with the Metadata Task Force. [7] 
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please consult with the Metadata Task Force. [7]_
 
   * Reel to Reel
   * 8-Track Cartridge
@@ -109,7 +109,7 @@ Identify the AV Type with either Audio or Video.
   * Hi8
   * MiniDV
 
-**Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [8]:
+**Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [8]_:
 
   * Magnetic Tape (usually Reel to Reel, 8-Track Cartridge or Cassette)
   * Vinyl (usually discs)
@@ -119,7 +119,7 @@ Identify the AV Type with either Audio or Video.
   * Laser (this includes CDs and videodiscs)
   * Magneto-Optical (this includes minidiscs)
 
-**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself.  This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [9] For example, was the recording made on a 60 minute tape or a 90 minute tape?  The time storage capacity should be written in the following manner:
+**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself.  This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [9]_ For example, was the recording made on a 60 minute tape or a 90 minute tape?  The time storage capacity should be written in the following manner:
 
   :T:
     indicates that a time value follows. (Any value with a time must begin with T).
@@ -139,7 +139,7 @@ Identify the AV Type with either Audio or Video.
     45 minutes = T00:45:00
     3 minutes and 21 seconds = T00 :03 :21
     
-**Extent:**  Extent refers to the size of the media storage material. [10] For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension.  For example, common sizes are:
+**Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension.  For example, common sizes are:
 
 
     Tape: 
@@ -159,7 +159,7 @@ Identify the AV Type with either Audio or Video.
     
 *Side:*  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to.  So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field.  If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
 
-*Playing Speed:*  Give the playback or playing speed of the physical unit as follows [11]:
+*Playing Speed:*  Give the playback or playing speed of the physical unit as follows [11]_:
 
   For analogue discs: give the playback speed in revolutions per minute (rpm). Examples of common playback speeds for analogue discs follow:
   
@@ -182,9 +182,9 @@ Identify the AV Type with either Audio or Video.
 
 Where possible, include the following additional information in the Notes field:
 
-  **Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example:  Half-track. 2 track. 4 track,  24 track [12]
+  **Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example:  Half-track. 2 track. 4 track,  24 track [12]_
 
-  **Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [13]. Some types of playback mode follow [14]:
+  **Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [13]_. Some types of playback mode follow [14]_:
 
     * Mono (1 channel)
     * Stereo  (2 channels, or “hi-fi”)
@@ -220,7 +220,7 @@ Where possible, include the following additional information in the Notes field:
   
   **Physical condition:** Make notes on the physical condition of the unit being described if that condition affects use or understanding of the unit.
   
-    Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [15]
+    Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [15]_
     
     Examples:
 
@@ -262,13 +262,13 @@ Where possible, include the following additional information in the Notes field:
 5.7. Title
 **********
 
-A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [16].  
+A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [16]_.
 
 **Procedure:**
 
 The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primarily role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
 
-Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [17] Put square brackets around the descriptive title.
+Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [17]_ Put square brackets around the descriptive title.
 
 Example: [Phyllis Webb at Sir George Williams University, 1966]
 
@@ -276,7 +276,7 @@ Example: [Phyllis Webb at Sir George Williams University, 1966]
 
   Use the Title Source field to cite the sources of information. 
 
-The following is the order of preference for the source of title information [18]:
+The following is the order of preference for the source of title information [18]_:
 
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
@@ -336,9 +336,9 @@ Select from the drop-down menu the language of a recording. More languages will 
 5.11. Production Context
 ************************
 
-This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19] 
+This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19]_ 
 
-Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact) [20]:
+Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact) [20]_:
 
   * Audiobook: Recordings of oral readings of books designed for commercial distribution and consumption.
   * Broadcast: Recordings of a radio broadcast.
@@ -356,13 +356,13 @@ Note that most frequently used Production Context would be: Documentary recordin
 5.12. Genre
 ***********
 
-In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [21]  The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [22]  In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
+In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [21]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [22]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
 
-**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [23]  In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre. 
+**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [23]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre. 
 
-NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [24]  For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
+NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [24]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
 
-Genre should be chosen from the following controlled vocabulary of terms. [25] Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
+Genre should be chosen from the following controlled vocabulary of terms. [25]_ Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
 
 Here is the list of terms you must draw from:
 
@@ -383,7 +383,7 @@ Here is the list of terms you must draw from:
     * Fiction
     * Poetry
   
-**Definitions of genre terms** [26]
+**Definitions of genre terms** [26]_
 
 **Conversations:** The informal exchange of ideas and information between two or more people by spoken words.
 
@@ -456,7 +456,7 @@ Special attention should be paid to include the different kinds of contribution 
 
 Responsibility can be extended to include not just voices/speakers on a given recording, but other creators/contributors not present. For example, a performance of a poem by another author would constitute a kind of responsibility.
 
-**Definitions**[27]
+**Definitions**[27]_
 
 +--------------------------------+-----------------------------------------+------------------+
 | **Field Name**                 | **Description**                         | **Usage**        |
@@ -674,9 +674,9 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 5.16. Rights Fields
 *******************
 
-Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. [28] 
+Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. [28]_
 
-The rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users.[29] These statements provide a best practice for use by both international, national and regional aggregators of cultural heritage data, and the individual institutions and organizations that contribute data to them. [30]
+The rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. [29]_ These statements provide a best practice for use by both international, national and regional aggregators of cultural heritage data, and the individual institutions and organizations that contribute data to them. [30]_
 
 Required Field: **Rights**
 
@@ -810,35 +810,37 @@ For more complex structure that includes a hierarchy of labels:
 5.19. Contents Notes
 ********************
 
-Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field. 
+Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field.
 
-
-[2]
-[3]"Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
-[4]"Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
-[5]"Area 5: Introduction," Physical Description, IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives  https://www.iasa-web.org/cataloguing-rules/50-introduction.
-[6]IASA, "Area 5: Introduction"
-[7]"Appendix D Glossary," IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives, https://www.iasa-web.org/cataloguing-rules/appendix-d-glossary.
-[8]IASA, "Appendix D Glossary"
-[9]IASA, "Appendix D Glossary"
-[10]ISAD(G), 3.1.5, p.16
-[11]IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
-[12]"RAD," 8.5C6, p. 8-17
-[13]"RAD,"  8.5C7, p.8 - 17
-[14]Based on IASA 5.C.6 expanded AACR2 6.5 C7
-[15]"ISAD(G)" 3.4.4, p.29
-[16]"International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
-[17]IFLA, 0.8, p.16
-[18] Anglo American Cataloguing Rules (2005) 
-[19] 
-[20]
-[21]"Introduction to Library of Congress Genre/Form Terms for Library and Archival Materials," Library of Congress (LOC), April 2019, https://www.loc.gov/aba/publications/FreeLCGFT/2019%20LCGFT%20intro.pdf
-[22]LOC, "Genre/Form Terms"
-[23]LOC, "Genre/Form Terms"
-[24]LOC, "Genre/Form Terms"
-[25]LOC, "Genre/Form Terms"
-[26]www.merriam-webster.com/; other dictionaries and common sense
-[27]"Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
-[28]
-[29]
-[30]
+**************
+5.20. Endnotes
+**************
+.. [2]
+.. [3] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
+.. [4] "Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
+.. [5] "Area 5: Introduction," Physical Description, IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives  https://www.iasa-web.org/cataloguing-rules/50-introduction.
+.. [6] IASA, "Area 5: Introduction"
+.. [7] "Appendix D Glossary," IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives, https://www.iasa-web.org/cataloguing-rules/appendix-d-glossary.
+.. [8] IASA, "Appendix D Glossary"
+.. [9] IASA, "Appendix D Glossary"
+.. [10] ISAD(G), 3.1.5, p.16
+.. [11] IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
+.. [12] "RAD," 8.5C6, p. 8-17
+.. [13] "RAD,"  8.5C7, p.8 - 17
+.. [14] Based on IASA 5.C.6 expanded AACR2 6.5 C7
+.. [15] "ISAD(G)" 3.4.4, p.29
+.. [16] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
+.. [17] IFLA, 0.8, p.16
+.. [18] Anglo American Cataloguing Rules (2005) 
+.. [19]  
+.. [20] 
+.. [21] "Introduction to Library of Congress Genre/Form Terms for Library and Archival Materials," Library of Congress (LOC), April 2019, https://www.loc.gov/aba/publications/FreeLCGFT/2019%20LCGFT%20intro.pdf
+.. [22] LOC, "Genre/Form Terms"
+.. [23] LOC, "Genre/Form Terms"
+.. [24] LOC, "Genre/Form Terms"
+.. [25] LOC, "Genre/Form Terms"
+.. [26] www.merriam-webster.com/; other dictionaries and common sense
+.. [27] "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
+.. [28] 
+.. [29] 
+.. [30] 
