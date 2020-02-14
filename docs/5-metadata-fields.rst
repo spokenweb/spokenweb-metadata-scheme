@@ -815,6 +815,7 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 **************
 5.20. Endnotes
 **************
+
 .. [2]
 .. [3] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
 .. [4] "Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
