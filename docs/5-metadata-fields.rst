@@ -340,14 +340,14 @@ This refers to the production scenario of the recording and is determined by the
 
 Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact) [20]_:
 
-  * Audiobook: Recordings of oral readings of books designed for commercial distribution and consumption.
-  * Broadcast: Recordings of a radio broadcast.
-  * Classroom Recording: Recordings of lectures in a classroom setting.
-  * Documentary recording: Recordings of sounds made outside a controlled studio environment or professional performance venue that are generally unedited and typically made with portable equipment.
-  * Home recording: Sound recordings produced in a private home.
-  * Lab recording: Sound recordings produced in a speech or language lab.
-  * Studio recording:  Sound recordings produced in a professional recording studio.
-  * Podcast:  Programs (such as music, news or arts programs) that are like a radio or television show but that are downloaded over the Internet.
+  * Audiobook: A recording of a oral reading of a book designed for commercial distribution and consumption.
+  * Broadcast: A recording of a radio broadcast.
+  * Classroom Recording: A recording of a lecture in a classroom setting.
+  * Documentary recording: A recording of a sound made outside of a controlled studio environment or professional performance venue that is generally unedited and typically made with portable equipment.
+  * Home recording: A sound recording produced in a private home.
+  * Lab recording: A sound recording produced in a speech or language lab.
+  * Studio recording: A sound recording produced in a professional recording studio.
+  * Podcast:  A program (such as music, news or arts programs) that are like a radio or television show but that are downloaded over the Internet.
 
 Note that most frequently used Production Context would be: Documentary recording, Home Recording or Studio Recording. This could be determined after you listened to it.
 
