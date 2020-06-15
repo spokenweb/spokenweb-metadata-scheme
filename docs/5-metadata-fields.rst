@@ -342,7 +342,7 @@ Select the appropriate Production Context from the dropdown menu, see definition
 
   * Audiobook: Recordings of oral readings of books designed for commercial distribution and consumption.
   * Broadcast: Recordings of a radio broadcast.
-  * Classroom Recording: Recordings of lectures in classroom settings
+  * Classroom Recording: Recordings of lectures in a classroom setting.
   * Documentary recording: Recordings of sounds made outside a controlled studio environment or professional performance venue that are generally unedited and typically made with portable equipment.
   * Home recording: Sound recordings produced in a private home.
   * Lab recording: Sound recordings produced in a speech or language lab.
