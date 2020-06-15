@@ -342,11 +342,12 @@ Select the appropriate Production Context from the dropdown menu, see definition
 
   * Audiobook: Recordings of oral readings of books designed for commercial distribution and consumption.
   * Broadcast: Recordings of a radio broadcast.
-  * Documentary recordings: Recordings of sounds made outside a controlled studio environment or professional performance venue that are generally unedited and typically made with portable equipment.
-  * Home recordings: Sound recordings produced in a private home.
-  * Lab recordings: Sound recordings produced in a speech or language lab.
-  * Studio recordings:  Sound recordings produced in a professional recording studio.
-  * Podcasts:  Programs (such as music, news or arts programs) that are like a radio or television show but that are downloaded over the Internet.
+  * Classroom Recording: Recordings of lectures in classroom settings
+  * Documentary recording: Recordings of sounds made outside a controlled studio environment or professional performance venue that are generally unedited and typically made with portable equipment.
+  * Home recording: Sound recordings produced in a private home.
+  * Lab recording: Sound recordings produced in a speech or language lab.
+  * Studio recording:  Sound recordings produced in a professional recording studio.
+  * Podcast:  Programs (such as music, news or arts programs) that are like a radio or television show but that are downloaded over the Internet.
 
 Note that most frequently used Production Context would be: Documentary recording, Home Recording or Studio Recording. This could be determined after you listened to it.
 
