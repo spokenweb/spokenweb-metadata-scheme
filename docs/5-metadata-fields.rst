@@ -1,5 +1,5 @@
 ##################
-5. Metadata Fields 
+5. Metadata Fields
 ##################
 
 Each metadata field will help us to describe the object, as well as the process by which it has been made, remediated and catalogued.  It will also be important for discovery when we are able to put the recordings online.  There are overarching Fields of the scheme, and some of these overarching Fields will have numerous sub-elements that you’ll fill in separately.
@@ -12,9 +12,9 @@ Each metadata field will help us to describe the object, as well as the process 
 5.1. Cataloguer
 ***************
 
-That’s you.  The cataloguer refers to the individual who is cataloguing a particular artifact. [2]_  Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.  Select your name from the drop-down menu. Let your supervisor know if your name does not appear in the drop-down menu and we can add it. 
+That’s you.  The cataloguer refers to the individual who is cataloguing a particular artifact. [2]_  Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.  Select your name from the drop-down menu. Let your supervisor know if your name does not appear in the drop-down menu and we can add it.
 
-**Cataloguer Last Name, First Name:** Select your name from the drop-down menu 
+**Cataloguer Last Name, First Name:** Select your name from the drop-down menu
 
 ----
 
@@ -35,16 +35,16 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
   * Who made this collection?
   * Where was it made?
   * How did it come into your possession?
-  * If this is a series or a donation, what time span does it cover? 
+  * If this is a series or a donation, what time span does it cover?
   * What genres are presented?
   * What format(s) comprise the collection?
   * Who were some of the readers/presenters?
   * Does the collection represent people from a specific region?
   * How was it recorded? If from analogue sources, are there digital copies?
-  * Who houses the collection now and where? 
+  * Who houses the collection now and where?
   * What are some highlights of the collection?
   * Are the recordings indexed? How?
-  * Are the recordings copyrighted? 
+  * Are the recordings copyrighted?
   * If so, are there any special permission notices or rights restrictions attached to the collection?
   * What makes this collection of interest to you and/or other students of literature?
 
@@ -65,7 +65,7 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 **General Guidelines:**
 
   * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
-  * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event. 
+  * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event.
   * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
@@ -98,7 +98,7 @@ Identify the AV Type with either Audio or Video.
   * Cassette
   * Microcassette
   * Wire
-  * DAT 
+  * DAT
   * Disc
   * CD
   * Minidisc
@@ -129,40 +129,40 @@ Identify the AV Type with either Audio or Video.
     as part of time, specifies a two-digit minute
   :ss:
     specifies a two-digit second
-  
+
   Use this format:
     Thh:mm:ss
-  
+
   For example:
 
     90 minutes = T01:30:00
     45 minutes = T00:45:00
     3 minutes and 21 seconds = T00 :03 :21
-    
+
 **Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension.  For example, common sizes are:
 
 
-    Tape: 
-    
+    Tape:
+
     * 1/8 inch (audio cassette tapes)
     * 1/4 inch (most portable reel to reel tapes)
     * 1/2 inch
     * 3/4 inch
     * 1 inch
     * 2 inch
-    
+
     Discs:
-    
+
     * 12 inch (the diameter of traditional “LPs”)
-    * 10 inch (often 78s were in this diameter, 
+    * 10 inch (often 78s were in this diameter,
     * 7 inch (the diameter of traditional “45s”
-    
+
 *Side:*  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to.  So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field.  If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
 
 *Playing Speed:*  Give the playback or playing speed of the physical unit as follows [11]_:
 
   For analogue discs: give the playback speed in revolutions per minute (rpm). Examples of common playback speeds for analogue discs follow:
-  
+
   * 16 2/3 rpm
   * 33 1/3 rpm
   * 45 rpm
@@ -174,8 +174,8 @@ Identify the AV Type with either Audio or Video.
   * 7 1/2 ips
   * 15 ips
   * 30 ips
-  
-----  
+
+----
 
 5.5.1. Notes for Physical Items
 ===============================
@@ -191,37 +191,37 @@ Where possible, include the following additional information in the Notes field:
     * binaural stereo (also known as dummyhead)
     * quadrophonic  (4 channels)
     * surround sound
-  
+
   **Equalization:** [to be developed]
 
-  **Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”. 
+  **Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
 
   **Accompanying Material:**
-  
+
     Example:
-    
-    * Issued with illustrated sleeve and liner notes, so liner notes could be entered in this field. 
+
+    * Issued with illustrated sleeve and liner notes, so liner notes could be entered in this field.
 
   **Other physical description:**
-  
+
     Examples:
-    
+
     * Impressed on rectangular surface 20 x 20 cm Reproduced from inner to outer grooves
     * Recorded with clip-on microphone
-    * Recorded on 1 side of 1 audio disc 
+    * Recorded on 1 side of 1 audio disc
 
   **Generations:** Distinguish between different generations of material.
-  
+
     Example:
-    
+
     * Copy from an original loaned by UTARMS
-  
+
   **Sound Quality:** Based on broad categories of clarity and audibility, grade the audio quality of the recording as either Excellent, Good, or Poor.
-  
+
   **Physical condition:** Make notes on the physical condition of the unit being described if that condition affects use or understanding of the unit.
-  
+
     Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [15]_
-    
+
     Examples:
 
     * Sticky shed syndrome
@@ -229,8 +229,8 @@ Where possible, include the following additional information in the Notes field:
     * Rejected cuts scratched through by operator
     * Several tracks scratched through by operator
     * Recorded with a constant audible hum
-    * Speed varies due to weak batteries at time of original recording 
-    
+    * Speed varies due to weak batteries at time of original recording
+
 **Conservation:** If the unit being described has received any specific conservation treatment, briefly indicate the nature of the work.
 
 **Other:** Add any other descriptive information about the material that you deem relevant.
@@ -243,7 +243,7 @@ Where possible, include the following additional information in the Notes field:
 
 [needs development]
 
-  * Digitized file name 
+  * Digitized file name
   * Channels field
   * Sample rate
   * Precision
@@ -251,7 +251,7 @@ Where possible, include the following additional information in the Notes field:
   * Size
   * Bit rate
   * Encoding
-  
+
 **Digitized file name: Enter the name of the digital file**
 
 **Digital File Path:** enter the path where the file is currently stored or will eventually be exported.  If there is an existing folder structure for the digitized files, we need to be capturing where in the folder structure the Digitized File currently is.  Alternatively, we need to be capturing where in the folder structure the Digitized File will be placed if it is to be exported out.
@@ -274,14 +274,14 @@ Example: [Phyllis Webb at Sir George Williams University, 1966]
 
   If [Name of Speaker], [Venue], or [Year] are missing then only include information that is available.
 
-  Use the Title Source field to cite the sources of information. 
+  Use the Title Source field to cite the sources of information.
 
 The following is the order of preference for the source of title information [18]_:
 
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
   3. a container that is an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. sound `cartridge <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#21>`__, video `cassette <http://http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__, sleeve, container for video); or from
-  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself. If the information is taken from a secondary source, cite the source in a **Title Source**. 
+  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself. If the information is taken from a secondary source, cite the source in a **Title Source**.
   5. For the unidentified information, listen to the recording.
 
 For listing titles of individual works that are read within a given recording, see procedures for timestamping in the **Contents Field** (below).
@@ -325,7 +325,7 @@ Transcribe any handwritten additional information written on the container.
 ----
 
 **************
-5.10. Language 
+5.10. Language
 **************
 
 Select from the drop-down menu the language of a recording. More languages will be added as we are listening through the collection.
@@ -336,7 +336,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 5.11. Production Context
 ************************
 
-This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19]_ 
+This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19]_
 
 Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact) [20]_:
 
@@ -359,7 +359,7 @@ Note that most frequently used Production Context would be: Documentary recordin
 
 In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [21]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [22]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
 
-**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [23]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre. 
+**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [23]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre.
 
 NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [24]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
 
@@ -383,7 +383,7 @@ Here is the list of terms you must draw from:
     * Drama
     * Fiction
     * Poetry
-  
+
 **Definitions of genre terms** [26]_
 
 **Conversations:** The informal exchange of ideas and information between two or more people by spoken words.
@@ -400,10 +400,10 @@ Here is the list of terms you must draw from:
 
   **Improvised speech:** Recordings of extemporaneous speech produced in the context of a performance.
 
-  **Sound Poetry:** Poetry meant to be performed that emphasizes sounds instead of the semantic meaning of the words themselves. 
+  **Sound Poetry:** Poetry meant to be performed that emphasizes sounds instead of the semantic meaning of the words themselves.
 
   **Spoken word poetry:** Poetry that is meant to be performed and that is heavily stressed, metrically regular, and characterized by improvisation, free association, and word play.
-  
+
 **Readings:** Recordings of the recitation of a literary work.
 
   **Drama:** a composition in verse or prose intended to portray life or character or to tell a story usually involving conflicts and emotions through action and dialogue and typically designed for theatrical performance.
@@ -416,7 +416,7 @@ Here is the list of terms you must draw from:
 
   **Ambient sounds:** Recordings of sounds of the surrounding environment external to an audio system that are often recorded separately and mixed into other recordings to enhance live effect.
 
-  **Music:** Sonic works produced with musical instruments and/or the human voice that order tones or sounds in succession, in combination, and in temporal relationships. 
+  **Music:** Sonic works produced with musical instruments and/or the human voice that order tones or sounds in succession, in combination, and in temporal relationships.
 
   **Soundscapes:**  Compositions that consist of natural or synthetic sounds from specific locations that are sometimes manipulated electronically.
 
@@ -426,10 +426,10 @@ Here is the list of terms you must draw from:
 
   **Panels:** Recordings that feature discussions of topics by panels of speakers or experts.
 
-  **Question-and-answer periods:** Recordings that feature speakers or experts responding to questions posed by a live or remote audience. 
+  **Question-and-answer periods:** Recordings that feature speakers or experts responding to questions posed by a live or remote audience.
 
   **Talks:** Recordings that feature talks or lectures by individual speakers or experts.
-  
+
 **Text-sound compositions:** Musical compositions consisting primarily of electronically and/or computer-altered or computer synthesized spoken words.
 
 ----
@@ -447,17 +447,17 @@ Categories include:
   * Performers, narrators, and/or presenters
   * Persons who have contributed to the artistic and/or technical production of a resource
   * Persons, families, or corporate bodies responsible for the production, publication, distribution, or manufacture of a resource
-  
+
 Special attention should be paid to include the different kinds of contribution relevant to audiotextual works:
 
   * Recordists
   * Series organizers
-  * Collectors 
+  * Collectors
   * Archivists
 
 Responsibility can be extended to include not just voices/speakers on a given recording, but other creators/contributors not present. For example, a performance of a poem by another author would constitute a kind of responsibility.
 
-**Definitions**[27]_
+**Definitions** [27]_
 
 +--------------------------------+-----------------------------------------+------------------+
 | **Field Name**                 | **Description**                         | **Usage**        |
@@ -508,17 +508,17 @@ Assign roles to both creators and contributors where known. Role terms should be
 
 A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
 
-Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation. 
+Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation.
 
 **Creator and Contributor URI Fields**
-Authorized names of creators and contributors should be drawn from established authority lists where possible. 
+Authorized names of creators and contributors should be drawn from established authority lists where possible.
 
   * `Library of Congress Name Authority File <http://id.loc.gov/authorities/names.html>`__
   * `Canadiana Authorities <https://www.collectionscanada.gc.ca/canadiana-authorities/index/index?lang=eng>`__
   * `Dictionary of Canadian Biography <http://www.biographi.ca/en/index.php>`__
   * `Virtual Internet Authority File (VIAF) <https://viaf.org/>`__
-  
-Enter URL to the applicable authority record in the corresponding URI fields.  For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092.   
+
+Enter URL to the applicable authority record in the corresponding URI fields.  For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092.
 
 **Data Entry Syntax**
 
@@ -528,8 +528,8 @@ Enter URL to the applicable authority record in the corresponding URI fields.  F
 
 **Sources of Information**
   * Creator and contributor fields should be transcribed from the item (the recording) and any accompanying materials (e.g. programs) first, if possible and if the information is deemed reliable/accurate.
-  * Secondary sources may be used as well (e.g. research works).  
-  
+  * Secondary sources may be used as well (e.g. research works).
+
 **Levels of Description**
 Statement of responsibility can apply to different levels of a given resource:
 
@@ -571,21 +571,21 @@ Statement of responsibility can apply to different levels of a given resource:
 5.14. Date
 **********
 
-We want our items to have dates associated with them so that we can understand their significance within historical timelines, both in relation to other literary or historical events, and in relation to each other.  Determining a date may seem simple, but that is not always the case.  
+We want our items to have dates associated with them so that we can understand their significance within historical timelines, both in relation to other literary or historical events, and in relation to each other.  Determining a date may seem simple, but that is not always the case.
 
-**Finding the Information:**  First, think about where your information is coming from.  Chief Source(s) of Information is the source from which the Date is taken or determined.  In the case of our project, the chief source of information is, ideally, the sound recording being described, or the unit of description. This includes the object itself as well as any labels, notes or accompanying material. The Chief Sources of Information are one or more of the following resources. 
+**Finding the Information:**  First, think about where your information is coming from.  Chief Source(s) of Information is the source from which the Date is taken or determined.  In the case of our project, the chief source of information is, ideally, the sound recording being described, or the unit of description. This includes the object itself as well as any labels, notes or accompanying material. The Chief Sources of Information are one or more of the following resources.
 
 a. the item itself, including any labels, etc., that are permanently affixed to the item or a container that is an integral part of the item
 b. the container itself (e.g., a box)
 c. accompanying material (e.g., technical recording slips)
 
-If the information is taken from a source other than one of these sources, this *must* be stated in the **Date Notes** field.  No square brackets should be used in the Date field to indicate a supplied date. Both the source and an explanation of the supplied information must therefore be provided in the Notes.  Even if one or more of the Chief Sources of Information are used, it is still recommended that the source be provided in the Notes field. 
+If the information is taken from a source other than one of these sources, this *must* be stated in the **Date Notes** field.  No square brackets should be used in the Date field to indicate a supplied date. Both the source and an explanation of the supplied information must therefore be provided in the Notes.  Even if one or more of the Chief Sources of Information are used, it is still recommended that the source be provided in the Notes field.
 
 **Procedure:** Perform the following steps as closely as possible in order to catalogue the item:
 
   1. Decide and select from the dropdown menu which one of the following two Date Types best describes the work:
 
-    * Production Date– when the recording was produced 
+    * Production Date– when the recording was produced
     * Publication Date- when the recording was broadcast, distributed or first made public
     * Performance Date- when the reading/event was performed
 
@@ -593,13 +593,13 @@ If the information is taken from a source other than one of these sources, this 
 
   3. Enter as outlined below according to the prescribed syntax and punctuation.  It is very important that all date entries use this specific syntax:
 
-    Year: YYYY 
+    Year: YYYY
     Example: 1997
 
-    Year and month: YYYY-MM 
+    Year and month: YYYY-MM
     Example: 1997-07
 
-   	Complete date: YYYY-MM-DD 
+   	Complete date: YYYY-MM-DD
 	  Example: 1997-07-16
 
   4. Enter into the **Date Notes** field any explanations or additional information that pertains to the date of the item that is not reflected in the date field
@@ -607,10 +607,10 @@ If the information is taken from a source other than one of these sources, this 
 ----
 
 **************
-5.15. Location 
+5.15. Location
 **************
 
-Where was a recording made?  Answering this question may provide us with interesting information about where literary events and activities occurred across the country.  We will be using a few methods of capturing location information, and will be entering this data according to a set syntax.  The three primary fields related to location are the **Address** (which refers to the official street address of a location), the **Venue** (that is, the name of the venue where something was recorded), and then, as a recommended field, the **Latitude** and **Longitude** of the location as well as a **URI** for that location.  Having this additional data will enable us to create interesting maps of event and recording locations down the road. 
+Where was a recording made?  Answering this question may provide us with interesting information about where literary events and activities occurred across the country.  We will be using a few methods of capturing location information, and will be entering this data according to a set syntax.  The three primary fields related to location are the **Address** (which refers to the official street address of a location), the **Venue** (that is, the name of the venue where something was recorded), and then, as a recommended field, the **Latitude** and **Longitude** of the location as well as a **URI** for that location.  Having this additional data will enable us to create interesting maps of event and recording locations down the road.
 
 **Where to find your information:**
 
@@ -619,12 +619,12 @@ Where was a recording made?  Answering this question may provide us with interes
 
   For example, to find the Address of The Yellow Door in Montreal:
 
-  * Example: Go to https://nominatim.openstreetmap.org/ 
+  * Example: Go to https://nominatim.openstreetmap.org/
 
-    1. Search -> The Yellow Door Montreal -> 
+    1. Search -> The Yellow Door Montreal ->
 
     .. image:: _static/img/image1.png
-    
+
     |
     | 2. Click on “details”:
 
@@ -635,8 +635,8 @@ Where was a recording made?  Answering this question may provide us with interes
 
     .. image:: _static/img/image3.png
 
-| 
-| **Venue:** For Venue, you may find a specific location name from the source material. 
+|
+| **Venue:** For Venue, you may find a specific location name from the source material.
 
 **Cataloguing Procedures and Syntax:**
 
@@ -660,11 +660,11 @@ The order in which the pieces of the address are given is important, please use 
     * Example: Canada
     * Example: Toronto, Ontario, Canada
 
-For **Venue**, transcribe what is on the source, followed by the name of the city in round parenthesis, for example: 
+For **Venue**, transcribe what is on the source, followed by the name of the city in round parenthesis, for example:
 
   * Example 1: R2B2 Bookstore (Vancouver)
   * Example 2: Roy [Kiyooka]’s House (Vancouver)
-  
+
 For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Open Street Map.
 
 **URI:**  Copy and paste the URI from Open Street Map.
@@ -687,36 +687,36 @@ Additional Field: **Rights Note**
 
   * http://rightsstatements.org/page/1.0/?language=en
   * https://creativecommons.org/licenses/
-  
+
 One of the following 13 statements should be specified, using a URL:
 
   1. The Public Domain Mark (PDM) - Digital Objects which are no longer protected by copyright. Objects that are labelled as being in the public domain can be used by anyone without any restrictions.
-    
+
     Specify the URL: https://creativecommons.org/publicdomain/mark/1.0/.
 
-  2. No Copyright - non commercial re-use only (NoC-NC) -  public domain Digital Objects which have been digitised as an outcome of a public-private partnership, where the terms of the contractual agreement limit commercial use for a certain period of time. 
-    
-    Specify the URL: http://rightsstatements.org/page/NoC-NC/1.0/?language=en. 
-    
+  2. No Copyright - non commercial re-use only (NoC-NC) -  public domain Digital Objects which have been digitised as an outcome of a public-private partnership, where the terms of the contractual agreement limit commercial use for a certain period of time.
+
+    Specify the URL: http://rightsstatements.org/page/NoC-NC/1.0/?language=en.
+
     In addition, in the Rights Note, where possible, publish the first calendar year in which the Digital Object can be used by third parties without restrictions on commercial use, as noted in the contractual agreement.
-  
+
   3. No Copyright - Other Known Legal Restriction (NoC-OKLR) - public domain Digital Objects that are subject to known legal restrictions other than copyright which prevent their free re-use.
-    
+
     Specify the URL: http://rightsstatements.org/page/NoC-OKLR/1.0/?language=en.
-    
+
     In addition, in the Rights Note, a link to a page detailing the legal restrictions that limit re-use of the object, or a free text description of the restriction.
-  
+
   4. In Copyright (InC). use with in copyright Digital Objects which are freely available online and where re-use requires additional permission from the rights holder(s).
 
-    Specify the URL: http://rightsstatements.org/vocab/InC/1.0/ 
-  
+    Specify the URL: http://rightsstatements.org/vocab/InC/1.0/
+
   5. In Copyright - Educational Use Permitted (InC-EDU). in copyright Digital Objects which are freely available online and where the rights holder(s) have allowed re-use for educational purposes only.
 
-    Specify the URL: http://rightsstatements.org/vocab/InC-EDU/1.0/ 
+    Specify the URL: http://rightsstatements.org/vocab/InC-EDU/1.0/
 
   6. Copyright Not Evaluated (CNE) - use with Digital Objects where the copyright status has not been evaluated.
 
-    Specify the URL: http://rightsstatements.org/vocab/CNE/1.0/ 
+    Specify the URL: http://rightsstatements.org/vocab/CNE/1.0/
 
   7. The Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0) - used to waive all the rights in a Digital Object. By applying this waiver, all possible existing rights in the content are waived, and the objects can be used by anyone without any restrictions.
 
@@ -728,25 +728,25 @@ One of the following 13 statements should be specified, using a URL:
 
   9. Creative Commons - Attribution, ShareAlike (BY-SA). lets others remix, tweak and build upon the licensed work, even for commercial purposes, as long as they attribute the rights holder as described in the licence, and license their adaptations of the work under the same terms. All new works based on the original licensed work will carry the same licence, so any derivatives will also allow commercial use.
 
-    Specify the URL: http://creativecommons.org/licenses/by-sa/4.0/ 
+    Specify the URL: http://creativecommons.org/licenses/by-sa/4.0/
 
   10. Creative Commons - Attribution, No Derivatives (BY-ND). licence allows for redistribution, including commercial and non-commercial use of the work as long as no alteration is made to the work and the rights holder is attributed according to the specifications of the licence.
 
-    Specify the URL: http://creativecommons.org/licenses/by-nd/4.0/ 
+    Specify the URL: http://creativecommons.org/licenses/by-nd/4.0/
 
   11. Creative Commons - Attribution, Non-Commercial (BY-NC). Lets others remix, tweak, and build upon the licensed work for non-commercial use. Any new works created and based on your work must be attributed to the rights holder as specified in the licence, and may be available for non-commercial use only.
 
-    Specify the URL: http://creativecommons.org/licenses/by-nc/4.0/ 
+    Specify the URL: http://creativecommons.org/licenses/by-nc/4.0/
 
   12. Creative Commons - Attribution, Non-Commercial, ShareAlike (BY-NC-SA). Licence lets others remix, tweak, and build upon the licensed work for non-commercial use as long as they attribute the rights holder of the work under the terms specified in the licence, and license new creations under identical terms.
 
-    Specify the URL: http://creativecommons.org/licenses/by-nc-sa/4.0/ 
+    Specify the URL: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
   13. Creative Commons - Attribution, Non-Commercial, No Derivatives (BY-NC-ND). The most restrictive of the six Creative Commons licences, only allowing others to download the licensed works and share them with others as long as they attribute the rights holder as specified in the licence, but users cannot change the work in any way or use them commercially.
 
-    Specify the URL: http://creativecommons.org/licenses/by-nc-nd/4.0/ 
+    Specify the URL: http://creativecommons.org/licenses/by-nc-nd/4.0/
 
-**Cataloguing Procedures:** The rights statements fall in four categories: 
+**Cataloguing Procedures:** The rights statements fall in four categories:
 
   1. Statements for works that are in copyright (Choose #4 or #5)
   2. Statements for works that are not in copyright (Choose #1, #2 or #3)
@@ -757,10 +757,10 @@ One of the following 13 statements should be specified, using a URL:
 
   http://spokenweb.ca/sgw-poetry-readings/phyllis-webb-at-sgwu-1966-roy-kiyooka/
 
-  **Rights:** http://rightsstatements.org/vocab/CNE/1.0/ 
- 
+  **Rights:** http://rightsstatements.org/vocab/CNE/1.0/
+
 ----
- 
+
 *******************
 5.17. Related Works
 *******************
@@ -768,7 +768,7 @@ One of the following 13 statements should be specified, using a URL:
 If known, please provide the Titles of the books, the full citation with the link to a source for that citation and any other books that the author read from. For example:
 
   Gwendolyn MacEwen read from Breakfast for Barbarians (Ryerson, 1966) and poems to be published in The Shadow-Maker (Macmillan, 1969) and a few unknown poems.
-  
+
 ----
 
 **************
@@ -805,8 +805,8 @@ For more complex structure that includes a hierarchy of labels:
     	<span label="Native Realm" begin="00:04:18.00" end="00:06:08.00"/>
     </div>
   </item>
-  
-  
+
+
 ********************
 5.19. Contents Notes
 ********************
@@ -833,9 +833,9 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 .. [15] "ISAD(G)" 3.4.4, p.29
 .. [16] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
 .. [17] IFLA, 0.8, p.16
-.. [18] Anglo American Cataloguing Rules (2005) 
-.. [19]  
-.. [20] 
+.. [18] Anglo American Cataloguing Rules (2005)
+.. [19]
+.. [20]
 .. [21] "Introduction to Library of Congress Genre/Form Terms for Library and Archival Materials," Library of Congress (LOC), April 2019, https://www.loc.gov/aba/publications/FreeLCGFT/2019%20LCGFT%20intro.pdf
 .. [22] LOC, "Genre/Form Terms"
 .. [23] LOC, "Genre/Form Terms"
@@ -843,6 +843,6 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 .. [25] LOC, "Genre/Form Terms"
 .. [26] www.merriam-webster.com/; other dictionaries and common sense
 .. [27] "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
-.. [28] 
-.. [29] 
-.. [30] 
+.. [28]
+.. [29]
+.. [30]
