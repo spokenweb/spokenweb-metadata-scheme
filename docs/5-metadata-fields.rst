@@ -241,8 +241,8 @@ Where possible, include the following additional information in the Notes field:
 5.6. Digital Items Fields
 *************************
 
-[needs development]
-
+  * Digitized file URL
+  * Digitzed file path
   * Digitized file name
   * Channels field
   * Sample rate
@@ -251,10 +251,14 @@ Where possible, include the following additional information in the Notes field:
   * Size
   * Bit rate
   * Encoding
+  * Content
+  * Notes
 
 **Digitized file name: Enter the name of the digital file**
 
 **Digital File Path:** enter the path where the file is currently stored or will eventually be exported.  If there is an existing folder structure for the digitized files, we need to be capturing where in the folder structure the Digitized File currently is.  Alternatively, we need to be capturing where in the folder structure the Digitized File will be placed if it is to be exported out.
+
+**Contents and Notes:** these descriptions apply to the individual part(s) of a multiple part item. For example, the Contents field 5.18 applies to the whole item and does not allow for detailed description of individual parts.
 
 ----
 
@@ -367,6 +371,7 @@ Genre should be chosen from the following controlled vocabulary of terms. [25]_ 
 
 Here is the list of terms you must draw from:
 
+  * Autobiographical sound recording
   * Conversations
   * Interviews
   * Letters
@@ -385,6 +390,8 @@ Here is the list of terms you must draw from:
     * Poetry
 
 **Definitions of genre terms** [26]_
+
+**Autobiographical sound recordings:** Based on the narrower terms of the LOC subject heading "Autobiographies," this term includes sound recordings of memoirs, confessions, personal memoirs and egodocuments. [31]_
 
 **Conversations:** The informal exchange of ideas and information between two or more people by spoken words.
 
@@ -846,3 +853,4 @@ Tags or short description of the reading should be recorded here. Any idiosyncra
 .. [28]
 .. [29]
 .. [30]
+.. [31] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
