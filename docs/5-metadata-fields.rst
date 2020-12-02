@@ -260,6 +260,15 @@ Where possible, include the following additional information in the Notes field:
 
 **Contents and Notes:** these descriptions apply to the individual part(s) of a multiple part item. For example, the Contents field 5.18 applies to the whole item and does not allow for detailed description of individual parts.
 
+A section for Content Type is used to indicate the item as either: 
+Sound Recording - https://www.wikidata.org/wiki/Q5057302
+Video Recording - https://www.wikidata.org/wiki/Q30070675
+Poster - https://www.wikidata.org/wiki/Q429785
+Photograph - https://www.wikidata.org/wiki/Q125191
+Document - https://www.wikidata.org/wiki/Q49848
+Artefact - https://www.wikidata.org/wiki/Q1791627
+
+
 ----
 
 **********
