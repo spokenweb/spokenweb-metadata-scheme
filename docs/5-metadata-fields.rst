@@ -838,8 +838,21 @@ For more complex structure that includes a hierarchy of labels:
 Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field.
 
 **************
-5.20. Endnotes
+5.20. Notes
 **************
+
+Notes allow cataloguers to input additional information regarding the item. There are several different note types that could be applicable: 
+
+  **General:** General notes about the item
+  
+  **Related Version:** Different published versions or manifestations of the item that are related or can be linked together 
+  
+  **Cataloguer:** A note on the different people involved in cataloguing the item or new cataloguers who have taken over the cataloguing of the item 
+  
+  **Preservation:** Specific notes about preservation details typically found from third parties such as, who did it, what happened to the object, or extra XML information. 
+****************
+5.21. References
+****************
 
 .. [2]
 .. [3] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
