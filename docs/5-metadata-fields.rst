@@ -263,12 +263,16 @@ Where possible, include the following additional information in the Notes field:
 A section for Content Type is used to indicate the item as either: 
 
   **Sound Recording:** process of electrical or mechanical inscription of sound waves [33]_
+  
   **Video Recording:** single work, or take, made using the medium of video [34]_ 
+  
   **Poster:** any piece of printed paper designed to be attached to a wall or vertical surface [35]_
+  
   **Photograph:** image created by light falling on a light-sensitive surface [36]_ 
+  
   **Document:** preserved information [37]_ 
+  
   **Artefact:** artifact created by humans which gives information about the culture of its creator and users [38]_
-
 
 ----
 
