@@ -262,12 +262,12 @@ Where possible, include the following additional information in the Notes field:
 
 A section for Content Type is used to indicate the item as either: 
 
-  * Sound Recording - https://www.wikidata.org/wiki/Q5057302
-  * Video Recording - https://www.wikidata.org/wiki/Q30070675
-  * Poster - https://www.wikidata.org/wiki/Q429785
-  * Photograph - https://www.wikidata.org/wiki/Q125191
-  * Document - https://www.wikidata.org/wiki/Q49848
-  * Artefact - https://www.wikidata.org/wiki/Q1791627
+  **Sound Recording:** process of electrical or mechanical inscription of sound waves [33]_
+  **Video Recording:** single work, or take, made using the medium of video [34]_ 
+  **Poster:** any piece of printed paper designed to be attached to a wall or vertical surface [35]_
+  **Photograph:** image created by light falling on a light-sensitive surface [36]_ 
+  **Document:** preserved information [37]_ 
+  **Artefact:** artifact created by humans which gives information about the culture of its creator and users [38]_
 
 
 ----
@@ -908,3 +908,9 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [30]
 .. [31] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
 .. [32] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf. 
+.. [33]“Sound Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q5057302. 
+.. [34] “Video Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q30070675. 
+.. [35] “Poster.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q429785. 
+.. [36] “Photograph.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q125191. 
+.. [37] “Document.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q49848. 
+.. [38] “Cultural Artifact.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q1791627. 
