@@ -912,7 +912,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [30]
 .. [31] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
 .. [32] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf. 
-.. [33]“Sound Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q5057302. 
+.. [33] “Sound Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q5057302. 
 .. [34] “Video Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q30070675. 
 .. [35] “Poster.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q429785. 
 .. [36] “Photograph.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q125191. 
