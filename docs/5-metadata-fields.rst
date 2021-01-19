@@ -338,6 +338,29 @@ Transcribe any handwritten additional information written on the container.
 
 ----
 
+*************
+5.9.1. Series
+*************
+
+Documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship[32]_
+
+SpokenWeb sometimes uses the Series Title to capture the way in which reading series are named and branded.
+
+**Example of using the series field**
+
+General Example:
+Collection Name: Spoken Web Archive of the Present
+Series Title: Listening Practices
+Sub-series: Virtual Listening Practice 2020
+
+General Example:
+Collection Name: Véhicule Art (Montréal) Inc. fonds (P027)
+Series Title: A/V Material
+
+Specific Example:
+Collection Name: SGW POETRY READING SERIES
+Series Title: Poetry 1
+
 **************
 5.10. Language
 **************
@@ -884,3 +907,4 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [29]
 .. [30]
 .. [31] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
+.. [32] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf. 
