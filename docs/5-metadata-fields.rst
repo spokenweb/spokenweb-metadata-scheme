@@ -956,8 +956,150 @@ In addition to choosing between a Linear or Nested approach to timestamping, the
   **The Inclusion of Wikidata Item Identifiers (Q-Codes) for Names, Titles and Keywords**
   If resources permit, we recommend that cataloguers include Wikidata Q-Codes in square brackets next to names of people, places, book titles, and other Keywords that may have Wikidata entries.  Including such linked data in timestamped descriptions will make our descriptions all the more useful and discoverable to researchers and students.  The basic Wikidata search bar can be found at this link:
 https://www.wikidata.org/w/index.php?search=&search=&title=Special:Search&go=Go
- 
 
+  **2.Relationship of Digital Files to the Primary Entity of Description**
+  In addition to planning how detailed your Contents description will be, it is also important to make some basic decisions about the relationship between the digital files that contain the content, and the primary, organizing entity that defines what, exactly, is being described in a Swallow entry (and its Contents field). This is especially important in cases where the primary entity of description (say, an event that took place on a particular date, over a particular period of time) exists on two or more digital files.
+  
+  To some degree we are applying the definition of entity used by AtoM: “An entity is an object about which an information system collects data.” We are, however, extending this definition to include the use of an entity as a primary organizing principle. In other words, our schema allows an entity to function as a means for organizing the data related to it. In this schema, a primary, organizing entity could be a material asset(s) or digital file(s). It could also be an activity, a segment of an activity, or a particular group of activities, also known as an event. 
+
+Using an event as the umbrella or top level category to organize related files or assets aligns with traditional archival description—multi-level and hierarchical. Once you choose the top-level, or organizing entity, you provide detailed descriptions of the subordinate records, which might be analog and/or digital. Further, if choosing a digital or analog file(s) or asset(s), as the primary, organizing entity, there may be no need to organize the records further, hierarchically.
+
+Based on these definitions, let’s start with a more straightforward example, first.  Say that a collection of recordings captures readings from a poetry series.  Each event in the series lasted one hour and each was captured as a unique mono (single track) reel to reel tape recording.  There were ten events, and so, ten reels of tape.  Each of the ten reels was then digitized by producing a single digital WAV file that captured the contents of each of the ten reels.  So: ten WAV files, capturing the contents of the ten mono tape reels, that document ten discrete poetry reading events (in a series).  In this example, there is a one-to-one correlation between analogue asset, digital file, and documented event The Contents field will describe the contents of the digital file, and in effect will also be describing the contents of the original analogue asset (the single reel of tape) and the single event from a series of ten that was captured on tape.  You may decide that the primary, organizing entity of description in a Swallow entry is the original analogue asset, or this historical event, or the digital file. In each case, the primary entity of description is identified with a single digital file. While both analogue and digital assets will be described in Swallow, the selection of the primary, organizing entity will determine the object that determines a hierarchy of description, and which entity comes to organize subsequent decisions about description, what gets described where, and to what degree of detail. This principle of an organizing entity of description is based on an interest in access.  It responds to the question: what entity will make these audiovisual materials most useful in a digital presentation of the content to a user?
+
+When multiple digital and analog assets are associated with a single event, such as a reading series, more complicated scenarios may arise. There may be, for example, multiple digital assets associated with one or more analogue recordings associated with a particular event.  In such cases, the cataloguer will need to decide whether they are creating unique Swallow entries for each digital file available, or, whether either the analogue asset (if there is one) or the original event (or some portion of each event) will function as the primary, organizing entity of description that determines a Swallow entry. Later we will illustrate scenarios in which analog or digital files are the primary, organizing entities of description. Briefly, here, however we provide three examples that illustrate an event as the primary, organizing entity: 
+
+    **Example A)** In the case of the Sir George Williams Poetry Series collection, a reading event was documented on between one and three reels of tape.  When digitized, each reel resulted in a unique digital file.  In Swallow, the overarching entity that defines an entry is the reading event itself.  Therefore, for each entry in Swallow between one and three digital files is described in the contents field. 
+
+    **Example B)** The Words and Music Show (Ian Ferrier) collection was partly digitized from MiniDiscs and partly delivered as born-digital files on hard drives.  For this collection there may be as many as two or more digital files that, together, document the performances of a single evening’s event.  For this collection, the dated event serves as the entity that is documented in a single entry in Swallow, and the contents field may contain time-stamped descriptions of two or more digital files, with the timestamps for each file beginning at 00:00:00.
+
+    **Example C)** Much of The Ultimatum (Alan Lord) Collection was recorded on ¼” 8-track reel to reel tape, meaning, we have multi-track renderings of the performances. In this instance, there may be as many as eight individual tracks, each one rendered as a unique digital file, for a single artist’s performance. Further, the event of a single evening comprised of multiple performers, may have been recorded over multiple reels, with some performances using only a few tracks and others more.  In this case, the cataloguing team decided to use “the performance set” (the slotted performance of a single artist or act) as the primary, organizing entity of description.  Each Swallow entry describes a single set, noting the analogue assets and digital files associated with that particular performance set, and providing a timestamped contents description of a single digital file that consists of a multitrack mixdown of the individual tracks that documented that set. **Deciding the primary, organizing entity of description for an entry in Swallow prior to cataloguing allows for consistency in managing the relationships of assets to events in the description of entities that comprise a collection.**
+
+  The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry.  In all cases, the time-stamped Contents description is built around three key elements:  The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label.  Our explanation of the Contents field’s grammar begins with definitions of these three elements.
+
+********************************************************
+5.18.4. Contents Field Grammar and Controlled Vocabulary
+********************************************************
+
+**1. Core Elements of a Time-Stamped Contents Field Description**
+A timestamped description signals and provides information about a sonic or audiovisual event. It is composed of three elements: (A) The Speaker or Descriptor, (B) The Numerical Timestamp, and (C) The Descriptive Label. 
+
+Example: 
+        Heather Hermant (A)
+	00:34:43 (B)
+	Introduces "The Long-Distance Runner", with music by Tom Walsh. | Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; 	   Grace Paley. (C)
+ 
+  **A) The Speaker or Descriptor (short name: Descriptor)**
+  
+  This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp attributed to them. Stage names and aliases function like full names. Some software (like Transcriva) facilitates uniformity through a list of “associated people” that can be assigned to timestamps from a drop-down menu. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
+
+When several individuals perform under one name, that group name should be the recurring Speaker. If individual group members’ names are known, they can be listed in square brackets in the first timestamp (but do not need to be listed thereafter). If a single, identified group member speaks around the performance, the timestamp should be attributed to the individual. 
+
+
+Examples:
+Swifty Lazarus [Todd Swift, Tom Walsh]
+00:00:28
+Performs “Love” from The Envelope Please.
+
+Todd Swift
+00:02:00
+Thank you!
+
+There will also be situations where the linkable name of a speaker is unknown. First names, nicknames or other identifiers can be used where they are available. When you have exhausted these options, you can list an unidentified speaker as “Unknown Speaker”. You should assign a sequential number to every discernable unknown speaker within the content of an asset or file, in order of their appearance (ex. “Unknown Speaker 2”).
+
+Descriptors are used for sonic events that are not attributed to a speaker. One prominent instance is “Audience”, to which you can attribute applause. Likewise, “Unknown” indicates that the source of the sonic event is unknown, but implies that the sonic event is not speech. (eg. Audience, unknown, end)
+
+  **B) The Numerical Timestamp (short name: Timestamp)**
+  
+The timestamp marks the beginning of the descriptive entry. It follows the format HH:MM:SS (Hours:Minutes:Seconds). The end-time of a sonic event is not required in the Linear approach of the SpokenWeb schema. (When text is converted to XML the end timestamp will be assumed to be the beginning of the next timestamp on the line.)  In the Nested approach, end timestamps are intentionally marked. Some time-stamping software will also include milliseconds following the HH:MM:SS numbers, so the timestamp would read HH:MM:SS:mm.  Including milliseconds is not required, but is acceptable.  
+
+The cataloguer should do their best to time-stamp a described sonic or AV event as accurately as possible within the pre-determined parameters of granularity.  There is no set rule about the required minimum or maximum length of a time-stamped segment; decisions about what counts as a sonic or audiovisual-event, apart from the separation of one literary work from another, and speech that is expository or explanatory (extra-poetic speech) from read or performed material (poetic speech), are at the discretion of the cataloguer, in coordination with any particular rules that may have been developed in relation to the specific collection that is being described.
+
+  **C) The Descriptive Label (short name: Label)**
+ 
+ The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. To facilitate the conversion of transcripts in Avalon XML, there should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
+
+**2. Overview of Controlled Vocabularies and Grammar**
+There is no exhaustive list of terms to use in every possible timestamping context and many descriptive situations will be formulated at the cataloguer’s discretion. However, in order to create cohesion across a wide range of collections catalogued at different sites, we have developed a select controlled vocabulary to be followed whenever possible. 
+
+**Describing Key Actions:**
+In the majority of cases when sound is attributed to one speaker (whether in sound or AV recording), the label should begin with a present tense verb, followed by one or a series of nouns providing essential information regarding that action. In performative contexts the verb “Performs” should be used primarily, while other terms that imply a more specific type of performance should be used when directly referenced in the recording.
+
+  Examples:
+	Introduces ________ (event, names, titles)
+	Performs _________ (all encompassing/avoids presumption of intention)
+	Reads ___________ (if indicated)  
+	Sings ____________ (if indicated)
+	Resumes _________ (used when a previously identified sound event [say, a
+	reading of a particular poem] resumes following interruption by another identified
+	sound event [say, applause or laughter]
+	Asks ___________
+	Addresses ________ (used when a speaker is addressing an individual or the
+	audience as a whole directly)
+	Discusses __________ 
+	Announces __________ (for example, announcing intermission between sets, announcing end of event, etc.)
+	Promotes ___________ (used when host or artist promotes a work or event, i.e.
+	a book for sale at a book table) 
+
+After the initial verb and accompanying description in a label, subsequent descriptive language in the same annotation is not required to follow the same formula.
+  
+  Example:
+
+	Robin Blaser
+	00:14:55
+	Asks question, exchange with Warren Tallman follows
+
+Annotations of audible moments of communal responses like applause and laughter from the audience do not require the use of a present tense verb in the label and should be treated as follows:
+
+	Audience
+	01:44:36
+	Applause
+
+	Audience 
+	02:03:33
+	Laughter
+
+For sounds made by specific but unknown individuals from the audience, the chosen speaker should be specified by a number.
+
+  Example: 
+	Audience Member 1
+	00:33:09
+	Addresses Warren Tallman
+
+If a notable sound cannot be attributed to a particular agent, the speaker should be named “Unknown.” For cataloguers working with Transcriva, simply leave the speaker blank as this will become “Unknown” upon export. Most often this will apply to the label “Ambient Sound.” If the cataloguer wishes, any additional remarks about the nature or quality of the sound can be written between square brackets. This formula can also be used for notable moments absent of sound, using instead the label “Silence”.
+
+  Examples:
+	Unknown
+	00:01:22
+	Ambient Sound [loud bang]
+	
+	Unknown
+	00:02:30
+	Ambient Sound [voices]
+
+  Unknown
+	00:02:30
+	Silence [pause, or muted, or erasure, etc.]
+
+In the production of both full transcripts and timestamped descriptions, it may be necessary to note when human speech becomes inaudible or difficult to discern. If you are unable to work out what is being said, use the term “unintelligible” between square brackets. When you are able to make an educated guess about something difficult to hear, the word or sequence of words should be sectioned off with square brackets with the addition of a question mark in parentheses. 
+
+  Examples: 	
+
+	Ian Ferrier
+	00:10:14
+	I am going to read [unintelligible].
+	OR
+	Ian Ferrier
+	00:10:14
+	Introduces [unintelligible] 
+
+	Ian Ferrier
+	00:10:14
+	I am going to read that other [poem (?)] later.
+
+
+
+
+  
 
 ********************
 5.19. Contents Notes
