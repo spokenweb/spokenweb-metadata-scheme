@@ -656,7 +656,7 @@ If the information is taken from a source other than one of these sources, this 
 
 Where was a recording made?  Answering this question may provide us with interesting information about where literary events and activities occurred across the country.  We will be using a few methods of capturing location information, and will be entering this data according to a set syntax.  The three primary fields related to location are the **Address** (which refers to the official street address of a location), the **Venue** (that is, the name of the venue where something was recorded), and then, as a recommended field, the **Latitude** and **Longitude** of the location as well as a **URI** for that location.  Having this additional data will enable us to create interesting maps of event and recording locations down the road.
 
-**OpenStreetMap** includes specific `"node" <https://wiki.openstreetmap.org/wiki/Node>`__ links for entities in OSM that have a unique latitude and longitude, as well as more complex entities such as a `street <https://wiki.openstreetmap.org/wiki/Way>`__, region, city area, country, etc. The more important objective of Location cataloguing is to enter the correct latitude, longitude, address and venue name. The link to OSM is optional, and to be added only if you can find a stable "node" link, or a specific coordinate link.
+**OpenStreetMap** includes specific `"node" <https://wiki.openstreetmap.org/wiki/Node>`__ links for entities in OSM that have a unique latitude and longitude, as well as more complex entities such as a `street <https://wiki.openstreetmap.org/wiki/Way>`__, region, city area, country, etc. The more important objective of Location cataloguing is to enter the correct latitude, longitude, address and venue name. The link to OSM is optional, and to be added only if you can find a stable "node" link, or a specific coordinate link. 
 
 A **"node"** link contains the word "node" in the link, followed by an ID, for example: https://www.openstreetmap.org/node/1296620055
 
@@ -1095,6 +1095,126 @@ In the production of both full transcripts and timestamped descriptions, it may 
 	Ian Ferrier
 	00:10:14
 	I am going to read that other [poem (?)] later.
+	
+**Describing Video**
+A group called the Audio Description Coalition (ADC) was formed in 2006 to document best practices and standards for video description, producing “Standards for Audio Description and Code of Professional Conduct for Describers”, initially published in 2007 and updated in 2009. The document is available online at: https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/adc_standards.pdf. 
+
+The founding members of ADC were actively involved with live description of performances and museum exhibits. This document is intended to assist those practicing and learning to become professional audio describers. It outlines the basic principles of providing audio description that “helps to ensure that people who are blind or have low vision enjoy equal access to cultural events by providing the essential visual information”. Although the context of this document is that of improved access for those who are blind or have low vision, the basic principles described can also be applied, with common sense and practice, to our context of describing video for research use. The primary audience for our descriptions is comprised of humanities scholars, so cataloguers may calibrate their focus in description with this audience in mind. The basic idea is to describe what you see, as objectively as possible. That means describing physical appearances and actions, rather than motivations and intentions. The gestures and facial expressions of characters are visible and so should be described, but motives and reasoning are not visible and so are not subject to description.
+
+Basic practical approaches and actions we recommend for describing video: 
+
+	*We suggest that the cataloguer begin with a quick scan (by scrubbing across the video) to get a sense of the main transitions that exist in the video content to be described.  This will help the cataloguer gauge the number of video description timestamps that will be required in describing a recording, and to decide upon the degree of granularity of the description to be performed.
+
+	*Once the content of the video as a whole is assessed, the first description may be used to provide a full account of the scene or setting (as with the opening set description in a play), allowing for subsequent timestamped descriptions to be shorter and more action-oriented.  This will be so especially in videos that document an event that takes place in the same setting throughout the action.  In such cases, the opening description may contain more information, and be longer, than subsequent time-stamped descriptions.
+
+	*The primary descriptive mode should consist of indicators of what is visible on the video only, and not what is presumed to be happening.  The focus should be on actions, verbs (standing, jumping, swaying) and things, nouns (holding a microphone, holding a book, smashing a plate).  The use of nouns and verbs that offer precision concerning what is seen are welcome, but the cataloguer should be careful not to project their own assumptions onto what is seen through the nouns and verbs they chose to use.  
+
+	*The cataloger should focus on descriptions of what are determined to be the most significant actions of agents, descriptions of the most significant things observed. As a rule, timestamped video description can proceed at a high level (not overly granular). Do not attempt to describe everything. Think about what would be most relevant to a user-base of literary and cultural history scholars, the primary audience for our descriptions. 
+
+	*The cataloguer should avoid using adjectives and adverbs that offer value judgements, presumptions and interpretive assessments of what is seen. For example, instead of saying that a poster, photograph, or a performer’s clothing is beautiful (this is a matter of opinion, a value judgment), do your best to describe the things observed that may have caused you to make that assessment.  Describe the colors and text that appear on the poster; describe what is seen in the photograph (“a human figure standing before a house”); describe what the clothes look like (“a black dress”).
+
+We suggest the following two approaches within a grammar for integrating video contents descriptions into the timestamped Contents description of an AV artifact.
+
+**Approach 1:** The first approach allows the cataloguer to timestamp a visual event on its own, as a distinct contents event (that is to say, distinct from audio content).  The cataloguer, in this case, selects the primary “visual event” that warrants the timestamped description, and describes it in square brackets before the timestamp.  An event may be an object, an agent (speaker, reader), or an action of the video camera.  This short, bracketed description of the timestamped visual event is followed by a carriage return, the timestamp, and then, a longer description of the visual event, following another carriage return.  Any visual content description must be signalled first with the phrase “Video Description” followed by a colon [:] .
+
+[Short Indicator of Visual Event]
+00:10:14
+Video Description: The content of the video description
+
+Examples: 
+
+[Ceiling Fan] 
+00:10:14
+Video Description:  A ceiling fan spins.
+
+[Ian Ferrier] 
+00:10:14
+Video Description: Ian Ferrier bends to pick up a microphone.
+
+[Camera Pan] 
+00:10:14
+Video Description: The camera pans from left to right.
+
+**Approach 2:** The second approach may be used when adding video description to a timestamped segment of audio. In this case, one adds video description to the timestamped audio description or transcription by inserting a pipe | sign, followed by the phrase “Video Description” and a colon [:] after any audio description that has already been provided.
+
+The generic form of this grammar is as follows:
+
+Speaker
+Timestamp
+Audio description | Video Description: 
+
+Example:
+
+Ian Ferrier
+	00:10:14
+	I am going to read a brand new poem. | Video Description: Ian Ferrier strums an
+electric guitar.
+
+As noted above, the opening description of a scene or setting may be more detailed than subsequent descriptions of the setting, and subsequent description of actions within that first described setting need not repeat details of this first description. Subsequent descriptions should emphasize new information.  You begin with a general description of the scene, and then refer to specific events within that scene.
+
+Example of a video description sequence:
+
+[background noise]
+00:00:00
+[Music and crowd voices]. | Video Description: Grey visual noise
+
+[background noise]
+00:00:35
+[Music and crowd voices. Previous song cuts out and a new one begins.] | Video Description: Event poster held by two hands. Poster reads “Les Mardis de L’Oeil Rechargeable Ultimatum Presentent de Londres Kathy Acker.” Photographic image of Kathy Acker. Picture of a woman in black and pink. Half of her face is lit.
+
+Kathy Acker
+00:01:19
+Performs “x”.  Performs. | Video Description: Quick cut to portrait shot of Kathy Acker performing into a microphone. Half of her face is lit by a spotlight. Short cropped hair. Long earring dangling from right ear.  Several piercings along lobe of left ear. Necklace. 
+
+[Camera zooms out on Kathy Acker] 
+00:13:27
+Video Description: As camera zooms out, Kathy Acker, is holding pages, looking out to audience. Background art becomes visible behind her.
+
+[Camera zooms in on Kathy Acker]
+00:13:50
+Video Description: Close up of Kathy Acker reading.
+
+Kathy Acker
+00:15:36
+Kathy Acker finishes reading [audience applause]. | Video Description: Camera zooms out as Kathy Acker picks up a backpack and walks off the stage. Camera zooms in on background art.
+
+Example of a sequence with distinct video segments:
+
+[Two men in room]
+00:00:27
+[Electronic music] | Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
+
+[Video Art]
+00:01:15
+[Electronic music] | Video Description: Pixelated digital art featuring shapes, images and words, changing rapidly.  Including [summary of things that appear]  Telephone, reel to reel tape machine, geometrical shapes, human figures, cartoon figures, words, Hitler [Q code], Mussolini [Q code].
+
+END
+00:15:34
+
+**Recommended terms for use in the description of camera framing and movement:**
+
+Camera Framing:
+* Extreme Long Shot
+* Long Shot
+* Full Shot
+* Medium Long Shot
+* Medium Shot
+* Medium Close-Up
+* Over the Shoulder
+* Close-Up
+* Extreme Close Up
+* Up Shot
+* Down Shot
+
+Camera Movements:
+* Pan (left, right)
+* Zoom (in, out)
+* Dolly (in, out)
+* Tilt (up, down)
+* Boom (up, down)
+* Truck (left, right)
+
+
 
 
 
