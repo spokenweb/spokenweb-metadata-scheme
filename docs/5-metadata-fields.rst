@@ -662,6 +662,7 @@ A **"node"** link contains the word "node" in the link, followed by an ID, for e
 
 For the link by coordinates, you can use the interface of OSM, as described here: https://wiki.openstreetmap.org/wiki/Browsing, so clicking on "share" on the map, and then adding a marker and copying the "link" from there.
 
+    .. image:: _static/img/image0.png
 
 **Where to find your information:**
 
@@ -684,7 +685,7 @@ For the link by coordinates, you can use the interface of OSM, as described here
     |
     | 3. Copy/paste information from the entry for the location in OSM:
 
-    .. image:: _static/img/image3.png
+    .. image:: _static/img/image3_new.png
 
 |
 | **Venue:** For Venue, you may find a specific location name from the source material.
@@ -885,38 +886,42 @@ The highest-order label is the “Title,” which is the name of the event. Afte
 
 In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
 
-A full tutorial for working with ERA A+V’s graphical XML editor is available `here<http://https://wiki.dlib.indiana.edu/display/VarVideo/Adding+Structure+to+Files+Using+the+Graphical+XML+Editor>`_).
+A full tutorial for working with ERA A+V’s graphical XML editor is available `here <https://wiki.dlib.indiana.edu/display/VarVideo/Adding+Structure+to+Files+Using+the+Graphical+XML+Editor>`__.
 
 Below is a simple series of timestamps represented as XML:
 
-<Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-    <Div label="Margaret Atwood">
-        <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
-        <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
-        <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
-        <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
-        <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
-        <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
-        <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
-        <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
-        <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
-        <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-    </Div>
+.. code-block:: xml
 
-    <Div label="Dorothy Livesay">
-        <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-        <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-        <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-        <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-        <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-    </Div>
-</Item>
+  <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
+      <Div label="Margaret Atwood">
+          <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
+          <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
+          <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
+          <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
+          <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
+          <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
+          <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
+          <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
+          <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
+          <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
+      </Div>
 
-<item label="Imaginary Recording of Dorothy Livesay">
-  <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-  <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-  <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-</item>
+      <Div label="Dorothy Livesay">
+          <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
+          <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
+          <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
+          <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
+          <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
+      </Div>
+  </Item>
+
+.. code-block:: xml
+
+  <item label="Imaginary Recording of Dorothy Livesay">
+    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
+    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
+    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
+  </item>
 
 **Degrees of Granularity**
 
@@ -1025,20 +1030,30 @@ There is no exhaustive list of terms to use in every possible timestamping conte
 In the majority of cases when sound is attributed to one speaker (whether in sound or AV recording), the label should begin with a present tense verb, followed by one or a series of nouns providing essential information regarding that action. In performative contexts the verb “Performs” should be used primarily, while other terms that imply a more specific type of performance should be used when directly referenced in the recording.
 
   Examples:
-	Introduces ________ (event, names, titles)
-	Performs _________ (all encompassing/avoids presumption of intention)
-	Reads ___________ (if indicated)  
-	Sings ____________ (if indicated)
-	Resumes _________ (used when a previously identified sound event [say, a
-	reading of a particular poem] resumes following interruption by another identified
-	sound event [say, applause or laughter]
-	Asks ___________
-	Addresses ________ (used when a speaker is addressing an individual or the
-	audience as a whole directly)
-	Discusses __________ 
-	Announces __________ (for example, announcing intermission between sets, announcing end of event, etc.)
-	Promotes ___________ (used when host or artist promotes a work or event, i.e.
-	a book for sale at a book table) 
+	
+  Introduces ________ (event, names, titles)
+  
+  Performs _________ (all encompassing/avoids presumption of intention)
+  
+  Reads ___________ (if indicated)  
+  
+  Sings ____________ (if indicated)
+  
+  Resumes _________ (used when a previously identified sound event [say, a
+  reading of a particular poem] resumes following interruption by another identified
+  sound event [say, applause or laughter]
+  
+  Asks ___________
+  
+  Addresses ________ (used when a speaker is addressing an individual or the
+  audience as a whole directly)
+  
+  Discusses __________ 
+  
+  Announces __________ (for example, announcing intermission between sets, announcing end of event, etc.)
+  
+  Promotes ___________ (used when host or artist promotes a work or event, i.e.
+  a book for sale at a book table) 
 
 After the initial verb and accompanying description in a label, subsequent descriptive language in the same annotation is not required to follow the same formula.
   
@@ -1194,25 +1209,27 @@ END
 **Recommended terms for use in the description of camera framing and movement:**
 
 Camera Framing:
-* Extreme Long Shot
-* Long Shot
-* Full Shot
-* Medium Long Shot
-* Medium Shot
-* Medium Close-Up
-* Over the Shoulder
-* Close-Up
-* Extreme Close Up
-* Up Shot
-* Down Shot
+
+  * Extreme Long Shot
+  * Long Shot
+  * Full Shot
+  * Medium Long Shot
+  * Medium Shot
+  * Medium Close-Up
+  * Over the Shoulder
+  * Close-Up
+  * Extreme Close Up
+  * Up Shot
+  * Down Shot
 
 Camera Movements:
-* Pan (left, right)
-* Zoom (in, out)
-* Dolly (in, out)
-* Tilt (up, down)
-* Boom (up, down)
-* Truck (left, right)
+  
+  * Pan (left, right)
+  * Zoom (in, out)
+  * Dolly (in, out)
+  * Tilt (up, down)
+  * Boom (up, down)
+  * Truck (left, right)
 
 
 
