@@ -1231,12 +1231,161 @@ Camera Movements:
   * Boom (up, down)
   * Truck (left, right)
 
+**3. Marking the End of a Digital Audio File**
 
+In the Linear mode of timestamped description it is necessary to add an extra timestamp to mark the end of an audio file. At the end of every timestamped description of an audio file, insert a final timestamp with the Speaker/Description filled in as END, leaving the label blank, unless you wish to include a descriptive annotation referring to the nature of the ending, which should appear in square brackets. You can additionally use the square brackets to note whether there is a link between the end of one audio file and the beginning of another, as in cases when a single event has been recorded over multiple analogue assets that have been digitized as unique digital audio files. 
 
+If using ERA AV to produce a Nested timestamped description, it is not necessary to add this closing timestamp manually as the ERA AV system will do so automatically,
 
+Examples:
+	END
+	01:44:49
+	
+	END
+	01:30:55
+	[cut off abruptly]
 
+	END
+	02:11:45
+	[recording of event continues on tape 2, file WM100499_02.WAV]
 
-  
+**Principle of Keywords**
+
+Keywords may be used to reflect content in lieu of a full transcript. Keywords should be words or phrases inherent to the content and not interpretive additions. In other words, they should be **derived from vocabulary found in the audible content itself.** While there is no limit to how many of the words may be used (ranging from none to full transcript), keywords should be selected on the basis of their utility in signalling an important individual, object, point, theme, idea, or subject raised in the passage. Such might include the name of a person, organization, or title of a work (Atwood, Black Mountain Group or Night Poem), a generic form or place (sonnet, lyrical, Concordia University or Montreal), or an adjective, verb, or description that captures tone or scope (humorous, ironic). Proper nouns, which include names, titles, places, and particular things, will typically warrant the designation of Keyword, and a basic hierarchy for the parameters of keywording in a description may move from names of individuals, to titles of works, to place names, to other categories of designation. 
+
+Examples:
+
+In the following transcription, the words that are in bold represent terms that might be selected as keywords if the approach to description involves keywording rather than transcription.
+
+**Allen Ginsberg**
+00:18:23
+**George Bowering**, who I've known a long time, asked me to read a poem that I haven't read through but once before, called **"Angkor Wat."**  So I'll try that.  It's middle-sized, like, ten minutes, probably.  What it is, is **notations** taken down in the course of one night in **Cambodia**, in **Siem Reap**, which is outside of Angkor Wat, a town outside of the ruins.
+ 
+When formatting, the list of keywords should follow the content description and be separated by a pipe [|]. The pipe should be followed by the word “Keywords”, which should be followed by a colon [:]. Items within the Keywords list should be separated by semicolons. 
+
+**Allen Ginsberg**
+00:18:23
+Introduces “Angkor Wat” | Keywords: George Bowering; notations; Siem Reap; Cambodia; Angkor Wat. 
+ 
+Square brackets should be used to designate additional, specific information from the cataloguer. If further specificity is required, cataloguers can insert parentheses within square brackets. Whenever possible, keywords should be accompanied by their corresponding Wikidata link **(in the first instances of their appearance)**, to facilitate networked searchability: 
+ 
+**Allen Ginsberg**
+00:18:23
+Introduces “Angkor Wat” [from Angkor Wat (https://www.wikidata.org/wiki/Q96035194)] | Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; notations; Siem Reap; Cambodia; Angkor Wat.
+
+Wikidata links allow for an interconnected web of information. Prioritize linking people, particularly writers and performers, and artistic works. However, Wikidata moderators do have a specific notability policy and you may not find entries for every item you wish to include. 
+
+**Example:** 
+
+Margaret Atwood
+00:00:00
+I should **apologize** to begin with for my **voice**.  I don't usually sound quite this much like **Tallulah Bankhead**. I have the **Montreal** plague.  The first poem is called **"This is a Photograph of Me,"** and it's the first poem in **The Circle Game**. I love **Kafka**’s **The Trial**, but prefer **Wordsworth**’s **“I Wandered Lonely as a Cloud”.**
+
+**Keywords:**
+
+Margaret Atwood
+00:00:00
+Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073] | Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
+
+**5. Summary of Typographical Rules**
+
+To facilitate research and to ensure proper conversion of the Contents field to XML when necessary, timestamping and description entered in the Contents field must follow certain typographical rules. This section outlines the main typographical markers and their functions for use in contents description.
+
+The key typographical markers in the Contents field are: 
+  * Return [<_|] [NOTE: This is not a visible marker, but the insertion of a carriage return 	 resulting in the separation of terms by pushing an item to the next line.]
+  * Comma [ , ]
+  * Semi-colon [ ; ]
+  * Pipe [ | ]
+  * Question mark in parentheses [(?)]
+  * Double Quotation Marks [“ ”] 
+  * Square Brackets [ [ ] ] 
+  * Round Parentheses [ ( ) ] 
+  * Period [ . ]
+  * Ellipsis […]
+
+Proper use of these markers according to the established conventions will ensure the searchability and operability of the Contents field. As a general rule, the principle elements of a timestamp should be listed in the following typographical format: 
+
+Ex. Name of Speaker
+	00:00:00
+	Performs “...” 
+
+*Return*
+The three core components of a timestamp are divided by carriage returns, and each timestamp is also separated by a carriage return.  The Return key is used only for those purposes.
+
+*Comma*
+No commas will succeed the verb, unless you wish to list further descriptors or activity [ , ]. In other words, commas should be used sparingly, and only where grammatically warranted. See rules regarding the use of semicolon for further clarification. 
+
+*Double Quotation Marks* 
+Double quote marks are reserved for specific citational use [“ ”]. Titles of works should be indicated by quotations and followed by the word ‘from’ when designating known publications. Additional descriptors should be identified in square brackets and contain linked data where possible [ [ ] ]. 
+
+Ex. Margaret Atwood
+	00:25:06
+	Reads “Siren Song” from You are Happy [Oxford UP, 1974]. 
+
+Ex. Allen Ginsberg 
+	00:54:29
+	Sings “The Little Boy Lost” and “The Little Boy Found” from Songs of Innocence and 			Experience [https://www.wikidata.org/wiki/Q20713959]. 
+
+Separate items/agents within square brackets with a semi-colon [;]. All additional information, possibly emerging from research and added at the cataloguer’s discretion, should be enclosed within square brackets. To include further details, use parentheses within square brackets [( )].
+
+Ex. Swifty Lazarus [Todd Swift (vocals); Tom Walsh (saxophone, computer)]
+	00:05:32
+	Performs "West of an Idea/ Hlinka Guard" from The Envelope Please [CD]. 
+
+Descriptions of audible content will range from single word descriptions, to detailed representations of sonic material through the use of Keywords, to full transcriptions. When providing Keywords, insert a pipe symbol [ | ] and separate items with semicolons [ ; ]. It is strongly recommended to provide Q-codes from Wikidata in square brackets for Keywords, where possible. So, square brackets indicate information being brought to interpretation by the cataloguer, or any number of qualifiers about the nature of the sound signal, such as [poem] or [CD], as shown in the examples: 
+
+Ex. Allen Ginsberg
+	00:18:23
+	Introduces “Angkor Wat” | Keywords: George Bowering 										[https://www.wikidata.org/wiki/Q1239280]; “Angkor Wat” [poem]; notations; Siem 				Reap[https://www.wikidata.org/wiki/Q11711]; Cambodia [https://www.wikidata.org/wiki/Q424]; 	   Angkor Wat [https://www.wikidata.org/wiki/Q43473].
+	
+**Basic Rules for Transcription**
+When transcribing speech or other audible materials, use established vocabulary to replace silences [silence] or inaudible speech [unintelligible] within square brackets. Or, label what you cannot hear clearly but choose to interpret within square brackets, and append a question mark in parentheses to demonstrate uncertainty in deciphering sound signals [(?)]. 	An unintelligible phrase or silence might also signal a [cut] in recording. 
+
+The use of ellipses in square brackets [...] indicates audio content that has not been described. Sections that are left out should be clearly timestamped. Ellipses may replace descriptions of audible materials. 
+
+Include periods [.] throughout and at the end of every entry. When providing full transcription, use appropriate punctuation such as commas, question marks and other symbols where necessary. When using brackets, place punctuation after the closing bracket. Similarly, periods follow quotation marks and any other punctuation marker.
+
+**Symbols to Avoid**
+Avoid using <> or &. 
+
+**Insertion of END time stamp**
+To signal the end of recording (in the linear timestamping method), the timestamp must conform to the Contents field grammar and maintain the established typographical formula. If you wish to describe something about the ending, or signal the connection of this recording to another recording, use square brackets.
+
+Ex. END
+	00:37:52
+	[Cut out]
+
+	END
+	00:27:31
+	[File 2 of 3]
+
+**6. Instructions for identifying assets.**
+
+Given that a single Swallow Item can comprise multiple recordings, the cataloguer should clearly identify each asset in question at the start of every Contents field entry (in addition to documenting it in the Digital File Description Contents entry). This practice will minimize confusion and mark transitions between separately timestamped or transcribed assets which is especially useful if compiled one after another in the same box of the Contents field. Indicate the filename or chosen title, followed by a description of the type of recording and its position in relation to the subsequent recordings, followed by a comma and any further specifications **when necessary** (ex: Tracks #s or Sides) between square brackets. 
+
+Examples: 
+
+	**STE-001.wav [File 1 of 2]**
+
+	Unknown
+	00:01:22
+	Ambient Sound [loud bang].
+	...
+	END 
+	00:20:30
+
+	**STE-002.wav [File 2 of 2]**
+	
+	Audience
+	00:00:06
+	Applause.
+
+For timestamping or transcription purposes, when several recordings have been edited together (either one after another or as a multitrack mix) to form one file, just the filename can appear at the start of the entry. However, it is important to indicate in the Content Note, that the digital file described is a combination or mix of several files, and to list all of the original components/assets.
+
+Example: 
+	**Mario Campo at Ultimatum 1985 Night 1 [Tape 1, Tracks 1-4]**
+	**Formula: Ultimatum_Mixdown_Name_Tape_TTracks_Tape_TTracks.mp3** 
+	**Ex: Ultimatum_Mixdown_Daniel Guimond_U-1_T1_T2_T3_T4_T5_T6_T7_T8.mp3**
 
 ********************
 5.19. Contents Notes
