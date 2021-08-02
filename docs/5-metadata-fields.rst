@@ -931,7 +931,7 @@ As already mentioned, the time-stamped contents field may range in granularity o
   • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see “Principle of Keywords” [link]), 
   • to  complete time-stamped speaker identification, title identification, non-speech sound events, content-originating keywords, and full transcription of all       speech content.
 
-The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool<http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/`_)
+The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool <http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`__.
 
 Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it.
 
@@ -940,11 +940,11 @@ Normally, all entries of a specific collection will be described at the same lev
 *********************************************************
 
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
- 
-  **1.Granularity of Description**
-  Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see “Principle of Keywords” [link]).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
+
+**1. Granularity of Description**
+Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see “Principle of Keywords” [link]).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
   
-  If resources are available, and more detailed, timestamped description seems justified, then the cataloguer(s) should decide how granular the description will be. In making this decision it will be useful to ask yourself which of the following kinds of information are a priority, and feasible :
+If resources are available, and more detailed, timestamped description seems justified, then the cataloguer(s) should decide how granular the description will be. In making this decision it will be useful to ask yourself which of the following kinds of information are a priority, and feasible :
 	
 	a. Speaker identification 
 	b. The inclusion of titles of works read
@@ -956,16 +956,17 @@ In addition to choosing between a Linear or Nested approach to timestamping, the
 	h. The inclusion of full transcription of all extra-poetic speech (speech other than reading)
 	i. The inclusion of full transcription of all speech heard on the recording (whether read, performed, spoken, etc.)
 
-  As mentioned above, decisions concerning the granularity of Contents description made for a particular collection may be determined by a variety of factors including the degree of complexity of the audiovisual content, the relative value of certain layers, kinds and categories of description in relation to needs identified for research and teaching, the size of the collection, and, the resources (human labour, tools, infrastructure) available for the work. We recommend that that same level of granularity, or detail, be maintained in the description of all assets from the same collection.
+As mentioned above, decisions concerning the granularity of Contents description made for a particular collection may be determined by a variety of factors including the degree of complexity of the audiovisual content, the relative value of certain layers, kinds and categories of description in relation to needs identified for research and teaching, the size of the collection, and, the resources (human labour, tools, infrastructure) available for the work. We recommend that that same level of granularity, or detail, be maintained in the description of all assets from the same collection.
 
-  **The Inclusion of Wikidata Item Identifiers (Q-Codes) for Names, Titles and Keywords**
-  If resources permit, we recommend that cataloguers include Wikidata Q-Codes in square brackets next to names of people, places, book titles, and other Keywords that may have Wikidata entries.  Including such linked data in timestamped descriptions will make our descriptions all the more useful and discoverable to researchers and students.  The basic Wikidata search bar can be found at this link:
-https://www.wikidata.org/w/index.php?search=&search=&title=Special:Search&go=Go
+**The Inclusion of Wikidata Item Identifiers (Q-Codes) for Names, Titles and Keywords**
+If resources permit, we recommend that cataloguers include Wikidata Q-Codes in square brackets next to names of people, places, book titles, and other Keywords that may have Wikidata entries.  Including such linked data in timestamped descriptions will make our descriptions all the more useful and discoverable to researchers and students.  
 
-  **2.Relationship of Digital Files to the Primary Entity of Description**
-  In addition to planning how detailed your Contents description will be, it is also important to make some basic decisions about the relationship between the digital files that contain the content, and the primary, organizing entity that defines what, exactly, is being described in a Swallow entry (and its Contents field). This is especially important in cases where the primary entity of description (say, an event that took place on a particular date, over a particular period of time) exists on two or more digital files.
+The basic Wikidata search bar can be found at this link: https://www.wikidata.org/w/index.php?search=&search=&title=Special:Search&go=Go
+
+**2. Relationship of Digital Files to the Primary Entity of Description**
+In addition to planning how detailed your Contents description will be, it is also important to make some basic decisions about the relationship between the digital files that contain the content, and the primary, organizing entity that defines what, exactly, is being described in a Swallow entry (and its Contents field). This is especially important in cases where the primary entity of description (say, an event that took place on a particular date, over a particular period of time) exists on two or more digital files.
   
-  To some degree we are applying the definition of entity used by AtoM: “An entity is an object about which an information system collects data.” We are, however, extending this definition to include the use of an entity as a primary organizing principle. In other words, our schema allows an entity to function as a means for organizing the data related to it. In this schema, a primary, organizing entity could be a material asset(s) or digital file(s). It could also be an activity, a segment of an activity, or a particular group of activities, also known as an event. 
+To some degree we are applying the definition of entity used by AtoM: “An entity is an object about which an information system collects data.” We are, however, extending this definition to include the use of an entity as a primary organizing principle. In other words, our schema allows an entity to function as a means for organizing the data related to it. In this schema, a primary, organizing entity could be a material asset(s) or digital file(s). It could also be an activity, a segment of an activity, or a particular group of activities, also known as an event. 
 
 Using an event as the umbrella or top level category to organize related files or assets aligns with traditional archival description—multi-level and hierarchical. Once you choose the top-level, or organizing entity, you provide detailed descriptions of the subordinate records, which might be analog and/or digital. Further, if choosing a digital or analog file(s) or asset(s), as the primary, organizing entity, there may be no need to organize the records further, hierarchically.
 
@@ -973,13 +974,13 @@ Based on these definitions, let’s start with a more straightforward example, f
 
 When multiple digital and analog assets are associated with a single event, such as a reading series, more complicated scenarios may arise. There may be, for example, multiple digital assets associated with one or more analogue recordings associated with a particular event.  In such cases, the cataloguer will need to decide whether they are creating unique Swallow entries for each digital file available, or, whether either the analogue asset (if there is one) or the original event (or some portion of each event) will function as the primary, organizing entity of description that determines a Swallow entry. Later we will illustrate scenarios in which analog or digital files are the primary, organizing entities of description. Briefly, here, however we provide three examples that illustrate an event as the primary, organizing entity: 
 
-    **Example A)** In the case of the Sir George Williams Poetry Series collection, a reading event was documented on between one and three reels of tape.  When digitized, each reel resulted in a unique digital file.  In Swallow, the overarching entity that defines an entry is the reading event itself.  Therefore, for each entry in Swallow between one and three digital files is described in the contents field. 
+	**Example A)** In the case of the Sir George Williams Poetry Series collection, a reading event was documented on between one and three reels of tape.  When digitized, each reel resulted in a unique digital file.  In Swallow, the overarching entity that defines an entry is the reading event itself.  Therefore, for each entry in Swallow between one and three digital files is described in the contents field. 
 
-    **Example B)** The Words and Music Show (Ian Ferrier) collection was partly digitized from MiniDiscs and partly delivered as born-digital files on hard drives.  For this collection there may be as many as two or more digital files that, together, document the performances of a single evening’s event.  For this collection, the dated event serves as the entity that is documented in a single entry in Swallow, and the contents field may contain time-stamped descriptions of two or more digital files, with the timestamps for each file beginning at 00:00:00.
+	**Example B)** The Words and Music Show (Ian Ferrier) collection was partly digitized from MiniDiscs and partly delivered as born-digital files on hard drives.  For this collection there may be as many as two or more digital files that, together, document the performances of a single evening’s event.  For this collection, the dated event serves as the entity that is documented in a single entry in Swallow, and the contents field may contain time-stamped descriptions of two or more digital files, with the timestamps for each file beginning at 00:00:00.
 
-    **Example C)** Much of The Ultimatum (Alan Lord) Collection was recorded on ¼” 8-track reel to reel tape, meaning, we have multi-track renderings of the performances. In this instance, there may be as many as eight individual tracks, each one rendered as a unique digital file, for a single artist’s performance. Further, the event of a single evening comprised of multiple performers, may have been recorded over multiple reels, with some performances using only a few tracks and others more.  In this case, the cataloguing team decided to use “the performance set” (the slotted performance of a single artist or act) as the primary, organizing entity of description.  Each Swallow entry describes a single set, noting the analogue assets and digital files associated with that particular performance set, and providing a timestamped contents description of a single digital file that consists of a multitrack mixdown of the individual tracks that documented that set. **Deciding the primary, organizing entity of description for an entry in Swallow prior to cataloguing allows for consistency in managing the relationships of assets to events in the description of entities that comprise a collection.**
+	**Example C)** Much of The Ultimatum (Alan Lord) Collection was recorded on ¼” 8-track reel to reel tape, meaning, we have multi-track renderings of the performances. In this instance, there may be as many as eight individual tracks, each one rendered as a unique digital file, for a single artist’s performance. Further, the event of a single evening comprised of multiple performers, may have been recorded over multiple reels, with some performances using only a few tracks and others more.  In this case, the cataloguing team decided to use “the performance set” (the slotted performance of a single artist or act) as the primary, organizing entity of description.  Each Swallow entry describes a single set, noting the analogue assets and digital files associated with that particular performance set, and providing a timestamped contents description of a single digital file that consists of a multitrack mixdown of the individual tracks that documented that set. **Deciding the primary, organizing entity of description for an entry in Swallow prior to cataloguing allows for consistency in managing the relationships of assets to events in the description of entities that comprise a collection.**
 
-  The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry.  In all cases, the time-stamped Contents description is built around three key elements:  The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label.  Our explanation of the Contents field’s grammar begins with definitions of these three elements.
+The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry.  In all cases, the time-stamped Contents description is built around three key elements:  The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label.  Our explanation of the Contents field’s grammar begins with definitions of these three elements.
 
 ********************************************************
 5.18.4. Contents Field Grammar and Controlled Vocabulary
@@ -989,111 +990,110 @@ When multiple digital and analog assets are associated with a single event, such
 A timestamped description signals and provides information about a sonic or audiovisual event. It is composed of three elements: (A) The Speaker or Descriptor, (B) The Numerical Timestamp, and (C) The Descriptive Label. 
 
 Example: 
-        Heather Hermant (A)
-	00:34:43 (B)
-	Introduces "The Long-Distance Runner", with music by Tom Walsh. | Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; 	   Grace Paley. (C)
- 
-  **A) The Speaker or Descriptor (short name: Descriptor)**
-  
-  This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp attributed to them. Stage names and aliases function like full names. Some software (like Transcriva) facilitates uniformity through a list of “associated people” that can be assigned to timestamps from a drop-down menu. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
 
-When several individuals perform under one name, that group name should be the recurring Speaker. If individual group members’ names are known, they can be listed in square brackets in the first timestamp (but do not need to be listed thereafter). If a single, identified group member speaks around the performance, the timestamp should be attributed to the individual. 
+| Heather Hermant (A)
+| 00:34:43 (B)
+| Introduces "The Long-Distance Runner", with music by Tom Walsh. 
+| Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; Grace Paley. (C)
+|
+	
+	**A) The Speaker or Descriptor (short name: Descriptor)**
+	This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp 		attributed to them. Stage names and aliases function like full names. Some software (like Transcriva) facilitates uniformity through a list of “associated 	people” that can be assigned to timestamps from a drop-down menu. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
+
+	When several individuals perform under one name, that group name should be the recurring Speaker. If individual group members’ names are known, they can be listed in square brackets in the first timestamp (but do not need to be listed thereafter). If a single, identified group member speaks around the performance, the timestamp should be attributed to the individual. 
 
 
-Examples:
-Swifty Lazarus [Todd Swift, Tom Walsh]
-00:00:28
-Performs “Love” from The Envelope Please.
+	Examples:
+		
+		Swifty Lazarus [Todd Swift, Tom Walsh]
+		00:00:28
+		Performs “Love” from The Envelope Please.
 
-Todd Swift
-00:02:00
-Thank you!
+		Todd Swift
+		00:02:00
+		Thank you!
 
-There will also be situations where the linkable name of a speaker is unknown. First names, nicknames or other identifiers can be used where they are available. When you have exhausted these options, you can list an unidentified speaker as “Unknown Speaker”. You should assign a sequential number to every discernable unknown speaker within the content of an asset or file, in order of their appearance (ex. “Unknown Speaker 2”).
+	There will also be situations where the linkable name of a speaker is unknown. First names, nicknames or other identifiers can be used where they are available. When you have exhausted these options, you can list an unidentified speaker as “Unknown Speaker”. You should assign a sequential number to every discernable unknown speaker within the content of an asset or file, in order of their appearance (ex. “Unknown Speaker 2”).
 
-Descriptors are used for sonic events that are not attributed to a speaker. One prominent instance is “Audience”, to which you can attribute applause. Likewise, “Unknown” indicates that the source of the sonic event is unknown, but implies that the sonic event is not speech. (eg. Audience, unknown, end)
+	Descriptors are used for sonic events that are not attributed to a speaker. One prominent instance is “Audience”, to which you can attribute applause. Likewise, “Unknown” indicates that the source of the sonic event is unknown, but implies that the sonic event is not speech. (eg. Audience, unknown, end)
 
-  **B) The Numerical Timestamp (short name: Timestamp)**
-  
-The timestamp marks the beginning of the descriptive entry. It follows the format HH:MM:SS (Hours:Minutes:Seconds). The end-time of a sonic event is not required in the Linear approach of the SpokenWeb schema. (When text is converted to XML the end timestamp will be assumed to be the beginning of the next timestamp on the line.)  In the Nested approach, end timestamps are intentionally marked. Some time-stamping software will also include milliseconds following the HH:MM:SS numbers, so the timestamp would read HH:MM:SS:mm.  Including milliseconds is not required, but is acceptable.  
+	**B) The Numerical Timestamp (short name: Timestamp)**
+	The timestamp marks the beginning of the descriptive entry. It follows the format HH:MM:SS (Hours:Minutes:Seconds). The end-time of a sonic event is not required in the Linear approach of the SpokenWeb schema. (When text is converted to XML the end timestamp will be assumed to be the beginning of the next timestamp on the line.)  In the Nested approach, end timestamps are intentionally marked. Some time-stamping software will also include milliseconds following the HH:MM:SS numbers, so the timestamp would read HH:MM:SS:mm.  Including milliseconds is not required, but is acceptable.  
 
-The cataloguer should do their best to time-stamp a described sonic or AV event as accurately as possible within the pre-determined parameters of granularity.  There is no set rule about the required minimum or maximum length of a time-stamped segment; decisions about what counts as a sonic or audiovisual-event, apart from the separation of one literary work from another, and speech that is expository or explanatory (extra-poetic speech) from read or performed material (poetic speech), are at the discretion of the cataloguer, in coordination with any particular rules that may have been developed in relation to the specific collection that is being described.
+	The cataloguer should do their best to time-stamp a described sonic or AV event as accurately as possible within the pre-determined parameters of granularity.  There is no set rule about the required minimum or maximum length of a time-stamped segment; decisions about what counts as a sonic or audiovisual-event, apart from the separation of one literary work from another, and speech that is expository or explanatory (extra-poetic speech) from read or performed material (poetic speech), are at the discretion of the cataloguer, in coordination with any particular rules that may have been developed in relation to the specific collection that is being described.
 
-  **C) The Descriptive Label (short name: Label)**
- 
- The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. To facilitate the conversion of transcripts in Avalon XML, there should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
+	**C) The Descriptive Label (short name: Label)**
+	The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. To facilitate the conversion of transcripts in Avalon XML, there should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
 
 **2. Overview of Controlled Vocabularies and Grammar**
 There is no exhaustive list of terms to use in every possible timestamping context and many descriptive situations will be formulated at the cataloguer’s discretion. However, in order to create cohesion across a wide range of collections catalogued at different sites, we have developed a select controlled vocabulary to be followed whenever possible. 
 
 **Describing Key Actions:**
 In the majority of cases when sound is attributed to one speaker (whether in sound or AV recording), the label should begin with a present tense verb, followed by one or a series of nouns providing essential information regarding that action. In performative contexts the verb “Performs” should be used primarily, while other terms that imply a more specific type of performance should be used when directly referenced in the recording.
-
-  Examples:
 	
-  Introduces ________ (event, names, titles)
+	Examples:
+	
+	| Introduces ________ (event, names, titles)
   
-  Performs _________ (all encompassing/avoids presumption of intention)
+  	| Performs _________ (all encompassing/avoids presumption of intention)
   
-  Reads ___________ (if indicated)  
+  	| Reads ___________ (if indicated)  
   
-  Sings ____________ (if indicated)
+  	| Sings ____________ (if indicated)
   
-  Resumes _________ (used when a previously identified sound event [say, a
-  reading of a particular poem] resumes following interruption by another identified
-  sound event [say, applause or laughter]
-  
-  Asks ___________
-  
-  Addresses ________ (used when a speaker is addressing an individual or the
-  audience as a whole directly)
-  
-  Discusses __________ 
-  
-  Announces __________ (for example, announcing intermission between sets, announcing end of event, etc.)
-  
-  Promotes ___________ (used when host or artist promotes a work or event, i.e.
-  a book for sale at a book table) 
+  	| Resumes _________ (used when a previously identified sound event [say, a reading of a particular poem] resumes following interruption by another identified sound event [say, applause or laughter]
+	
+	| Asks ___________
+	
+	| Addresses ________ (used when a speaker is addressing an individual or the audience as a whole directly)
+	
+	| Discusses __________ 
+	
+	| Announces __________ (for example, announcing intermission between sets, announcing end of event, etc.)
+	
+	| Promotes ___________ (used when host or artist promotes a work or event, i.e. a book for sale at a book table) 
 
 After the initial verb and accompanying description in a label, subsequent descriptive language in the same annotation is not required to follow the same formula.
   
   Example:
 
-	Robin Blaser
-	00:14:55
-	Asks question, exchange with Warren Tallman follows
+	| Robin Blaser
+	| 00:14:55
+	| Asks question, exchange with Warren Tallman follows
 
 Annotations of audible moments of communal responses like applause and laughter from the audience do not require the use of a present tense verb in the label and should be treated as follows:
 
-	Audience
-	01:44:36
-	Applause
-
-	Audience 
-	02:03:33
-	Laughter
+	| Audience
+	| 01:44:36
+	| Applause
+	|
+	| Audience 
+	| 02:03:33
+	| Laughter
 
 For sounds made by specific but unknown individuals from the audience, the chosen speaker should be specified by a number.
 
   Example: 
-	Audience Member 1
-	00:33:09
-	Addresses Warren Tallman
+  
+	| Audience Member 1
+	| 00:33:09
+	| Addresses Warren Tallman
 
 If a notable sound cannot be attributed to a particular agent, the speaker should be named “Unknown.” For cataloguers working with Transcriva, simply leave the speaker blank as this will become “Unknown” upon export. Most often this will apply to the label “Ambient Sound.” If the cataloguer wishes, any additional remarks about the nature or quality of the sound can be written between square brackets. This formula can also be used for notable moments absent of sound, using instead the label “Silence”.
 
   Examples:
-	Unknown
-	00:01:22
-	Ambient Sound [loud bang]
 	
-	Unknown
-	00:02:30
-	Ambient Sound [voices]
-
-  Unknown
-	00:02:30
-	Silence [pause, or muted, or erasure, etc.]
+	| Unknown
+	| 00:01:22
+	| Ambient Sound [loud bang]
+	|
+	| Unknown
+	| 00:02:30
+	| Ambient Sound [voices]
+	|
+	| Unknown
+	| 00:02:30
+	| Silence [pause, or muted, or erasure, etc.]
 
 In the production of both full transcripts and timestamped descriptions, it may be necessary to note when human speech becomes inaudible or difficult to discern. If you are unable to work out what is being said, use the term “unintelligible” between square brackets. When you are able to make an educated guess about something difficult to hear, the word or sequence of words should be sectioned off with square brackets with the addition of a question mark in parentheses. 
 
@@ -1102,7 +1102,9 @@ In the production of both full transcripts and timestamped descriptions, it may 
 	Ian Ferrier
 	00:10:14
 	I am going to read [unintelligible].
+	
 	OR
+	
 	Ian Ferrier
 	00:10:14
 	Introduces [unintelligible] 
@@ -1110,7 +1112,8 @@ In the production of both full transcripts and timestamped descriptions, it may 
 	Ian Ferrier
 	00:10:14
 	I am going to read that other [poem (?)] later.
-	
+
+
 **Describing Video**
 A group called the Audio Description Coalition (ADC) was formed in 2006 to document best practices and standards for video description, producing “Standards for Audio Description and Code of Professional Conduct for Describers”, initially published in 2007 and updated in 2009. The document is available online at: https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/adc_standards.pdf. 
 
@@ -1118,93 +1121,106 @@ The founding members of ADC were actively involved with live description of perf
 
 Basic practical approaches and actions we recommend for describing video: 
 
-	*We suggest that the cataloguer begin with a quick scan (by scrubbing across the video) to get a sense of the main transitions that exist in the video content to be described.  This will help the cataloguer gauge the number of video description timestamps that will be required in describing a recording, and to decide upon the degree of granularity of the description to be performed.
+	* We suggest that the cataloguer begin with a quick scan (by scrubbing across the video) to get a sense of the main transitions that exist in the video content to be described.  This will help the cataloguer gauge the number of video description timestamps that will be required in describing a recording, and to decide upon the degree of granularity of the description to be performed.
 
-	*Once the content of the video as a whole is assessed, the first description may be used to provide a full account of the scene or setting (as with the opening set description in a play), allowing for subsequent timestamped descriptions to be shorter and more action-oriented.  This will be so especially in videos that document an event that takes place in the same setting throughout the action.  In such cases, the opening description may contain more information, and be longer, than subsequent time-stamped descriptions.
+	* Once the content of the video as a whole is assessed, the first description may be used to provide a full account of the scene or setting (as with the opening set description in a play), allowing for subsequent timestamped descriptions to be shorter and more action-oriented.  This will be so especially in videos that document an event that takes place in the same setting throughout the action.  In such cases, the opening description may contain more information, and be longer, than subsequent time-stamped descriptions.
 
-	*The primary descriptive mode should consist of indicators of what is visible on the video only, and not what is presumed to be happening.  The focus should be on actions, verbs (standing, jumping, swaying) and things, nouns (holding a microphone, holding a book, smashing a plate).  The use of nouns and verbs that offer precision concerning what is seen are welcome, but the cataloguer should be careful not to project their own assumptions onto what is seen through the nouns and verbs they chose to use.  
+	* The primary descriptive mode should consist of indicators of what is visible on the video only, and not what is presumed to be happening.  The focus should be on actions, verbs (standing, jumping, swaying) and things, nouns (holding a microphone, holding a book, smashing a plate).  The use of nouns and verbs that offer precision concerning what is seen are welcome, but the cataloguer should be careful not to project their own assumptions onto what is seen through the nouns and verbs they chose to use.  
 
-	*The cataloger should focus on descriptions of what are determined to be the most significant actions of agents, descriptions of the most significant things observed. As a rule, timestamped video description can proceed at a high level (not overly granular). Do not attempt to describe everything. Think about what would be most relevant to a user-base of literary and cultural history scholars, the primary audience for our descriptions. 
+	* The cataloger should focus on descriptions of what are determined to be the most significant actions of agents, descriptions of the most significant things observed. As a rule, timestamped video description can proceed at a high level (not overly granular). Do not attempt to describe everything. Think about what would be most relevant to a user-base of literary and cultural history scholars, the primary audience for our descriptions. 
 
-	*The cataloguer should avoid using adjectives and adverbs that offer value judgements, presumptions and interpretive assessments of what is seen. For example, instead of saying that a poster, photograph, or a performer’s clothing is beautiful (this is a matter of opinion, a value judgment), do your best to describe the things observed that may have caused you to make that assessment.  Describe the colors and text that appear on the poster; describe what is seen in the photograph (“a human figure standing before a house”); describe what the clothes look like (“a black dress”).
+	* The cataloguer should avoid using adjectives and adverbs that offer value judgements, presumptions and interpretive assessments of what is seen. For example, instead of saying that a poster, photograph, or a performer’s clothing is beautiful (this is a matter of opinion, a value judgment), do your best to describe the things observed that may have caused you to make that assessment.  Describe the colors and text that appear on the poster; describe what is seen in the photograph (“a human figure standing before a house”); describe what the clothes look like (“a black dress”).
 
 We suggest the following two approaches within a grammar for integrating video contents descriptions into the timestamped Contents description of an AV artifact.
 
 **Approach 1:** The first approach allows the cataloguer to timestamp a visual event on its own, as a distinct contents event (that is to say, distinct from audio content).  The cataloguer, in this case, selects the primary “visual event” that warrants the timestamped description, and describes it in square brackets before the timestamp.  An event may be an object, an agent (speaker, reader), or an action of the video camera.  This short, bracketed description of the timestamped visual event is followed by a carriage return, the timestamp, and then, a longer description of the visual event, following another carriage return.  Any visual content description must be signalled first with the phrase “Video Description” followed by a colon [:] .
 
-[Short Indicator of Visual Event]
-00:10:14
-Video Description: The content of the video description
+	| [Short Indicator of Visual Event]
+	| 00:10:14
+	| Video Description: The content of the video description
+
 
 Examples: 
 
-[Ceiling Fan] 
-00:10:14
-Video Description:  A ceiling fan spins.
+	| [Ceiling Fan] 
+	| 00:10:14
+	| Video Description:  A ceiling fan spins.
+	
 
-[Ian Ferrier] 
-00:10:14
-Video Description: Ian Ferrier bends to pick up a microphone.
 
-[Camera Pan] 
-00:10:14
-Video Description: The camera pans from left to right.
+	| [Ian Ferrier] 
+	| 00:10:14
+	| Video Description: Ian Ferrier bends to pick up a microphone.
+
+
+
+	| [Camera Pan] 
+	| 00:10:14
+	| Video Description: The camera pans from left to right.
 
 **Approach 2:** The second approach may be used when adding video description to a timestamped segment of audio. In this case, one adds video description to the timestamped audio description or transcription by inserting a pipe | sign, followed by the phrase “Video Description” and a colon [:] after any audio description that has already been provided.
 
 The generic form of this grammar is as follows:
 
-Speaker
-Timestamp
-Audio description | Video Description: 
+	| Speaker
+	| Timestamp
+	| Audio description 
+	| Video Description: 
 
 Example:
 
-Ian Ferrier
-	00:10:14
-	I am going to read a brand new poem. | Video Description: Ian Ferrier strums an
-electric guitar.
+	| Ian Ferrier
+	| 00:10:14
+	| I am going to read a brand new poem. 
+	| Video Description: Ian Ferrier strums an electric guitar.
 
 As noted above, the opening description of a scene or setting may be more detailed than subsequent descriptions of the setting, and subsequent description of actions within that first described setting need not repeat details of this first description. Subsequent descriptions should emphasize new information.  You begin with a general description of the scene, and then refer to specific events within that scene.
 
 Example of a video description sequence:
 
-[background noise]
-00:00:00
-[Music and crowd voices]. | Video Description: Grey visual noise
-
-[background noise]
-00:00:35
-[Music and crowd voices. Previous song cuts out and a new one begins.] | Video Description: Event poster held by two hands. Poster reads “Les Mardis de L’Oeil Rechargeable Ultimatum Presentent de Londres Kathy Acker.” Photographic image of Kathy Acker. Picture of a woman in black and pink. Half of her face is lit.
-
-Kathy Acker
-00:01:19
-Performs “x”.  Performs. | Video Description: Quick cut to portrait shot of Kathy Acker performing into a microphone. Half of her face is lit by a spotlight. Short cropped hair. Long earring dangling from right ear.  Several piercings along lobe of left ear. Necklace. 
-
-[Camera zooms out on Kathy Acker] 
-00:13:27
-Video Description: As camera zooms out, Kathy Acker, is holding pages, looking out to audience. Background art becomes visible behind her.
-
-[Camera zooms in on Kathy Acker]
-00:13:50
-Video Description: Close up of Kathy Acker reading.
-
-Kathy Acker
-00:15:36
-Kathy Acker finishes reading [audience applause]. | Video Description: Camera zooms out as Kathy Acker picks up a backpack and walks off the stage. Camera zooms in on background art.
-
+	| [background noise]
+	| 00:00:00
+	| [Music and crowd voices]. 
+	| Video Description: Grey visual noise
+	|
+	| [background noise]
+	| 00:00:35
+	| [Music and crowd voices. Previous song cuts out and a new one begins.] 
+	| Video Description: Event poster held by two hands. Poster reads “Les Mardis de L’Oeil Rechargeable Ultimatum Presentent de Londres Kathy Acker.” Photographic image of Kathy Acker. Picture of a woman in black and pink. Half of her face is lit.
+	|
+	| Kathy Acker
+	| 00:01:19
+	| Performs “x”.  Performs. 
+	| Video Description: Quick cut to portrait shot of Kathy Acker performing into a microphone. Half of her face is lit by a spotlight. Short cropped hair. Long earring dangling from right ear.  Several piercings along lobe of left ear. Necklace. 
+	|
+	| [Camera zooms out on Kathy Acker] 
+	| 00:13:27
+	| Video Description: As camera zooms out, Kathy Acker, is holding pages, looking out to audience. Background art becomes visible behind her.
+	|
+	| [Camera zooms in on Kathy Acker]
+	| 00:13:50
+	| Video Description: Close up of Kathy Acker reading.
+	|
+	| Kathy Acker
+	| 00:15:36
+	| Kathy Acker finishes reading [audience applause]. 
+	| Video Description: Camera zooms out as Kathy Acker picks up a backpack and walks off the stage. Camera zooms in on background art.
+	|
 Example of a sequence with distinct video segments:
+	|
+	| [Two men in room]
+	| 00:00:27
+	| [Electronic music] 
+	| Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
+	|
+	| [Video Art]
+	| 00:01:15
+	| [Electronic music] 
+	| Video Description: Pixelated digital art featuring shapes, images and words, changing rapidly.  Including [summary of things that appear]  Telephone, reel to reel tape machine, geometrical shapes, human figures, cartoon figures, words, Hitler [Q code], Mussolini [Q code].
+	|
+	| END
+	| 00:15:34
 
-[Two men in room]
-00:00:27
-[Electronic music] | Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
-
-[Video Art]
-00:01:15
-[Electronic music] | Video Description: Pixelated digital art featuring shapes, images and words, changing rapidly.  Including [summary of things that appear]  Telephone, reel to reel tape machine, geometrical shapes, human figures, cartoon figures, words, Hitler [Q code], Mussolini [Q code].
-
-END
-00:15:34
 
 **Recommended terms for use in the description of camera framing and movement:**
 
@@ -1238,6 +1254,7 @@ In the Linear mode of timestamped description it is necessary to add an extra ti
 If using ERA AV to produce a Nested timestamped description, it is not necessary to add this closing timestamp manually as the ERA AV system will do so automatically,
 
 Examples:
+
 	END
 	01:44:49
 	
@@ -1264,28 +1281,31 @@ In the following transcription, the words that are in bold represent terms that 
 When formatting, the list of keywords should follow the content description and be separated by a pipe [|]. The pipe should be followed by the word “Keywords”, which should be followed by a colon [:]. Items within the Keywords list should be separated by semicolons. 
 
 **Allen Ginsberg**
-00:18:23
-Introduces “Angkor Wat” | Keywords: George Bowering; notations; Siem Reap; Cambodia; Angkor Wat. 
+| 00:18:23
+| Introduces “Angkor Wat” 
+| Keywords: George Bowering; notations; Siem Reap; Cambodia; Angkor Wat. 
  
 Square brackets should be used to designate additional, specific information from the cataloguer. If further specificity is required, cataloguers can insert parentheses within square brackets. Whenever possible, keywords should be accompanied by their corresponding Wikidata link **(in the first instances of their appearance)**, to facilitate networked searchability: 
  
 **Allen Ginsberg**
-00:18:23
-Introduces “Angkor Wat” [from Angkor Wat (https://www.wikidata.org/wiki/Q96035194)] | Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; notations; Siem Reap; Cambodia; Angkor Wat.
+| 00:18:23
+| Introduces “Angkor Wat” [from Angkor Wat (https://www.wikidata.org/wiki/Q96035194)] 
+| Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; notations; Siem Reap; Cambodia; Angkor Wat.
 
 Wikidata links allow for an interconnected web of information. Prioritize linking people, particularly writers and performers, and artistic works. However, Wikidata moderators do have a specific notability policy and you may not find entries for every item you wish to include. 
 
 **Example:** 
 
-Margaret Atwood
-00:00:00
-I should **apologize** to begin with for my **voice**.  I don't usually sound quite this much like **Tallulah Bankhead**. I have the **Montreal** plague.  The first poem is called **"This is a Photograph of Me,"** and it's the first poem in **The Circle Game**. I love **Kafka**’s **The Trial**, but prefer **Wordsworth**’s **“I Wandered Lonely as a Cloud”.**
+| Margaret Atwood
+| 00:00:00
+| I should **apologize** to begin with for my **voice**.  I don't usually sound quite this much like **Tallulah Bankhead**. I have the **Montreal** plague.  The first poem is called **"This is a Photograph of Me,"** and it's the first poem in **The Circle Game**. I love **Kafka**’s **The Trial**, but prefer **Wordsworth**’s **“I Wandered Lonely as a Cloud”.**
 
 **Keywords:**
 
-Margaret Atwood
-00:00:00
-Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073] | Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
+| Margaret Atwood
+| 00:00:00
+| Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073] 
+| Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
 
 **5. Summary of Typographical Rules**
 
@@ -1305,38 +1325,52 @@ The key typographical markers in the Contents field are:
 
 Proper use of these markers according to the established conventions will ensure the searchability and operability of the Contents field. As a general rule, the principle elements of a timestamp should be listed in the following typographical format: 
 
-Ex. Name of Speaker
-	00:00:00
-	Performs “...” 
+Ex. 
+
+	| Name of Speaker
+	| 00:00:00
+	| Performs “...” 
 
 *Return*
+
 The three core components of a timestamp are divided by carriage returns, and each timestamp is also separated by a carriage return.  The Return key is used only for those purposes.
 
 *Comma*
+
 No commas will succeed the verb, unless you wish to list further descriptors or activity [ , ]. In other words, commas should be used sparingly, and only where grammatically warranted. See rules regarding the use of semicolon for further clarification. 
 
 *Double Quotation Marks* 
+
 Double quote marks are reserved for specific citational use [“ ”]. Titles of works should be indicated by quotations and followed by the word ‘from’ when designating known publications. Additional descriptors should be identified in square brackets and contain linked data where possible [ [ ] ]. 
 
-Ex. Margaret Atwood
-	00:25:06
-	Reads “Siren Song” from You are Happy [Oxford UP, 1974]. 
+Ex. 
+	
+	| Margaret Atwood
+	| 00:25:06
+	| Reads “Siren Song” from You are Happy [Oxford UP, 1974]. 
 
-Ex. Allen Ginsberg 
-	00:54:29
-	Sings “The Little Boy Lost” and “The Little Boy Found” from Songs of Innocence and 			Experience [https://www.wikidata.org/wiki/Q20713959]. 
+Ex. 
+	
+	| Allen Ginsberg 
+	| 00:54:29
+	| Sings “The Little Boy Lost” and “The Little Boy Found” from Songs of Innocence and Experience [https://www.wikidata.org/wiki/Q20713959]. 
 
 Separate items/agents within square brackets with a semi-colon [;]. All additional information, possibly emerging from research and added at the cataloguer’s discretion, should be enclosed within square brackets. To include further details, use parentheses within square brackets [( )].
 
-Ex. Swifty Lazarus [Todd Swift (vocals); Tom Walsh (saxophone, computer)]
-	00:05:32
-	Performs "West of an Idea/ Hlinka Guard" from The Envelope Please [CD]. 
+Ex. 
+	
+	| Swifty Lazarus [Todd Swift (vocals); Tom Walsh (saxophone, computer)]
+	| 00:05:32
+	| Performs "West of an Idea/ Hlinka Guard" from The Envelope Please [CD]. 
 
 Descriptions of audible content will range from single word descriptions, to detailed representations of sonic material through the use of Keywords, to full transcriptions. When providing Keywords, insert a pipe symbol [ | ] and separate items with semicolons [ ; ]. It is strongly recommended to provide Q-codes from Wikidata in square brackets for Keywords, where possible. So, square brackets indicate information being brought to interpretation by the cataloguer, or any number of qualifiers about the nature of the sound signal, such as [poem] or [CD], as shown in the examples: 
 
-Ex. Allen Ginsberg
-	00:18:23
-	Introduces “Angkor Wat” | Keywords: George Bowering 										[https://www.wikidata.org/wiki/Q1239280]; “Angkor Wat” [poem]; notations; Siem 				Reap[https://www.wikidata.org/wiki/Q11711]; Cambodia [https://www.wikidata.org/wiki/Q424]; 	   Angkor Wat [https://www.wikidata.org/wiki/Q43473].
+Ex. 
+
+	| Allen Ginsberg
+	| 00:18:23
+	| Introduces “Angkor Wat” 
+	| Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; “Angkor Wat” [poem]; notations; Siem Reap[https://www.wikidata.org/wiki/Q11711]; Cambodia [https://www.wikidata.org/wiki/Q424];Angkor Wat [https://www.wikidata.org/wiki/Q43473].
 	
 **Basic Rules for Transcription**
 When transcribing speech or other audible materials, use established vocabulary to replace silences [silence] or inaudible speech [unintelligible] within square brackets. Or, label what you cannot hear clearly but choose to interpret within square brackets, and append a question mark in parentheses to demonstrate uncertainty in deciphering sound signals [(?)]. 	An unintelligible phrase or silence might also signal a [cut] in recording. 
@@ -1351,13 +1385,15 @@ Avoid using <> or &.
 **Insertion of END time stamp**
 To signal the end of recording (in the linear timestamping method), the timestamp must conform to the Contents field grammar and maintain the established typographical formula. If you wish to describe something about the ending, or signal the connection of this recording to another recording, use square brackets.
 
-Ex. END
-	00:37:52
-	[Cut out]
+Ex. 
 
-	END
-	00:27:31
-	[File 2 of 3]
+	| END
+	| 00:37:52
+	| [Cut out]
+
+	| END
+	| 00:27:31
+	| [File 2 of 3]
 
 **6. Instructions for identifying assets.**
 
@@ -1383,6 +1419,7 @@ Examples:
 For timestamping or transcription purposes, when several recordings have been edited together (either one after another or as a multitrack mix) to form one file, just the filename can appear at the start of the entry. However, it is important to indicate in the Content Note, that the digital file described is a combination or mix of several files, and to list all of the original components/assets.
 
 Example: 
+	
 	**Mario Campo at Ultimatum 1985 Night 1 [Tape 1, Tracks 1-4]**
 	**Formula: Ultimatum_Mixdown_Name_Tape_TTracks_Tape_TTracks.mp3** 
 	**Ex: Ultimatum_Mixdown_Daniel Guimond_U-1_T1_T2_T3_T4_T5_T6_T7_T8.mp3**
