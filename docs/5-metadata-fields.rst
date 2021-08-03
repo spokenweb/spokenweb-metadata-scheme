@@ -993,10 +993,10 @@ Example:
 
 | Heather Hermant (A)
 | 00:34:43 (B)
-| Introduces "The Long-Distance Runner", with music by Tom Walsh.|Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; Grace Paley. (C)
+| Introduces "The Long-Distance Runner", with music by Tom Walsh. | Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; Grace Paley. (C)
 |
 	
-	**A) The Speaker or Descriptor (short name: Descriptor)**
+**A) The Speaker or Descriptor (short name: Descriptor)**
 	This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp 		attributed to them. Stage names and aliases function like full names. Some software (like Transcriva) facilitates uniformity through a list of “associated 	people” that can be assigned to timestamps from a drop-down menu. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
 
 	When several individuals perform under one name, that group name should be the recurring Speaker. If individual group members’ names are known, they can be listed in square brackets in the first timestamp (but do not need to be listed thereafter). If a single, identified group member speaks around the performance, the timestamp should be attributed to the individual. 
@@ -1016,12 +1016,12 @@ Example:
 
 	Descriptors are used for sonic events that are not attributed to a speaker. One prominent instance is “Audience”, to which you can attribute applause. Likewise, “Unknown” indicates that the source of the sonic event is unknown, but implies that the sonic event is not speech. (eg. Audience, unknown, end)
 
-	**B) The Numerical Timestamp (short name: Timestamp)**
+**B) The Numerical Timestamp (short name: Timestamp)**
 	The timestamp marks the beginning of the descriptive entry. It follows the format HH:MM:SS (Hours:Minutes:Seconds). The end-time of a sonic event is not required in the Linear approach of the SpokenWeb schema. (When text is converted to XML the end timestamp will be assumed to be the beginning of the next timestamp on the line.)  In the Nested approach, end timestamps are intentionally marked. Some time-stamping software will also include milliseconds following the HH:MM:SS numbers, so the timestamp would read HH:MM:SS:mm.  Including milliseconds is not required, but is acceptable.  
 
 	The cataloguer should do their best to time-stamp a described sonic or AV event as accurately as possible within the pre-determined parameters of granularity.  There is no set rule about the required minimum or maximum length of a time-stamped segment; decisions about what counts as a sonic or audiovisual-event, apart from the separation of one literary work from another, and speech that is expository or explanatory (extra-poetic speech) from read or performed material (poetic speech), are at the discretion of the cataloguer, in coordination with any particular rules that may have been developed in relation to the specific collection that is being described.
 
-	**C) The Descriptive Label (short name: Label)**
+**C) The Descriptive Label (short name: Label)**
 	The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. To facilitate the conversion of transcripts in Avalon XML, there should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
 
 **2. Overview of Controlled Vocabularies and Grammar**
@@ -1198,7 +1198,6 @@ Example of a video description sequence:
 
 Example of a sequence with distinct video segments:
 
-|
 	| [Two men in room]
 	| 00:00:27
 	| [Electronic music] | Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
@@ -1301,15 +1300,15 @@ To facilitate research and to ensure proper conversion of the Contents field to 
 The key typographical markers in the Contents field are: 
  
  * Return [<_|] [NOTE: This is not a visible marker, but the insertion of a carriage return 	 resulting in the separation of terms by pushing an item to the next line.]
-  * Comma [ , ]
-  * Semi-colon [ ; ]
-  * Pipe [ | ]
-  * Question mark in parentheses [(?)]
-  * Double Quotation Marks [“ ”] 
-  * Square Brackets [ [ ] ] 
-  * Round Parentheses [ ( ) ] 
-  * Period [ . ]
-  * Ellipsis […]
+ * Comma [ , ]
+ * Semi-colon [ ; ]
+ * Pipe [ | ]
+ * Question mark in parentheses [(?)]
+ * Double Quotation Marks [“ ”] 
+ * Square Brackets [ [ ] ] 
+ * Round Parentheses [ ( ) ] 
+ * Period [ . ]
+ * Ellipsis […]
 
 Proper use of these markers according to the established conventions will ensure the searchability and operability of the Contents field. As a general rule, the principle elements of a timestamp should be listed in the following typographical format: 
 
@@ -1377,7 +1376,7 @@ Ex.
 	| END
 	| 00:37:52
 	| [Cut out]
-
+	|
 	| END
 	| 00:27:31
 	| [File 2 of 3]
