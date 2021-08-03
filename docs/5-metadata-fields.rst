@@ -993,8 +993,7 @@ Example:
 
 | Heather Hermant (A)
 | 00:34:43 (B)
-| Introduces "The Long-Distance Runner", with music by Tom Walsh. 
-| Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; Grace Paley. (C)
+| Introduces "The Long-Distance Runner", with music by Tom Walsh.|Keywords: sentimental; 1999; Budapest; Trafo House of Contemporary Arts; Swifty Lazarus; Grace Paley. (C)
 |
 	
 	**A) The Speaker or Descriptor (short name: Descriptor)**
@@ -1145,15 +1144,11 @@ Examples:
 	| [Ceiling Fan] 
 	| 00:10:14
 	| Video Description:  A ceiling fan spins.
-	
-
-
+	|
 	| [Ian Ferrier] 
 	| 00:10:14
 	| Video Description: Ian Ferrier bends to pick up a microphone.
-
-
-
+	|
 	| [Camera Pan] 
 	| 00:10:14
 	| Video Description: The camera pans from left to right.
@@ -1164,15 +1159,13 @@ The generic form of this grammar is as follows:
 
 	| Speaker
 	| Timestamp
-	| Audio description 
-	| Video Description: 
+	| Audio description | Video Description: 
 
 Example:
 
 	| Ian Ferrier
 	| 00:10:14
-	| I am going to read a brand new poem. 
-	| Video Description: Ian Ferrier strums an electric guitar.
+	| I am going to read a brand new poem. | Video Description: Ian Ferrier strums an electric guitar.
 
 As noted above, the opening description of a scene or setting may be more detailed than subsequent descriptions of the setting, and subsequent description of actions within that first described setting need not repeat details of this first description. Subsequent descriptions should emphasize new information.  You begin with a general description of the scene, and then refer to specific events within that scene.
 
@@ -1180,18 +1173,15 @@ Example of a video description sequence:
 
 	| [background noise]
 	| 00:00:00
-	| [Music and crowd voices]. 
-	| Video Description: Grey visual noise
+	| [Music and crowd voices]. | Video Description: Grey visual noise
 	|
 	| [background noise]
 	| 00:00:35
-	| [Music and crowd voices. Previous song cuts out and a new one begins.] 
-	| Video Description: Event poster held by two hands. Poster reads “Les Mardis de L’Oeil Rechargeable Ultimatum Presentent de Londres Kathy Acker.” Photographic image of Kathy Acker. Picture of a woman in black and pink. Half of her face is lit.
+	| [Music and crowd voices. Previous song cuts out and a new one begins.] | Video Description: Event poster held by two hands. Poster reads “Les Mardis de L’Oeil Rechargeable Ultimatum Presentent de Londres Kathy Acker.” Photographic image of Kathy Acker. Picture of a woman in black and pink. Half of her face is lit.
 	|
 	| Kathy Acker
 	| 00:01:19
-	| Performs “x”.  Performs. 
-	| Video Description: Quick cut to portrait shot of Kathy Acker performing into a microphone. Half of her face is lit by a spotlight. Short cropped hair. Long earring dangling from right ear.  Several piercings along lobe of left ear. Necklace. 
+	| Performs “x”.  Performs. | Video Description: Quick cut to portrait shot of Kathy Acker performing into a microphone. Half of her face is lit by a spotlight. Short cropped hair. Long earring dangling from right ear.  Several piercings along lobe of left ear. Necklace. 
 	|
 	| [Camera zooms out on Kathy Acker] 
 	| 00:13:27
@@ -1203,20 +1193,19 @@ Example of a video description sequence:
 	|
 	| Kathy Acker
 	| 00:15:36
-	| Kathy Acker finishes reading [audience applause]. 
-	| Video Description: Camera zooms out as Kathy Acker picks up a backpack and walks off the stage. Camera zooms in on background art.
+	| Kathy Acker finishes reading [audience applause]. | Video Description: Camera zooms out as Kathy Acker picks up a backpack and walks off the stage. Camera zooms in on background art.
 	|
+
 Example of a sequence with distinct video segments:
-	|
+
+|
 	| [Two men in room]
 	| 00:00:27
-	| [Electronic music] 
-	| Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
+	| [Electronic music] | Video Description: Fisheye lens view, black and white video of two men in office, back to back, sitting on chairs, typing on keyboards into computer terminals. 
 	|
 	| [Video Art]
 	| 00:01:15
-	| [Electronic music] 
-	| Video Description: Pixelated digital art featuring shapes, images and words, changing rapidly.  Including [summary of things that appear]  Telephone, reel to reel tape machine, geometrical shapes, human figures, cartoon figures, words, Hitler [Q code], Mussolini [Q code].
+	| [Electronic music] | Video Description: Pixelated digital art featuring shapes, images and words, changing rapidly.  Including [summary of things that appear]  Telephone, reel to reel tape machine, geometrical shapes, human figures, cartoon figures, words, Hitler [Q code], Mussolini [Q code].
 	|
 	| END
 	| 00:15:34
@@ -1282,15 +1271,13 @@ When formatting, the list of keywords should follow the content description and 
 
 **Allen Ginsberg**
 | 00:18:23
-| Introduces “Angkor Wat” 
-| Keywords: George Bowering; notations; Siem Reap; Cambodia; Angkor Wat. 
+| Introduces “Angkor Wat” | Keywords: George Bowering; notations; Siem Reap; Cambodia; Angkor Wat. 
  
 Square brackets should be used to designate additional, specific information from the cataloguer. If further specificity is required, cataloguers can insert parentheses within square brackets. Whenever possible, keywords should be accompanied by their corresponding Wikidata link **(in the first instances of their appearance)**, to facilitate networked searchability: 
  
 **Allen Ginsberg**
 | 00:18:23
-| Introduces “Angkor Wat” [from Angkor Wat (https://www.wikidata.org/wiki/Q96035194)] 
-| Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; notations; Siem Reap; Cambodia; Angkor Wat.
+| Introduces “Angkor Wat” [from Angkor Wat (https://www.wikidata.org/wiki/Q96035194)] | Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; notations; Siem Reap; Cambodia; Angkor Wat.
 
 Wikidata links allow for an interconnected web of information. Prioritize linking people, particularly writers and performers, and artistic works. However, Wikidata moderators do have a specific notability policy and you may not find entries for every item you wish to include. 
 
@@ -1304,15 +1291,16 @@ Wikidata links allow for an interconnected web of information. Prioritize linkin
 
 | Margaret Atwood
 | 00:00:00
-| Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073] 
-| Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
+| Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073]| Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
+
 
 **5. Summary of Typographical Rules**
 
 To facilitate research and to ensure proper conversion of the Contents field to XML when necessary, timestamping and description entered in the Contents field must follow certain typographical rules. This section outlines the main typographical markers and their functions for use in contents description.
 
 The key typographical markers in the Contents field are: 
-  * Return [<_|] [NOTE: This is not a visible marker, but the insertion of a carriage return 	 resulting in the separation of terms by pushing an item to the next line.]
+ 
+ * Return [<_|] [NOTE: This is not a visible marker, but the insertion of a carriage return 	 resulting in the separation of terms by pushing an item to the next line.]
   * Comma [ , ]
   * Semi-colon [ ; ]
   * Pipe [ | ]
@@ -1369,8 +1357,7 @@ Ex.
 
 	| Allen Ginsberg
 	| 00:18:23
-	| Introduces “Angkor Wat” 
-	| Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; “Angkor Wat” [poem]; notations; Siem Reap[https://www.wikidata.org/wiki/Q11711]; Cambodia [https://www.wikidata.org/wiki/Q424];Angkor Wat [https://www.wikidata.org/wiki/Q43473].
+	| Introduces “Angkor Wat” | Keywords: George Bowering [https://www.wikidata.org/wiki/Q1239280]; “Angkor Wat” [poem]; notations; Siem Reap[https://www.wikidata.org/wiki/Q11711]; Cambodia [https://www.wikidata.org/wiki/Q424];Angkor Wat [https://www.wikidata.org/wiki/Q43473].
 	
 **Basic Rules for Transcription**
 When transcribing speech or other audible materials, use established vocabulary to replace silences [silence] or inaudible speech [unintelligible] within square brackets. Or, label what you cannot hear clearly but choose to interpret within square brackets, and append a question mark in parentheses to demonstrate uncertainty in deciphering sound signals [(?)]. 	An unintelligible phrase or silence might also signal a [cut] in recording. 
