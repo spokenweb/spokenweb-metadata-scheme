@@ -460,7 +460,7 @@ Here is the list of terms you must draw from:
 
   **Poetry:** Readings of literature in the form of verse or other literary forms identified with this genre of literature.
   
-  **Non-Fiction:** Encompasses a wide-range of read materials including criticism, biography, history, etc.
+  **Non-Fiction:** A wide-range of read materials including criticism, biography, history, etc.
 
 **Sounds:** Non-speech sounds.
 
