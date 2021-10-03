@@ -414,6 +414,7 @@ Here is the list of terms you must draw from:
   * Letters
   * Oral histories
   * Oral storytelling
+  * Workshops (seminars)
   * Performances
 
     * Improvised speech
@@ -425,6 +426,7 @@ Here is the list of terms you must draw from:
     * Drama
     * Fiction
     * Poetry
+    * Non-Fiction
 
 **Definitions of genre terms** [26]_
 
@@ -439,6 +441,8 @@ Here is the list of terms you must draw from:
 **Oral histories:** Recorded accounts of historical information about individuals, families, important events, or everyday life, derived through planned interviews.
 
 **Oral storytelling:** Oral narrative stories delivered by one or more speaker(s) that may draw on or adapt traditional folk story forms. Storytelling differs from oral histories in that the content is generally told to an audience or community with the purpose of engaging and/or entertaining and/or sharing a lesson or knowledge with them in the delivery of a narrative.  Further, they are not the result of an interviewer-interviewee dynamic, but are delivered by a storyteller who is self-consciously inhabiting that role on his or her own.
+
+**Workshops (seminars):**  Writing workshops, especially creative writing, or other methods and techniques based gatherings, but also "relatively small instructional sessions or classes emphasizing demonstration and practical application of skills and principles in a specialized field or occupation" that can include a seminar, as in academic (graduate) seminar. [39]_
 
 **Performances:** Recordings of creative works designed specifically for oral performance.
 
@@ -455,6 +459,8 @@ Here is the list of terms you must draw from:
   **Fiction:** Readings of literature in the form of prose, especially short stories and novels, that describes imaginary events and people.
 
   **Poetry:** Readings of literature in the form of verse or other literary forms identified with this genre of literature.
+  
+  **Non-Fiction:** Encompasses a wide-range of read materials including criticism, biography, history, etc.
 
 **Sounds:** Non-speech sounds.
 
@@ -1472,3 +1478,4 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [36] “Photograph.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q125191. 
 .. [37] “Document.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q49848. 
 .. [38] “Cultural Artifact.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q1791627. 
+.. [39] “Art & Architecture Thesaurus Full Record Display (Getty Research).” n.d. Www.getty.edu. Accessed October 3, 2021. http://www.getty.edu/vow/AATFullDisplay?find=workshop&logic=AND¬e=&subjectid=300069765.
