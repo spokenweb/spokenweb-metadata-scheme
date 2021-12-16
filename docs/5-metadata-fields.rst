@@ -427,6 +427,10 @@ Here is the list of terms you must draw from:
     * Fiction
     * Poetry
     * Non-Fiction
+    
+  * Sounds
+  * Speeches
+  * Text-Sound Compositions
 
 **Definitions of genre terms** [26]_
 
