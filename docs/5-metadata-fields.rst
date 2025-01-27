@@ -409,29 +409,38 @@ Genre should be chosen from the following controlled vocabulary of terms. [25]_ 
 
 Here is the list of terms you must draw from:
 
+  * Ambient sounds
   * Autobiographical sound recording
-  * Conversations
-  * Interviews
-  * Letters
-  * Oral histories
+  * Conversation
+  * Interview
+  * Letter
+  * Oral history
   * Oral storytelling
-  * Workshops (seminars)
-  * Performances
+  * Music
+  * Performance
 
     * Improvised speech
     * Sound poetry
     * Spoken word poetry
+    * Sound poetry, Music
 
-  * Readings
+  * Reading
 
     * Drama
     * Fiction
     * Poetry
     * Non-Fiction
     
-  * Sounds
+  * Soundscapes
   * Speeches
+
+    * Commemorative works
+    * Panels
+    * Question-and-answer period
+    * Talks
+
   * Text-Sound Compositions
+  * Workshops (seminars)
 
 **Definitions of genre terms** [26]_
 
