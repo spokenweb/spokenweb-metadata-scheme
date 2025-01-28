@@ -37,7 +37,7 @@ Partner institutions, collections, series, and sub-series are managed separately
 Below are the metadata guidelines for each classification level.
 
 
-**Partner Institution** 
+**5.2.1 Partner Institution** 
 
 Label (mandatory): Enter the name of the institution that holds the collection. For collections that are not affiliated with any institutions, enter “Community Collection”. This label will be used in the front-end applications.
 
@@ -45,9 +45,9 @@ URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, insti
 
 Description: You may enter a description of the institution if desired. 
 
-**Collection**
+**5.2.2 Collection**
 
-Label (mandatory): Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
+**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
 
 If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
 
@@ -59,13 +59,19 @@ If the collection is not deposited in an institutional archive but has been made
 
 Example: Christopher Hand, Zeke’s Gallery Montreal Reading Series, 2004-2007, via Internet Archive
 
-URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, collection website).
+**URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, collection website).
 
-**Contributing Unit:** Enter the Contributing Unit, for example, Collections and Rare Books (if available).
+**Contributing Unit** 
 
-**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
+Enter the Contributing Unit, for example, Collections and Rare Books (if available).
 
-**Source Collection Description:** Copy/paste source collection description from online library catalogue into the corresponding field or develop one with your supervisor (it should include some interesting things about a collection, such as names of poets featured on artifacts, year of broadcast, etc.).
+**Source Collection** 
+
+This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
+
+**Source Collection Description** 
+
+Copy/paste source collection description from online library catalogue into the corresponding field or develop one with your supervisor (it should include some interesting things about a collection, such as names of poets featured on artifacts, year of broadcast, etc.).
 
   If you are creating a collection description from scratch (for example, for a community collection), consider including the following:
 
@@ -90,6 +96,27 @@ URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, colle
 **Persistent URL:** Provide a link to the Item that you are describing, if available.
 
 **Collection Image URL:** Provide a link to an image file that will represent the collection. 
+
+**5.2.3 Series**
+
+A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [32]_
+
+SpokenWeb sometimes uses series to capture the way in which reading series have been named and branded.
+
+**Example of using the series field**
+
+General Example:
+Collection Name: Spoken Web Archive of the Present
+Series Title: Listening Practices
+Sub-series: Virtual Listening Practice 2020
+
+General Example:
+Collection Name: Véhicule Art (Montréal) Inc. fonds (P027)
+Series Title: A/V Material
+
+Specific Example:
+Collection Name: SGW POETRY READING SERIES
+Series Title: Poetry 1
 
 ----
 
