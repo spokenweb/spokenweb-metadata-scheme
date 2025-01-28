@@ -19,14 +19,51 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 ----
 
 *******************************
-5.2. Partner Institution Fields
+5.2. Classification Fields
 *******************************
 
-**Partner Institution:** Select the name of the institution that the collection is affiliated with from the drop-down menu. For collections that are not affiliated with any institutions, enter “Community Collection”.
+Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item. 
 
-**Contributing Unit:** Select from the drop-down menu, Contributing Unit Special, for example Collections and Rare Books (if available)
+**Examples of the classification structure:**
 
-**Source Collection:** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
+    Concordia University (partner institution)
+        SGW Poetry Reading Series (collection)
+            Poetry 3 (series)
+
+    Concordia University (partner institution)
+        Ian Ferrier fonds (collection)
+            Words and Music (series)
+
+Below are the metadata guidelines for each classification level.
+
+
+**Partner Institution** 
+
+Label (mandatory): Enter the name of the institution that holds the collection. For collections that are not affiliated with any institutions, enter “Community Collection”. This label will be used in the front-end applications.
+
+URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, institutional website). 
+
+Description: You may enter a description of the institution if desired. 
+
+**Collection**
+
+Label (mandatory): Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
+
+If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
+
+    * Name of individual(s) who created the collection
+    * Name of venue and place (town or city) of events documented in the collection 
+    * Primary genre or descriptor identifying nature of events documented in collection 
+    * Time span of the events documented in the collection
+    *Platform where they are available
+
+Example: Christopher Hand, Zeke’s Gallery Montreal Reading Series, 2004-2007, via Internet Archive
+
+URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, collection website).
+
+**Contributing Unit:** Enter the Contributing Unit, for example, Collections and Rare Books (if available).
+
+**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
 
 **Source Collection Description:** Copy/paste source collection description from online library catalogue into the corresponding field or develop one with your supervisor (it should include some interesting things about a collection, such as names of poets featured on artifacts, year of broadcast, etc.).
 
@@ -50,9 +87,9 @@ That’s you.  The cataloguer refers to the individual who is cataloguing a part
 
 **Source Collection ID Number:** AA reference code or id number of the related resource from which the described resource is derived, for example: MsC 142.
 
-**Item ID Number/Identifier:**  This is an unambiguous reference to the resource within a given context:: 123 (if available).
-
 **Persistent URL:** Provide a link to the Item that you are describing, if available.
+
+**Collection Image URL:** Provide a link to an image file that will represent the collection. 
 
 ----
 
