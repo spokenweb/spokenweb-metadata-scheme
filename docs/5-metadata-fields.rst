@@ -36,14 +36,13 @@ Partner institutions, collections, series, and sub-series are managed separately
 
 Below are the metadata guidelines for each classification level.
 
-
 **5.2.1 Partner Institution** 
 
-Label (mandatory): Enter the name of the institution that holds the collection. For collections that are not affiliated with any institutions, enter “Community Collection”. This label will be used in the front-end applications.
+**Label (mandatory):** Enter the name of the institution that holds the collection. For collections that are not affiliated with any institutions, enter “Community Collection”. This label will be used in the front-end applications.
 
-URI: Enter a URL or other permanent identifier if possible (e.g. Wikidata, institutional website). 
+**URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, institutional website). 
 
-Description: You may enter a description of the institution if desired. 
+**Description:** You may enter a description of the institution if desired. 
 
 **5.2.2 Collection**
 
@@ -55,19 +54,15 @@ If the collection is not deposited in an institutional archive but has been made
     * Name of venue and place (town or city) of events documented in the collection 
     * Primary genre or descriptor identifying nature of events documented in collection 
     * Time span of the events documented in the collection
-    *Platform where they are available
+    * Platform where they are available
 
 Example: Christopher Hand, Zeke’s Gallery Montreal Reading Series, 2004-2007, via Internet Archive
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, collection website).
 
-**Contributing Unit** 
+**Contributing Unit:** Enter the Contributing Unit, for example, Collections and Rare Books (if available).
 
-Enter the Contributing Unit, for example, Collections and Rare Books (if available).
-
-**Source Collection** 
-
-This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
+**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
 
 **Source Collection Description** 
 
@@ -117,6 +112,21 @@ Series Title: A/V Material
 Specific Example:
 Collection Name: SGW POETRY READING SERIES
 Series Title: Poetry 1
+
+**Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
+
+**URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, series website).
+
+**Description:** Enter a description of the series if available.
+
+**Wikidata URL:** Enter relevant Wikidata link(s). 
+
+**5.2.4 Sub-series**
+
+**Label (mandatory):** Enter the Sub-series title. This label will be used in frontend applications.
+
+**URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, sub-series website).
+
 
 ----
 
