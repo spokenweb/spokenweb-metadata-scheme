@@ -36,7 +36,8 @@ Partner institutions, collections, series, and sub-series are managed separately
 
 Below are the metadata guidelines for each classification level.
 
-**5.2.1 Partner Institution** 
+5.2.1 Partner Institution
+=========================
 
 **Label (mandatory):** Enter the name of the institution that holds the collection. For collections that are not affiliated with any institutions, enter “Community Collection”. This label will be used in the front-end applications.
 
@@ -44,7 +45,8 @@ Below are the metadata guidelines for each classification level.
 
 **Description:** You may enter a description of the institution if desired. 
 
-**5.2.2 Collection**
+5.2.2 Collection
+================
 
 **Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
 
@@ -92,7 +94,8 @@ Copy/paste source collection description from online library catalogue into the 
 
 **Collection Image URL:** Provide a link to an image file that will represent the collection. 
 
-**5.2.3 Series**
+5.2.3 Series
+============
 
 A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [32]_
 
@@ -121,7 +124,8 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
 **Wikidata URL:** Enter relevant Wikidata link(s). 
 
-**5.2.4 Sub-series**
+5.2.4 Sub-series
+================
 
 **Label (mandatory):** Enter the Sub-series title. This label will be used in frontend applications.
 
