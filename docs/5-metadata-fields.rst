@@ -104,11 +104,11 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 | Collection Name: Spoken Web Archive of the Present
 | Series Title: Listening Practices
 | Sub-series: Virtual Listening Practice 2020
-
+|
 | General Example:
 | Collection Name: Véhicule Art (Montréal) Inc. fonds (P027)
 | Series Title: A/V Material
-
+|
 | Specific Example:
 | Collection Name: SGW POETRY READING SERIES
 | Series Title: Poetry 1
