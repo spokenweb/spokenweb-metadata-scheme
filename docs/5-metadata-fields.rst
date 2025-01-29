@@ -112,7 +112,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 | Specific Example:
 | Collection Name: SGW POETRY READING SERIES
 | Series Title: Poetry 1
-
+|
 **Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, series website).
