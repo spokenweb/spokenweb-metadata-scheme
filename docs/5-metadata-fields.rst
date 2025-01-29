@@ -26,9 +26,9 @@ Partner institutions, collections, series, and sub-series are managed separately
 
 **Examples of the classification structure:**
 
-|    Concordia University (partner institution)  
-|        SGW Poetry Reading Series (collection)  
-|            Poetry 3 (series)
+    Concordia University (partner institution)  
+        SGW Poetry Reading Series (collection)  
+            Poetry 3 (series)
 
     Concordia University (partner institution)  
         Ian Ferrier fonds (collection)  
@@ -168,12 +168,12 @@ Identify the AV Type with either Audio or Video.
 **Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please consult with the Metadata Task Force. [7]_
 
   * Reel to Reel
-  * 8-Track Cartridge
   * Cassette
   * Microcassette
   * Wire
   * DAT
   * Disc
+  * Floppy Disk
   * CD
   * Minidisc
   * Cylinder
@@ -182,9 +182,12 @@ Identify the AV Type with either Audio or Video.
   * VHS
   * Hi8
   * MiniDV
+ 
 
 **Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [8]_:
 
+  * Aluminum
+  * Magnetic Disk
   * Magnetic Tape (usually Reel to Reel, 8-Track Cartridge or Cassette)
   * Vinyl (usually discs)
   * Lacquer (usually discs)
