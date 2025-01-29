@@ -26,12 +26,12 @@ Partner institutions, collections, series, and sub-series are managed separately
 
 **Examples of the classification structure:**
 
-    Concordia University (partner institution)
-        SGW Poetry Reading Series (collection)
+    Concordia University (partner institution)  
+        SGW Poetry Reading Series (collection)  
             Poetry 3 (series)
 
-    Concordia University (partner institution)
-        Ian Ferrier fonds (collection)
+    Concordia University (partner institution)  
+        Ian Ferrier fonds (collection)  
             Words and Music (series)
 
 Below are the metadata guidelines for each classification level.
@@ -100,18 +100,18 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
 **Example of using the series field**
 
-General Example:
-Collection Name: Spoken Web Archive of the Present
-Series Title: Listening Practices
-Sub-series: Virtual Listening Practice 2020
+General Example:  
+Collection Name: Spoken Web Archive of the Present  
+Series Title: Listening Practices  
+Sub-series: Virtual Listening Practice 2020  
 
-General Example:
-Collection Name: Véhicule Art (Montréal) Inc. fonds (P027)
-Series Title: A/V Material
+General Example:  
+Collection Name: Véhicule Art (Montréal) Inc. fonds (P027)  
+Series Title: A/V Material  
 
-Specific Example:
-Collection Name: SGW POETRY READING SERIES
-Series Title: Poetry 1
+Specific Example:  
+Collection Name: SGW POETRY READING SERIES  
+Series Title: Poetry 1  
 
 **Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
 
