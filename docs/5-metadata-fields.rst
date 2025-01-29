@@ -423,8 +423,17 @@ Transcribe any handwritten additional information written on the container.
 
 ----
 
+************************************
+5.10. Item ID Number/Identifier
+************************************
+
+This is an unambiguous reference to the resource within a given context:: 123 (if available).
+
+----
+
+
 **************
-5.10. Language
+5.11. Language
 **************
 
 Select from the drop-down menu the language of a recording. More languages will be added as we are listening through the collection.
@@ -432,7 +441,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 ----
 
 ************************
-5.11. Production Context
+5.12. Production Context
 ************************
 
 This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19]_
@@ -454,7 +463,7 @@ Note that most frequently used Production Context would be: Documentary recordin
 ----
 
 ***********
-5.12. Genre
+5.13. Genre
 ***********
 
 In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [21]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [22]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
@@ -557,7 +566,7 @@ Here is the list of terms you must draw from:
 ----
 
 *********************************
-5.13. Statement of Responsibility
+5.14. Statement of Responsibility
 *********************************
 
 Statements of responsibility describe the persons or corporate bodies responsible for the intellectual or artistic content of a work. This definition should be interpreted as broadly as possible to include any and all entities that contributed to the creation, performance or realization of a work. This is similar to the concept of “authorship” but is intentionally much broader.
@@ -690,7 +699,7 @@ Statement of responsibility can apply to different levels of a given resource:
 ----
 
 **********
-5.14. Date
+5.15. Date
 **********
 
 We want our items to have dates associated with them so that we can understand their significance within historical timelines, both in relation to other literary or historical events, and in relation to each other.  Determining a date may seem simple, but that is not always the case.
@@ -729,7 +738,7 @@ If the information is taken from a source other than one of these sources, this 
 ----
 
 **************
-5.15. Location
+5.16. Location
 **************
 
 Where was a recording made?  Answering this question may provide us with interesting information about where literary events and activities occurred across the country.  We will be using a few methods of capturing location information, and will be entering this data according to a set syntax.  The three primary fields related to location are the **Address** (which refers to the official street address of a location), the **Venue** (that is, the name of the venue where something was recorded), and then, as a recommended field, the **Latitude** and **Longitude** of the location as well as a **URI** for that location.  Having this additional data will enable us to create interesting maps of event and recording locations down the road.
@@ -802,7 +811,7 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 ----
 
 *******************
-5.16. Rights Fields
+5.17. Rights Fields
 *******************
 
 Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. [28]_
@@ -892,7 +901,7 @@ One of the following 13 statements should be specified, using a URL:
 ----
 
 *******************
-5.17. Related Works
+5.18. Related Works
 *******************
 
 If known, please provide the Titles of the books, the full citation with the link to a source for that citation and any other books that the author read from. For example:
@@ -902,7 +911,7 @@ If known, please provide the Titles of the books, the full citation with the lin
 ----
 
 **************
-5.18. Contents
+5.19. Contents
 **************
 
 The contents field will be developed through a process that involves listening, timestamping important moments in the recording, and, at times, research in order to determine correct names and titles relevant to the recording.  This combination of timestamped titles and names will function as the equivalent of a table of contents for a sound recording and may eventually be used to facilitate the online navigation of a recording.
@@ -937,7 +946,7 @@ For more complex structure that includes a hierarchy of labels:
   </item>
  
 ****************************
-5.18.1. Overview and Purpose
+5.19.1. Overview and Purpose
 ****************************
 
 The Contents field serves to describe the audible or audiovisual (AV) content (speech and other sounds, video image) of the audio asset.  By simple analogy, it can be understood as equivalent to the table of contents (TOC) of a book, using time-stamps instead of page numbers, but it has the potential to be much more detailed than a typical TOC, and to be linked to other data sources, if the cataloguer has the time and resources to make it so.  **For the SpokenWeb schema, this field may exist on a continuum from containing no data at all to full transcription and detailed description of the sonic or AV signal, with added Wikidata links, where possible.** In principal, it is always more useful to have some information about what a recording contains than none, and the more information provided the more useful this field will become.  That said, there are particular formatting requirements that we have established for providing information in the Contents field.Some contents information that a cataloguer holds may be more suitable to the Contents Note field than the Contents field, proper, if the information does not conform to the grammar of the field, as outlined in this guide. 
@@ -945,7 +954,7 @@ The Contents field serves to describe the audible or audiovisual (AV) content (s
 Beyond providing basic information about the content of an audio or AV recording, the primary purpose of this descriptive work is to make a recording easier for a user to navigate according to access points of information about the identities of speakers, what has been said, and actions are audibly and/or visibly registered in the recording.  By timestamping such points of information along a timeline of the audio- or AV-documented event, the Contents field may be used to help users move across segments of a recording according to the points of greatest interest to them. It creates unique access points. This approach to documenting the contents of a recording, according to a set syntax, grammar and punctuation, also facilitates searching for, and locating, data points at particular moments within a sound recording and across a wide range of recordings.
 
 *************************************************
-5.18.2. General Process of Creating Contents Data
+5.19.2. General Process of Creating Contents Data
 *************************************************
 
 The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow. [38]_
@@ -1014,7 +1023,7 @@ The three basic degrees of granularity just described correspond roughly to the 
 Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it.
 
 *********************************************************
-5.18.3 Preparatory Decisions Prior to Content Description
+5.19.3 Preparatory Decisions Prior to Content Description
 *********************************************************
 
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
@@ -1061,7 +1070,7 @@ When multiple digital and analog assets are associated with a single event, such
 The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry.  In all cases, the time-stamped Contents description is built around three key elements:  The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label.  Our explanation of the Contents field’s grammar begins with definitions of these three elements.
 
 ********************************************************
-5.18.4. Contents Field Grammar and Controlled Vocabulary
+5.19.4. Contents Field Grammar and Controlled Vocabulary
 ********************************************************
 
 **1. Core Elements of a Time-Stamped Contents Field Description**
@@ -1491,13 +1500,13 @@ Example:
 	**Ex: Ultimatum_Mixdown_Daniel Guimond_U-1_T1_T2_T3_T4_T5_T6_T7_T8.mp3**
 
 ********************
-5.19. Contents Notes
+5.20. Contents Notes
 ********************
 
 Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field.
 
 **************
-5.20. Notes
+5.21. Notes
 **************
 
 Notes allow cataloguers to input additional information regarding the item. There are several different note types that could be applicable: 
@@ -1510,7 +1519,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
   
   **Preservation:** Specific notes about preservation details typically found from third parties such as, who did it, what happened to the object, or extra XML information. 
 ****************
-5.21. References
+5.22. References
 ****************
 
 .. [2]
