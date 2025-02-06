@@ -814,18 +814,18 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 5.17. Rights Fields
 *******************
 
-Rights statements express the copyright status of a Digital Object, as well as information about how you can access and re-use the objects. [28]_
-
-The rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. [29]_ These statements provide a best practice for use by both international, national and regional aggregators of cultural heritage data, and the individual institutions and organizations that contribute data to them. [30]_
+Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects.  The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the Licence field. [28]_
 
 Required Field: **Rights**
 
+Additional Field: **License**
+
 Additional Field: **Rights Note**
 
-**Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights field:
+**Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights and License fields:
 
-  * http://rightsstatements.org/page/1.0/?language=en
-  * https://creativecommons.org/licenses/
+  * Rights statements [29]_
+  * Creative Commons licenses [30]_
 
 One of the following 13 statements should be specified, using a URL:
 
@@ -890,7 +890,7 @@ One of the following 13 statements should be specified, using a URL:
   1. Statements for works that are in copyright (Choose #4 or #5)
   2. Statements for works that are not in copyright (Choose #1, #2 or #3)
   3. Statements for works where the copyright status is unclear or unknown (Choose #6)
-  4. Creative Commons. All Creative Commons licenses and legal tools can only be applied by, or with the permission, from the rights holder.  If the rights holder granted a Creative Commons license (Choose #7, #8, #9, #10, #11, #12, #13)
+  4. Creative Commons. All Creative Commons licenses and legal tools can only be applied by, or with the permission, from the rights holder. If the rights holder granted a Creative Commons license (Choose #7, #8, #9, #10, #11, #12, #13) In addition, select the known Creative Commons license in the License field.
 
 **Example (Unknown/unclear):**
 
@@ -1548,9 +1548,9 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [25] LOC, "Genre/Form Terms"
 .. [26] www.merriam-webster.com/; other dictionaries and common sense
 .. [27] "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
-.. [28]
-.. [29]
-.. [30]
+.. [28] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
+.. [29] http://rightsstatements.org/page/1.0/?language=en
+.. [30] https://creativecommons.org/licenses/
 .. [31] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
 .. [32] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf. 
 .. [33] “Sound Recording.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q5057302. 
