@@ -814,7 +814,7 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 5.17. Rights Fields
 *******************
 
-Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects.  The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the Licence field. [28]_
+The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects.  The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [28]_
 
 Required Field: **Rights**
 
