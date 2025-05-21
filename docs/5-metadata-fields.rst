@@ -258,6 +258,7 @@ Identify the AV Type with either Audio or Video.
   * 7 1/2 ips
   * 15 ips
   * 30 ips
+  * 15/16 ips
 
 ----
 
