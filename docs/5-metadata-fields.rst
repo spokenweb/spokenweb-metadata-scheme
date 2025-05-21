@@ -329,6 +329,7 @@ Where possible, include the following additional information in the Notes field:
   * Digitized file URL
   * Digitzed file path
   * Digitized file name
+  * Public access URL
   * Channels field
   * Sample rate
   * Precision
@@ -342,6 +343,8 @@ Where possible, include the following additional information in the Notes field:
 **Digitized file name: Enter the name of the digital file**
 
 **Digital File Path:** enter the path where the file is currently stored or will eventually be exported.  If there is an existing folder structure for the digitized files, we need to be capturing where in the folder structure the Digitized File currently is.  Alternatively, we need to be capturing where in the folder structure the Digitized File will be placed if it is to be exported out.
+
+**Public Access URL:** enter the URL where the file can be accessed by the public (if applicable).
 
 **Contents and Notes:** these descriptions apply to the individual part(s) of a multiple part item. For example, the Contents field 5.18 applies to the whole item and does not allow for detailed description of individual parts.
 
