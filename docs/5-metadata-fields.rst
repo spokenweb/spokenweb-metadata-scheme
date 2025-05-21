@@ -337,8 +337,12 @@ Where possible, include the following additional information in the Notes field:
   * Size
   * Bit rate
   * Encoding
-  * Content
+  * Contents
   * Notes
+  * Title
+  * Caption
+  * Credit
+  * Content type
 
 **Digitized file name: Enter the name of the digital file**
 
