@@ -131,6 +131,9 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, sub-series website).
 
+**Description:** Enter a description of the series if available.
+
+**Wikidata URL:** Enter relevant Wikidata link(s). 
 
 ----
 
