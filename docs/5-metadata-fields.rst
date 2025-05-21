@@ -427,7 +427,7 @@ Transcribe any handwritten additional information written on the container.
 ----
 
 ************************************
-5.10. Item ID Number/Identifier
+5.10. Source Item ID Number/Identifier
 ************************************
 
 This is an unambiguous reference to the resource within a given context:: 123 (if available).
