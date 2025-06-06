@@ -512,8 +512,8 @@ Here is the list of terms you must draw from:
   
   * Podcast
 
-     * Audio Essay
-     * Narrative
+    * Audio Essay
+    * Narrative
 
   * Reading
 
