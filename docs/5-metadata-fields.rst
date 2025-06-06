@@ -509,6 +509,10 @@ Here is the list of terms you must draw from:
     * Sound poetry
     * Spoken word poetry
     * Sound poetry, Music
+  
+  * Podcast
+  * Podcast: Audio Essay
+  * Podcast: Narrative
 
   * Reading
 
