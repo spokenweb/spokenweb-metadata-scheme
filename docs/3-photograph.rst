@@ -1,9 +1,9 @@
 ####################################
-4. How to Photograph Archival Assets
+3. How to Photograph Archival Assets
 ####################################
 
 **************************************************
-4.1. Technical Specifications (Equipment, Process)
+3.1. Technical Specifications (Equipment, Process)
 **************************************************
 
 If you are able to photograph the archival recordings, you should try to do so at the beginning of your cataloguing process.  Photograph each side of the artifact and its case, as well as any accompanying material containing textual information. Photographs should be in .jpeg or .png file format and have a minimum image width of 500 pixels.  [Add more details on lighting, framing, etc.]
@@ -11,7 +11,7 @@ If you are able to photograph the archival recordings, you should try to do so a
 ----
 
 ***************************************
-4.2. How to name and format image files
+3.2. How to name and format image files
 ***************************************
 
 In taking photos of the archival audio artifacts, you will be generating new data (digital image files) and those files will also need to be named properly for easy use.  Each filename of an image should have the following syntax:
