@@ -330,8 +330,7 @@ Where possible, include the following additional information in the Notes field:
 
     * Issued with illustrated sleeve and liner notes, so liner notes could be entered in this field.
 
-
- **Other:** Add any other descriptive information about the material that you deem relevant.
+**Other:** Add any other descriptive information about the material that you deem relevant.
 
 ----
 
