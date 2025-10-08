@@ -968,10 +968,10 @@ If a link to the item is not available in WorldCat, provide any other link that 
 
 **Examples:**
 
-  Foster, Edward Halsey. "Gay Literature: Poetry and Prose". The Oxford Encyclopedia of American Literature. Jay Parini (ed). Oxford University Press, 2004.\
+  Foster, Edward Halsey. "Gay Literature: Poetry and Prose". The Oxford Encyclopedia of American Literature. Jay Parini (ed). Oxford University Press, 2004.     
   https://www.worldcat.org/title/oxford-encyclopedia-of-american-literature/oclc/769478515&referer=brief_results
 
-  Ward, Geoff. “John Joseph Wieners, poet, Jan. 6th 1934 - March 1st 2002”. The Independent, 15 March 2000. \
+  Ward, Geoff. “John Joseph Wieners, poet, Jan. 6th 1934 - March 1st 2002”. The Independent, 15 March 2000.     
   https://www.independent.co.uk/news/obituaries/john-wieners-9143191.html
 
 
