@@ -868,6 +868,8 @@ Required Field: **Rights**
 
 Additional Field: **License**
 
+Additional field: **Access** Options include Closed, Streaming, Streaming and download. 
+
 Additional Field: **Rights Note**
 
 **Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights and License fields:
@@ -942,7 +944,7 @@ One of the following 13 statements should be specified, using a URL:
 
 **Example (Unknown/unclear):**
 
-  http://spokenweb.ca/sgw-poetry-readings/phyllis-webb-at-sgwu-1966-roy-kiyooka/
+  https://montreal.spokenweb.ca/sgw-poetry-readings/phyllis-webb-at-sgwu-1966-roy-kiyooka/
 
   **Rights:** http://rightsstatements.org/vocab/CNE/1.0/
 
@@ -952,9 +954,30 @@ One of the following 13 statements should be specified, using a URL:
 4.19. Related Works
 *******************
 
-If known, please provide the Titles of the books, the full citation with the link to a source for that citation and any other books that the author read from. For example:
+Related works refers to books or other publications that are either referred to or read from in a literary recording. Citations of works should be provided in the MLA 9th Edition style guide. 
 
-  Gwendolyn MacEwen read from Breakfast for Barbarians (Ryerson, 1966) and poems to be published in The Shadow-Maker (Macmillan, 1969) and a few unknown poems.
+The basic MLA format for a book title is: 
+
+  Author's Last Name, Author's First Name. Title (in Italics). Publisher, Year.
+
+You may refer to the `Purdue OWL <https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html>`__ (Online Writing Lab) for citation instructions for different kinds of publications.
+
+URL: If possible, provide the link to the correct edition of the item as it appears in the `WorldCat library catalogue <https://search.worldcat.org>`_.  
+
+If a link to the item is not available in WorldCat, provide any other link that offers information about a work, or a direct link to the publication or item in question.
+
+**Examples:**
+
+Citation: 
+Foster, Edward Halsey. "Gay Literature: Poetry and Prose". The Oxford Encyclopedia of American Literature. Jay Parini (ed). Oxford University Press, 2004.
+URL:
+https://www.worldcat.org/title/oxford-encyclopedia-of-american-literature/oclc/769478515&referer=brief_results
+
+Citation:
+Ward, Geoff. “John Joseph Wieners, poet, Jan. 6th 1934 - March 1st 2002”. The Independent, 15 March 2000.
+URL:
+https://www.independent.co.uk/news/obituaries/john-wieners-9143191.html
+
 
 ----
 
