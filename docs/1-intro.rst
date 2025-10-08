@@ -3,16 +3,14 @@
 ###############
 
 Welcome to the SpokenWeb metadata cataloguing project!  Broadly speaking, a metadata scheme is a rationalized way of describing a collection with a set of rules according to which a controlled “language” operates. [1]_ In this context, language means an artificial construct defined for the purposes of describing our collections in a systematic and consistent way. 
-
-The following *SpokenWeb Metadata Scheme* consists of two documents: 1) **an Excel spreadsheet** is WHAT needs to be used to enter information about a collection, and 2) **the cataloguing rules (authority control and cataloguing procedures)** are documents designed to explain HOW to enter information in the Excel file.
-    
+  
 ************************************
 1.1. How to Engage with a Collection
 ************************************
 
 Collections can differ from each other significantly.  Some have been born via analog media technologies (tape recorders, for example), some have been “born digital” (recorded as digital files directly onto flash or hard drives), and some may be a mixture of the two.  Some have been processed to some extent already using a different kind of cataloguing or metadata scheme, and others may never have been organized before. The nature and state of a collection, will have an impact on the way and ease with which you are able to catalogue the artifacts and objects in it. In most cases, in order to properly capture the information about the collection you will be describing with the SpokenWeb Metadata Scheme, you will engage in the following activities:
 
-1. You will access and handle the collection and the artifacts through your local library or research center.  You will also require a computer while processing the collection so that you can input your metadata (data about the audio data) into our SpokenWeb Metadata Scheme form.  This form will be a Google Sheet during the testing phase of our processing located here (https://goo.gl/2o6Pqq), and then we will develop an online system with fields that you will use to input your descriptive information.
+1. You will access and handle the collection and the artifacts through your local library or research center.  You will also require a computer while processing the collection so that you can input your metadata (data about the audio data) into one of our cataloguing templates or into Swallow, our metadata management system.
 
 2. Where possible, you will photograph the analogue assets (tapes, reels) and their containers. It will be important to identify and retain images about the collection as a secondary source of information, and these images may also be integrated into digital presentations of the collection down the road.  More information about how to do this appears below in the “Photographing Archival Assets” section.
 
