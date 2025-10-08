@@ -502,7 +502,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 
 This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [19]_
 
-Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact) [20]_:
+Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact):
 
   * Audiobook: A recording of a oral reading of a book designed for commercial distribution and consumption.
   * Broadcast: A recording of a radio broadcast.
@@ -533,10 +533,11 @@ Genre should be chosen from the following controlled vocabulary of terms. [25]_ 
 Here is the list of terms you must draw from:
 
   * Ambient sounds
-  * Autobiographical sound recording
+  * Autobiographical sound recordings
   * Conversation
   * Interview
   * Letter
+  * Meeting
   * Oral history
   * Oral storytelling
   * Music
@@ -572,21 +573,25 @@ Here is the list of terms you must draw from:
 
 **Definitions of genre terms** [26]_
 
+**Ambient sounds:** Recordings of sounds of the surrounding environment external to an audio system that are often recorded separately and mixed into other recordings to enhance live effect.
+
 **Autobiographical sound recordings:** Based on the narrower terms of the LOC subject heading "Autobiographies," this term includes sound recordings of memoirs, confessions, personal memoirs and egodocuments. [31]_
 
-**Conversations:** The informal exchange of ideas and information between two or more people by spoken words.
+**Conversation:** The informal exchange of ideas and information between two or more people by spoken words.
 
-**Interviews:** Recordings of formal meetings at which information is obtained (as by a reporter, radio commentator, or researcher) from a person.
+**Interview:** Recordings of formal meetings at which information is obtained (as by a reporter, radio commentator, or researcher) from a person.
 
-**Letters:** Recordings of written text or extemporaneous speech directed or sent to a person or group of people.
+**Letter:** Recordings of written text or extemporaneous speech directed or sent to a person or group of people.
 
-**Oral histories:** Recorded accounts of historical information about individuals, families, important events, or everyday life, derived through planned interviews.
+**Meeting:** Recordings of research and development-oriented task force and team “business” meetings including planning discussions, project progress reports, and work sessions. Meetings of organizers of literary events or projects discussing their organizational work would also apply.
+
+**Music:** Sonic works produced with musical instruments and/or the human voice that order tones or sounds in succession, in combination, and in temporal relationships.
+
+**Oral history:** Recorded accounts of historical information about individuals, families, important events, or everyday life, derived through planned interviews.
 
 **Oral storytelling:** Oral narrative stories delivered by one or more speaker(s) that may draw on or adapt traditional folk story forms. Storytelling differs from oral histories in that the content is generally told to an audience or community with the purpose of engaging and/or entertaining and/or sharing a lesson or knowledge with them in the delivery of a narrative.  Further, they are not the result of an interviewer-interviewee dynamic, but are delivered by a storyteller who is self-consciously inhabiting that role on his or her own.
 
-**Workshops (seminars):**  Writing workshops, especially creative writing, or other methods and techniques based gatherings, but also "relatively small instructional sessions or classes emphasizing demonstration and practical application of skills and principles in a specialized field or occupation" that can include a seminar, as in academic (graduate) seminar. [39]_
-
-**Performances:** Recordings of creative works designed specifically for oral performance.
+**Performance:** Recordings of creative works designed specifically for oral performance.
 
   **Improvised speech:** Recordings of extemporaneous speech produced in the context of a performance.
 
@@ -596,7 +601,7 @@ Here is the list of terms you must draw from:
 
 **Readings:** Recordings of the recitation of a literary work.
 
-  **Drama:** a composition in verse or prose intended to portray life or character or to tell a story usually involving conflicts and emotions through action and dialogue and typically designed for theatrical performance.
+  **Drama:** A composition in verse or prose intended to portray life or character or to tell a story usually involving conflicts and emotions through action and dialogue and typically designed for theatrical performance.
 
   **Fiction:** Readings of literature in the form of prose, especially short stories and novels, that describes imaginary events and people.
 
@@ -604,13 +609,7 @@ Here is the list of terms you must draw from:
   
   **Non-Fiction:** A wide-range of read materials including criticism, biography, history, etc.
 
-**Sounds:** Non-speech sounds.
-
-  **Ambient sounds:** Recordings of sounds of the surrounding environment external to an audio system that are often recorded separately and mixed into other recordings to enhance live effect.
-
-  **Music:** Sonic works produced with musical instruments and/or the human voice that order tones or sounds in succession, in combination, and in temporal relationships.
-
-  **Soundscapes:**  Compositions that consist of natural or synthetic sounds from specific locations that are sometimes manipulated electronically.
+**Soundscapes:**  Compositions that consist of natural or synthetic sounds from specific locations that are sometimes manipulated electronically.
 
 **Speeches:** A formal address or discourse delivered to an audience.
 
@@ -623,6 +622,8 @@ Here is the list of terms you must draw from:
   **Talks:** Recordings that feature talks or lectures by individual speakers or experts.
 
 **Text-sound compositions:** Musical compositions consisting primarily of electronically and/or computer-altered or computer synthesized spoken words.
+
+**Workshops (seminars):**  Writing workshops, especially creative writing, or other methods and techniques based gatherings, but also "relatively small instructional sessions or classes emphasizing demonstration and practical application of skills and principles in a specialized field or occupation" that can include a seminar, as in academic (graduate) seminar. [39]_
 
 ----
 
@@ -649,28 +650,13 @@ Special attention should be paid to include the different kinds of contribution 
 
 Responsibility can be extended to include not just voices/speakers on a given recording, but other creators/contributors not present. For example, a performance of a poem by another author would constitute a kind of responsibility.
 
-**Definitions** [27]_
+This schema includes two categories of responsibility [27]_ :
 
-+--------------------------------+-----------------------------------------+------------------+
-| **Field Name**                 | **Description**                         | **Usage**        |
-+--------------------------------+-----------------------------------------+------------------+
-| Creator                        | Creators are the primary persons or     | * Required       |
-| (`dc: creator <http://purl.org | bodies associated with the creation of  | * Repeatable     |
-| /dc/elements/1.1/creator>`__)  | the content.                            |                  |
-+--------------------------------+-----------------------------------------+------------------+
-| Contributor (`dc: contributor  | Contributors are persons or bodies      | * Conditional    |
-| <http://purl.org/dc/elements/  | associated with the item but not        |   (mandatory     |
-| 1.1/contributor>`__)           | considered primary to the creation of   |   if present)    |
-|                                | its content. Examples of this would be  | * Required       |
-|                                | performers in a band or opera,          |                  |
-|                                | conductor, arranger, cinematographer,   |                  |
-|                                | and choreographer.                      |                  |
-+--------------------------------+-----------------------------------------+------------------+
-| Role (`MODS: role term         | Designates the relationship (role) of   | * Conditional    |
-| <http://https://www.loc.gov/   | the entity recorded in name to the      |   (mandatory     |
-| standards/mods/userguide/      | resource described in the record.       |   if present)    |
-| name.html#roleterm>`__)        |                                         | * Non-Repeatable |
-+--------------------------------+-----------------------------------------+------------------+
+**Creators:** those persons or bodies responsible for the creation, organization, or programming of the recorded event such as a Series Organizer or Producer, and/or the creation of the recorded asset, such as a Recordist;
+
+**Contributors:** Normally, contributors would include all those who have participated in any capacity, such as a Reader, Performer, Narrator, Interviewer, Interviewee, Speaker, etc. 
+
+Normally there will be a limited number of Creators and an indefinite number of Contributors. Both Creators and Contributors may have one or more assigned Roles.
 
 **Creator and Contributor Roles**
 
@@ -681,12 +667,11 @@ Assign roles to both creators and contributors where known. Role terms should be
   •	Narrator
   •	Presenter
   •	Interviewer
+  •	Interviewee
   •	Producer
   •	Publisher
   •	Distributor
   •	Manufacturer
-  •	Producer
-  •	Publisher
   •	Distributor
   •	Recordist
   •	Series organizer
@@ -697,23 +682,25 @@ Assign roles to both creators and contributors where known. Role terms should be
   •	Storyteller
   •	Elder
   •	Donor
+  •	Host
+  •	Sound designer
+  •	Transcriber
 
 A creator or contributor may only have 1 role listed/entry. For repeated roles (e.g. author and series organizer), create separate creator or contributor fields with a role as required.
-
-Creator/Contributor role is associated with a particular nation, use look-up field to select Creator/Contributor Nation.
 
 **Creator and Contributor URI Fields**
 Authorized names of creators and contributors should be drawn from established authority lists where possible.
 
   * `Library of Congress Name Authority File <http://id.loc.gov/authorities/names.html>`__
-  * `Canadiana Authorities <https://www.collectionscanada.gc.ca/canadiana-authorities/index/index?lang=eng>`__
+  * `Wikidata <https://www.wikidata.org/wiki/Wikidata:Main_Page>`__
   * `Dictionary of Canadian Biography <http://www.biographi.ca/en/index.php>`__
   * `Virtual Internet Authority File (VIAF) <https://viaf.org/>`__
 
-Enter URL to the applicable authority record in the corresponding URI fields.  For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092.
+Enter URL to the applicable authority record in the corresponding URI fields.  For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092. For WikiData, provide the QID, for example, search for Leonard Cohen and then copy the correct URL: https://www.wikidata.org/wiki/Q1276. 
+
+**Creator / Contributor Nation:** Use this look-up field in Swallow to select Creator/Contributor Nation. The field is used to identify the specific Indigenous Nation(s) with which a creator is affiliated, drawing terminology directly from the First Nations, Métis, and Inuit Indigenous Ontology (FNMIIO) [42]. Multiple entries are supported, ensuring creators/contributors can be described in relation to all of their community affiliations.
 
 **Data Entry Syntax**
-
   * In both the creator and contributor fields the following format should be used:  Last, First
   * For each creator and contributor fields, enter YYYY (birth)-YYYY (death/ - for living creators/contributors). Where exact dates are not known, add a question mark, e.g. 194?-2007
   * Where a creator or contributor is unknown, record as Unknown [role], e.g. Unknown Speaker
@@ -1608,7 +1595,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [24] LOC, "Genre/Form Terms"
 .. [25] LOC, "Genre/Form Terms"
 .. [26] www.merriam-webster.com/; other dictionaries and common sense
-.. [27] "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/.  & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
+.. [27] Our schema draws from the definitions of Creator and Contributor found in the "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/. & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
 .. [28] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
 .. [29] http://rightsstatements.org/page/1.0/?language=en
 .. [30] https://creativecommons.org/licenses/
