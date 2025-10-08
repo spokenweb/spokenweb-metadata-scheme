@@ -230,16 +230,15 @@ Identify the AV Type with either Audio or Video.
   Use this format:
     Thh:mm:ss
 
-  For example:
+For example:
 
-    90 minutes = T01:30:00
-    45 minutes = T00:45:00
-    3 minutes and 21 seconds = T00 :03 :21
+ 90 minutes = T01:30:00
+   45 minutes = T00:45:00
+   3 minutes and 21 seconds = T00 :03 :21
 
 **Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension.  For example, common sizes are:
 
-
-    Tape:
+Tape:
 
     * 1/8 inch (audio cassette tapes)
     * 1/4 inch (most portable reel to reel tapes)
@@ -254,9 +253,9 @@ Identify the AV Type with either Audio or Video.
     * 10 inch (often 78s were in this diameter,
     * 7 inch (the diameter of traditional “45s”
 
-*Side:*  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to.  So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field.  If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
+**Side:**  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to.  So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field.  If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
 
-*Playing Speed:*  Give the playback or playing speed of the physical unit as follows [11]_:
+**Playing Speed:**  Give the playback or playing speed of the physical unit as follows [11]_:
 
   For analogue discs: give the playback speed in revolutions per minute (rpm). Examples of common playback speeds for analogue discs follow:
 
@@ -333,7 +332,7 @@ Where possible, include the following additional information in the Notes field:
     * Issued with illustrated sleeve and liner notes, so liner notes could be entered in this field.
 
 
-**Other:** Add any other descriptive information about the material that you deem relevant.
+ **Other:** Add any other descriptive information about the material that you deem relevant.
 
 ----
 
