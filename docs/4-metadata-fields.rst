@@ -280,9 +280,9 @@ Tape:
 
 Where possible, include the following additional information in the Notes field:
 
-  **Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example:  Half-track. 2 track. 4 track,  24 track [12]_
+**Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example:  Half-track. 2 track. 4 track,  24 track [12]_
 
-  **Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [13]_. Some types of playback mode follow [14]_:
+**Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [13]_. Some types of playback mode follow [14]_:
 
     * Mono (1 channel)
     * Stereo  (2 channels, or “hi-fi”)
@@ -290,19 +290,19 @@ Where possible, include the following additional information in the Notes field:
     * quadrophonic  (4 channels)
     * surround sound
 
-  **Equalization (EQ):** Indicate if EQ (equalization) adjustments have been applied to the audio. If the parameters of the adjustments applied to the frequency response of the signal are known, that information can be indicated, as well.
+**Equalization (EQ):** Indicate if EQ (equalization) adjustments have been applied to the audio. If the parameters of the adjustments applied to the frequency response of the signal are known, that information can be indicated, as well.
 
-  **Generations:** Distinguish between different generations of material.
+**Generations:** Distinguish between different generations of material.
 
     Example:
 
     * Copy from an original loaned by UTARMS
 
-  **Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
+**Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
 
-  **Sound Quality:** Based on broad categories of clarity and audibility, grade the audio quality of the recording as either Excellent, Good, or Poor.
+**Sound Quality:** Based on broad categories of clarity and audibility, grade the audio quality of the recording as either Excellent, Good, or Poor.
 
-  **Physical condition:** Make notes on the physical condition of the unit being described if that condition affects use or understanding of the unit.
+**Physical condition:** Make notes on the physical condition of the unit being described if that condition affects use or understanding of the unit.
 
     Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [15]_
 
@@ -314,7 +314,6 @@ Where possible, include the following additional information in the Notes field:
     * Several tracks scratched through by operator
     * Recorded with a constant audible hum
     * Speed varies due to weak batteries at time of original recording
-
 **Conservation:** If the unit being described has received any specific conservation treatment, briefly indicate the nature of the work.
 
 **Other physical description:**
