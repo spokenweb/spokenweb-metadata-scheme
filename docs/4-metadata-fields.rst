@@ -338,33 +338,56 @@ Where possible, include the following additional information in the Notes field:
 4.6. Digital Items Fields
 *************************
 
-  * Digitized file URL
-  * Digitzed file path
   * Digitized file name
+  * Digitzed file path
+  * Digitized file URL
   * Public access URL
-  * Channels field
+  * Contents
+  * Notes
+  * Channels 
   * Sample rate
   * Precision
   * Duration HH:MM:SS
   * Size
   * Bit rate
   * Encoding
-  * Contents
-  * Notes
   * Title
   * Caption
   * Credit
   * Content type
+  * Featured
 
-**Digitized file name: Enter the name of the digital file**
+**Digitized file name:** Enter the name of the digital file
 
-**Digital File Path:** enter the path where the file is currently stored or will eventually be exported.  If there is an existing folder structure for the digitized files, we need to be capturing where in the folder structure the Digitized File currently is.  Alternatively, we need to be capturing where in the folder structure the Digitized File will be placed if it is to be exported out.
+**Digitized file path:** Enter the path where the file is currently stored or will eventually be exported. If there is an existing folder structure for the digitized files, we need to be capturing where in the folder structure the Digitized File currently is. Alternatively, we need to be capturing where in the folder structure the Digitized File will be placed if it is to be exported out.
+
+**Digitized file URL:** Enter the URL where the file is stored.
 
 **Public Access URL:** enter the URL where the file can be accessed by the public (if applicable).
 
-**Contents and Notes:** these descriptions apply to the individual part(s) of a multiple part item. For example, the Contents field 5.18 applies to the whole item and does not allow for detailed description of individual parts.
+**Contents and Notes:** these descriptions apply to the individual part(s) of a multiple part item. For example, the Contents field 4.18 applies to the whole item and does not allow for detailed description of individual parts.
 
-A section for Content Type is used to indicate the item as either: 
+**Channels:** The number of audio data streams, for example, a mono recording of a microphone has 1 channel.
+
+**Sample rate:** The sample rate is measured in hertz (Hz) and represents the number of digital samples captured per second in order to represent the audio waveform. [41]
+
+**Precision (bit depth):** The number of bits of information in each sample, e.g. 16 bit, 24 bit. 
+
+**Duration:** Use the format HH:MM:SS (Hours:Minutes:Seconds) to enter the duration if applicable.
+
+**Size:** The size of the digital file in kilobytes, megabytes, or gigabytes. E.g. 1.66 GB
+
+**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). [41]
+
+**Encoding:** The algorithmic process of transforming analog information into digital form. [41] Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
+
+**Title:** The title of the digital image file.
+
+**Caption:** A short description and/or explanation of the content of a digital image file.
+
+**Credit:** List the people or institutions responsible for the production of the image, including their roles (i.e. photographer, designer, painter, etc.).
+
+A section for **Content Type** is used to indicate the item as either: 
 
   **Sound Recording:** process of electrical or mechanical inscription of sound waves [33]_
   
@@ -377,6 +400,8 @@ A section for Content Type is used to indicate the item as either:
   **Document:** preserved information [37]_ 
   
   **Artefact:** artifact created by humans which gives information about the culture of its creator and users [38]_
+
+**Featured:** If you have more than one image you can identify the file to be used as the main visual link to the record on a frontend web application.
 
 ----
 
