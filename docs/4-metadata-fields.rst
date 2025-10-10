@@ -1014,14 +1014,14 @@ As you produce your timestamped contents description of the recording, you shoul
 
 **Nested Timestamping**
 
-We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40].
+We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40]_.
 
 **Degrees of Granularity**
 
 As already mentioned, the time-stamped contents field may range in granularity of description from 
 
   • minimal timestamping of speakers or sound events, 
-  • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see Principle of Keywords_), 
+  • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see `Principle of Keywords`_), 
   • to  complete time-stamped speaker identification, title identification, non-speech sound events, content-originating keywords, and full transcription of all       speech content.
 
 The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool <http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`__.
@@ -1035,7 +1035,7 @@ Normally, all entries of a specific collection will be described at the same lev
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
 
 **1. Granularity of Description**
-Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see Principle of Keywords_).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
+Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see `Principle of Keywords`_).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
   
 If resources are available, and more detailed, timestamped description seems justified, then the cataloguer(s) should decide how granular the description will be. In making this decision it will be useful to ask yourself which of the following kinds of information are a priority, and feasible :
 	
