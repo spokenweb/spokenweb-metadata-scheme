@@ -1351,6 +1351,7 @@ Examples:
 	[recording of event continues on tape 2, file WM100499_02.WAV]
 
 .. _Principle of Keywords:
+**Principle of Keywords**
 
 Keywords may be used to reflect content in lieu of a full transcript. Keywords should be words or phrases inherent to the content and not interpretive additions. In other words, they should be **derived from vocabulary found in the audible content itself.** While there is no limit to how many of the words may be used (ranging from none to full transcript), keywords should be selected on the basis of their utility in signalling an important individual, object, point, theme, idea, or subject raised in the passage. Such might include the name of a person, organization, or title of a work (Atwood, Black Mountain Group or Night Poem), a generic form or place (sonnet, lyrical, Concordia University or Montreal), or an adjective, verb, or description that captures tone or scope (humorous, ironic). Proper nouns, which include names, titles, places, and particular things, will typically warrant the designation of Keyword, and a basic hierarchy for the parameters of keywording in a description may move from names of individuals, to titles of works, to place names, to other categories of designation. 
 
