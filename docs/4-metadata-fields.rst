@@ -983,108 +983,45 @@ If a link to the item is not available in WorldCat, provide any other link that 
 4.20. Contents
 **************
 
-The contents field will be developed through a process that involves listening, timestamping important moments in the recording, and, at times, research in order to determine correct names and titles relevant to the recording.  This combination of timestamped titles and names will function as the equivalent of a table of contents for a sound recording and may eventually be used to facilitate the online navigation of a recording.
+The contents field will be developed through a process that involves listening, timestamping important moments in the recording, and, at times, research in order to determine correct names and titles relevant to the recording. This combination of timestamped titles and names will function as the equivalent of a table of contents for a sound recording and may eventually be used to facilitate the online navigation of a recording.
 
-The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information so that it can be pasted into the content notes field.  If you are using a Mac computer, Transcriva is a good software to use for this purpose, although there are many other transcription software programs that will do the trick.  You may also wish to use a system that has a foot control to pause as you’re typing.
+The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information so that it can be pasted into the content notes field. 
 
-As you are producing your timestamped contents description of the recording you should timestamp and thus signal the start and end of each event of discrete significance.  For our purposes this will usually mean changes in speaker and discrete literary works read.  For example, If you are listening to a reading that has someone introducing the reader, you would first timestamp the beginning of the introduction and title this with the term Introduction and then the name of the Introducer.  For example, Warren Tallman introduces Robert Creely. Then, when the reader steps up to the microphone you would indicate that with a new timestamp followed by the name of the reader.  If the reader is introducing a poem, you would follow his/her name by Introduces and then the title of the poem, for example, Dorothy Livesay introduces Outrider.  Then when the reading of that actual poem begins you would timestamp that moment with the name of the reader and the title of the poem, so, Dorothy Livesay reads Outrider
-
-A proper timestamping tool is in development; however, if you choose to do timestamping manually, format the timestamps following XML as below. NOTE: Bold text or text with other RTF styles applied in a custom editor, will just be saved as text. For a simple series of timestamps:
-
-.. code-block:: xml
-
-  <item label="Imaginary Recording">
-    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-  </item>
-
-For more complex structure that includes a hierarchy of labels:
-
-.. code-block:: xml
-
-  <item label="Multiple Events on One Imaginary Recording">
-    <div label="Part 1: Andrzej Busza Reading from Znaki Wodne">
-      <span label="Rak" begin="00:00:08.00" end="00:01:08.00"/>
-    	<span label="Ryby" begin="00:01:09.00" end="00:02:08.00"/>
-    </div>
-     <div label="Part II: Andrzej Busza Reading from Scenes from the life of Laquedem">
-      <span label="Panavision" begin="00:02:58.00" end="00:04:08.00"/>
-    	<span label="Native Realm" begin="00:04:18.00" end="00:06:08.00"/>
-    </div>
-  </item>
+As you are producing your timestamped contents description of the recording you should timestamp and thus signal the start and end of each event of discrete significance. For our purposes this will usually mean changes in speaker and discrete literary works read. For example, If you are listening to a reading that has someone introducing the reader, you would first timestamp the beginning of the introduction and title this with the term Introduction and then the name of the Introducer. For example, Warren Tallman introduces Robert Creely. Then, when the reader steps up to the microphone you would indicate that with a new timestamp followed by the name of the reader. If the reader is introducing a poem, you would follow his/her name by Introduces and then the title of the poem, for example, Dorothy Livesay introduces Outrider. Then when the reading of that actual poem begins you would timestamp that moment with the name of the reader and the title of the poem, so, Dorothy Livesay reads Outrider.
  
 ****************************
 4.20.1. Overview and Purpose
 ****************************
 
-The Contents field serves to describe the audible or audiovisual (AV) content (speech and other sounds, video image) of the audio asset.  By simple analogy, it can be understood as equivalent to the table of contents (TOC) of a book, using time-stamps instead of page numbers, but it has the potential to be much more detailed than a typical TOC, and to be linked to other data sources, if the cataloguer has the time and resources to make it so.  **For the SpokenWeb schema, this field may exist on a continuum from containing no data at all to full transcription and detailed description of the sonic or AV signal, with added Wikidata links, where possible.** In principal, it is always more useful to have some information about what a recording contains than none, and the more information provided the more useful this field will become.  That said, there are particular formatting requirements that we have established for providing information in the Contents field.Some contents information that a cataloguer holds may be more suitable to the Contents Note field than the Contents field, proper, if the information does not conform to the grammar of the field, as outlined in this guide. 
+The Contents field serves to describe the audible or audiovisual (AV) content (speech and other sounds, video image) of the audio asset. By simple analogy, it can be understood as equivalent to the table of contents (TOC) of a book, using time-stamps instead of page numbers, but it has the potential to be much more detailed than a typical TOC, and to be linked to other data sources, if the cataloguer has the time and resources to make it so. **For the SpokenWeb schema, this field may exist on a continuum from containing no data at all to full transcription and detailed description of the sonic or AV signal, with added Wikidata links, where possible**. In principal, it is always more useful to have some information about what a recording contains than none, and the more information provided the more useful this field will become. That said, there are particular formatting requirements that we have established for providing information in the Contents field.Some contents information that a cataloguer holds may be more suitable to the Contents Note field than the Contents field, proper, if the information does not conform to the grammar of the field, as outlined in this guide.
 
-Beyond providing basic information about the content of an audio or AV recording, the primary purpose of this descriptive work is to make a recording easier for a user to navigate according to access points of information about the identities of speakers, what has been said, and actions are audibly and/or visibly registered in the recording.  By timestamping such points of information along a timeline of the audio- or AV-documented event, the Contents field may be used to help users move across segments of a recording according to the points of greatest interest to them. It creates unique access points. This approach to documenting the contents of a recording, according to a set syntax, grammar and punctuation, also facilitates searching for, and locating, data points at particular moments within a sound recording and across a wide range of recordings.
+Beyond providing basic information about the content of an audio or AV recording, the primary purpose of this descriptive work is to make a recording easier for a user to navigate according to access points of information about the identities of speakers, what has been said, and actions are audibly and/or visibly registered in the recording. By timestamping such points of information along a timeline of the audio- or AV-documented event, the Contents field may be used to help users move across segments of a recording according to the points of greatest interest to them. It creates unique access points. This approach to documenting the contents of a recording, according to a set syntax, grammar and punctuation, also facilitates searching for, and locating, data points at particular moments within a sound recording and across a wide range of recordings.
+
 
 *************************************************
 4.20.2. General Process of Creating Contents Data
 *************************************************
 
-The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow. [38]_
+The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow.
 
-While Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents, there are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets. [38]_ See: “Comparison of Our schema accommodates either Linear or Nested approaches to timestamping."  A Linear approach timestamps sonic or AV events as sequential points on a line.  A Nested approach may introduce hierarchies between sonic events, so that a series of smaller events can be framed within a larger set of labelled categories.
+There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets. [38] Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
+
+Our schema accommodates either Linear or Nested approaches to timestamping. A Linear approach timestamps sonic or AV events as sequential points on a line. A Nested approach may introduce hierarchies between sonic events, so that a series of smaller events can be framed within a larger set of labelled categories. 
 
 **Linear Timestamping**
-  
-As you produce your timestamped contents description of the recording, you should timestamp and thus signal the start of each discrete event of significance. For our purposes this will usually mean changes in speaker (as in a conversation or interview); changes in reader and discrete literary works read, and possibly sounds of audience response such as applause and laughter (as in a poetry reading event); changes in scene or significant physical actions (in the case of video documentation);  and, other sound and AV events that seem to warrant their own timestamped segment. In the linear timestamping mode, timestamped segments function on a continuous line of discrete descriptions, and subsegments are not nested within larger ones. In other words, if an action occurs in the middle of an ongoing action (say, spontaneous audience laughter in the middle of the reading of a poem, the dropping of a wine glass during a recorded conversation), the interrupting action would be labeled as its own described event (the laughter, the glass breaking), and then the description of the previous event (the reading of that single poem, the thread of the conversation) would resume at the next time stamp.  No explicit hierarchy is established between the time-stamped events in this approach. 
+
+As you produce your timestamped contents description of the recording, you should timestamp and thus signal the start of each discrete event of significance. For our purposes this will usually mean changes in speaker (as in a conversation or interview); changes in reader and discrete literary works read, and possibly sounds of audience response such as applause and laughter (as in a poetry reading event); changes in scene or significant physical actions (in the case of video documentation); and, other sound and AV events that seem to warrant their own timestamped segment. In the linear timestamping mode, timestamped segments function on a continuous line of discrete descriptions, and subsegments are not nested within larger ones. In other words, if an action occurs in the middle of an ongoing action (say, spontaneous audience laughter in the middle of the reading of a poem, the dropping of a wine glass during a recorded conversation), the interrupting action would be labeled as its own described event (the laughter, the glass breaking), and then the description of the previous event (the reading of that single poem, the thread of the conversation) would resume at the next time stamp. No explicit hierarchy is established between the time-stamped events in this approach.
 
 **Nested Timestamping**
-  
-The SpokenWeb team at the University of Alberta works with a nested timestamping format through ERA A+V. This platform allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
 
-The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
-
-In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
-
-A full tutorial for working with ERA A+V’s graphical XML editor is available `here <https://wiki.dlib.indiana.edu/display/VarVideo/Adding+Structure+to+Files+Using+the+Graphical+XML+Editor>`__.
-
-Below is a simple series of timestamps represented as XML:
-
-.. code-block:: xml
-
-  <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-      <Div label="Margaret Atwood">
-          <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
-          <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
-          <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
-          <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
-          <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
-          <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
-          <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
-          <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
-          <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
-          <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-      </Div>
-
-      <Div label="Dorothy Livesay">
-          <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-          <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-          <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-          <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-          <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-      </Div>
-  </Item>
-
-.. code-block:: xml
-
-  <item label="Imaginary Recording of Dorothy Livesay">
-    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-  </item>
+We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40].
 
 **Degrees of Granularity**
 
 As already mentioned, the time-stamped contents field may range in granularity of description from 
 
   • minimal timestamping of speakers or sound events, 
-  • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see “Principle of Keywords” [link]), 
+  • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see Principle of Keywords_), 
   • to  complete time-stamped speaker identification, title identification, non-speech sound events, content-originating keywords, and full transcription of all       speech content.
 
 The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool <http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`__.
@@ -1098,7 +1035,7 @@ Normally, all entries of a specific collection will be described at the same lev
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
 
 **1. Granularity of Description**
-Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see “Principle of Keywords” [link]).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
+Depending on human and other resources available, and the cataloguing team’s sense of the relative usefulness of the kind of description that would be most useful for research and teaching with a collection, the cataloguers may decide that only a very basic description of the contents of a recording is necessary or possible. Ideally, this would provide at least some basic information about what the recording contains, such as the name(s) of reader(s) or speaker(s), the titles of works read, and/or a brief list of Keywords capturing subject matter content spoken in the audio itself (see Principle of Keywords_).  In its most basic form, such information would be provided without timestamps but simply as a general description of a recording’s content without intent to identify “where,” or “when,” in the recording particular audible or visible events occur. This approach might be taken for a collection that consists of a very large number of recordings, or if the complexity of the content is such that more detailed, timestamped description is deemed out of scope with the resources available for cataloguing the collection.  
   
 If resources are available, and more detailed, timestamped description seems justified, then the cataloguer(s) should decide how granular the description will be. In making this decision it will be useful to ask yourself which of the following kinds of information are a priority, and feasible :
 	
@@ -1413,7 +1350,7 @@ Examples:
 	02:11:45
 	[recording of event continues on tape 2, file WM100499_02.WAV]
 
-**Principle of Keywords**
+.. **Principle of Keywords**
 
 Keywords may be used to reflect content in lieu of a full transcript. Keywords should be words or phrases inherent to the content and not interpretive additions. In other words, they should be **derived from vocabulary found in the audible content itself.** While there is no limit to how many of the words may be used (ranging from none to full transcript), keywords should be selected on the basis of their utility in signalling an important individual, object, point, theme, idea, or subject raised in the passage. Such might include the name of a person, organization, or title of a work (Atwood, Black Mountain Group or Night Poem), a generic form or place (sonnet, lyrical, Concordia University or Montreal), or an adjective, verb, or description that captures tone or scope (humorous, ironic). Proper nouns, which include names, titles, places, and particular things, will typically warrant the designation of Keyword, and a basic hierarchy for the parameters of keywording in a description may move from names of individuals, to titles of works, to place names, to other categories of designation. 
 
@@ -1629,3 +1566,44 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [37] “Document.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q49848. 
 .. [38] “Cultural Artifact.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q1791627. 
 .. [39] “Art & Architecture Thesaurus Full Record Display (Getty Research).” n.d. Www.getty.edu. Accessed October 3, 2021. http://www.getty.edu/vow/AATFullDisplay?find=workshop&logic=AND¬e=&subjectid=300069765.
+.. [40] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
+
+The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
+
+In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
+
+Below is a simple series of timestamps represented as XML:
+
+.. code-block:: xml
+
+  <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
+      <Div label="Margaret Atwood">
+          <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
+          <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
+          <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
+          <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
+          <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
+          <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
+          <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
+          <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
+          <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
+          <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
+      </Div>
+
+      <Div label="Dorothy Livesay">
+          <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
+          <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
+          <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
+          <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
+          <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
+      </Div>
+  </Item>
+
+.. code-block:: xml
+
+  <item label="Imaginary Recording of Dorothy Livesay">
+    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
+    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
+    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
+  </item>
+
