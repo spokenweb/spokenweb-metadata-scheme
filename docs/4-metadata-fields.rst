@@ -1026,7 +1026,7 @@ As already mentioned, the time-stamped contents field may range in granularity o
 
 The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool <http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`__.
 
-Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it.
+Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it..
 
 *********************************************************
 4.20.3 Preparatory Decisions Prior to Content Description
