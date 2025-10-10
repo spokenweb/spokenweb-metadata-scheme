@@ -1024,7 +1024,7 @@ As already mentioned, the time-stamped contents field may range in granularity o
   • to more robust time-stamped identification of speakers, titles, non-speech sound events, and content-originating keywords (see `Principle of Keywords`_), 
   • to  complete time-stamped speaker identification, title identification, non-speech sound events, content-originating keywords, and full transcription of all       speech content.
 
-The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by guidelines for the `OHMS oral history interview indexing tool <http://http://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`__.
+The three basic degrees of granularity just described correspond roughly to the “three levels of indexing” outlined by the `guidelines for oral history indexing <https://ohda.matrix.msu.edu/2014/11/indexing-interviews-in-ohms/>`_ of the IMLS Oral History Metadata Synchronizer tool.
 
 Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it..
 
@@ -1091,7 +1091,7 @@ Example:
 	
 **A) The Speaker or Descriptor (short name: Descriptor)**
 
-	This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp 		attributed to them. Stage names and aliases function like full names. Some software (like Transcriva) facilitates uniformity through a list of “associated 	people” that can be assigned to timestamps from a drop-down menu. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
+	This first element identifies the agent behind the time-stamped sound. When you know the full name of a speaker, repeat it for every discreet timestamp attributed to them. Stage names and aliases function like full names. Ideally, the name of a speaker should correspond to a contributor listed in Swallow. To help with linkability, you can note aliases in the speaker’s contributor field. 
 
 	When several individuals perform under one name, that group name should be the recurring Speaker. If individual group members’ names are known, they can be listed in square brackets in the first timestamp (but do not need to be listed thereafter). If a single, identified group member speaks around the performance, the timestamp should be attributed to the individual. 
 
@@ -1174,7 +1174,7 @@ For sounds made by specific but unknown individuals from the audience, the chose
 	| 00:33:09
 	| Addresses Warren Tallman
 
-If a notable sound cannot be attributed to a particular agent, the speaker should be named “Unknown.” For cataloguers working with Transcriva, simply leave the speaker blank as this will become “Unknown” upon export. Most often this will apply to the label “Ambient Sound.” If the cataloguer wishes, any additional remarks about the nature or quality of the sound can be written between square brackets. This formula can also be used for notable moments absent of sound, using instead the label “Silence”.
+If a notable sound cannot be attributed to a particular agent, the speaker should be named “Unknown.” Most often this will apply to the label “Ambient Sound.” If the cataloguer wishes, any additional remarks about the nature or quality of the sound can be written between square brackets. This formula can also be used for notable moments absent of sound, using instead the label “Silence”.
 
   Examples:
 	
@@ -1356,7 +1356,7 @@ Examples:
 
 Keywords may be used to reflect content in lieu of a full transcript. Keywords should be words or phrases inherent to the content and not interpretive additions. In other words, they should be **derived from vocabulary found in the audible content itself.** While there is no limit to how many of the words may be used (ranging from none to full transcript), keywords should be selected on the basis of their utility in signalling an important individual, object, point, theme, idea, or subject raised in the passage. Such might include the name of a person, organization, or title of a work (Atwood, Black Mountain Group or Night Poem), a generic form or place (sonnet, lyrical, Concordia University or Montreal), or an adjective, verb, or description that captures tone or scope (humorous, ironic). Proper nouns, which include names, titles, places, and particular things, will typically warrant the designation of Keyword, and a basic hierarchy for the parameters of keywording in a description may move from names of individuals, to titles of works, to place names, to other categories of designation. 
 
-Examples:
+**Examples:**
 
 In the following transcription, the words that are in bold represent terms that might be selected as keywords if the approach to description involves keywording rather than transcription.
 
@@ -1511,7 +1511,7 @@ Example:
 4.21. Contents Notes
 ********************
 
-Tags or short description of the reading should be recorded here. Any idiosyncratic information should be recorded in this field.
+A short description or abstract of the contents of the recording should be provided here. Any other information concerning the AV content that is not included in the Contents field may be added here, as well. Include information about the transcription process, including the tools used. If AI transcription software was used, we require that the outputs be human-verified. Please document your process in this field.
 
 **************
 4.22. Notes
@@ -1526,6 +1526,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
   **Cataloguer:** A note on the different people involved in cataloguing the item or new cataloguers who have taken over the cataloguing of the item 
   
   **Preservation:** Specific notes about preservation details typically found from third parties such as, who did it, what happened to the object, or extra XML information. 
+
 ****************
 4.23. References
 ****************
