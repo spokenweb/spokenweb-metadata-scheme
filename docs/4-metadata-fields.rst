@@ -43,7 +43,7 @@ Below are the metadata guidelines for each classification level.
 4.2.2 Collection
 ================
 
-**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in front end applications. 
+**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
 
 If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
 
@@ -59,7 +59,7 @@ Example: Christopher Hand, Zeke’s Gallery Montreal Reading Series, 2004-2007, 
 
 **Contributing Unit:** Enter the Contributing Unit, for example, Collections and Rare Books (if available).
 
-**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_
+**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
 
 **Source Collection Description** 
 
@@ -92,7 +92,7 @@ Copy/paste source collection description from online library catalogue into the 
 4.2.3 Series
 ============
 
-A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [3]_
+A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [4]_
 
 SpokenWeb sometimes uses series to capture the way in which reading series have been named and branded.
 
@@ -140,9 +140,9 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
 **General Guidelines:**
 
-  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
+  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [5]_
   * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event.
-  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
+  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [6]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [7]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
@@ -185,7 +185,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot ((jason.camlot@concordia.ca). [6]_
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot ((jason.camlot@concordia.ca). [8]_
 
   * Reel to Reel
   * Cassette
@@ -204,7 +204,7 @@ Identify the AV Type with either Audio or Video.
   * MiniDV
  
 
-**Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [7]_:
+**Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [9]_:
 
   * Aluminum
   * Magnetic Disk
@@ -399,7 +399,7 @@ A section for **Content Type** is used to indicate the item as either:
   
   **Document:** preserved information [20]_ 
   
-  **Artefact:** artifact created by humans which gives information about the culture of its creator and users [20]_
+  **Artefact:** artifact created by humans which gives information about the culture of its creator and users [21]_
 
 **Featured:** If you have more than one image you can identify the file to be used as the main visual link to the record on a frontend web application.
 
@@ -409,7 +409,7 @@ A section for **Content Type** is used to indicate the item as either:
 4.7. Title
 **********
 
-A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [21]_.
+A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [22]_.
 
 **Procedure:**
 
@@ -423,7 +423,7 @@ Example: [Phyllis Webb at Sir George Williams University, 1966]
 
   Use the Title Source field to cite the sources of information.
 
-The following is the order of preference for the source of title information [22]_:
+The following is the order of preference for the source of title information [23]_:
 
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
@@ -500,7 +500,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 4.13. Production Context
 ************************
 
-This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [23]_
+This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [24]_
 
 Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact):
 
@@ -522,13 +522,13 @@ Note that most frequently used Production Context would be: Documentary recordin
 4.14. Genre
 ***********
 
-In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [24]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [25]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
+In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [25]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [26]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
 
-**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [26]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre.
+**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [27]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre.
 
-NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [27]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
+NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [28]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
 
-Genre should be chosen from the following controlled vocabulary of terms. [28]_ Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
+Genre should be chosen from the following controlled vocabulary of terms. [29]_ Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
 
 Here is the list of terms you must draw from:
 
