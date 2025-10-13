@@ -6,7 +6,7 @@
 3.1. Technical Specifications (Equipment, Process)
 **************************************************
 
-If you are able to photograph the archival recordings, you should try to do so at the beginning of your cataloguing process.  Photograph each side of the artifact and its case, as well as any accompanying material containing textual information. Photographs should be in .jpeg or .png file format and have a minimum image width of 500 pixels.  [Add more details on lighting, framing, etc.]
+If you are able to photograph the archival recordings, you should try to do so at the beginning of your cataloguing process.  Photograph each side of the artifact and its case, as well as any accompanying material containing textual information. Photographs should be in .jpeg or .png file format and have a minimum image width of 500 pixels.  
 
 ----
 
