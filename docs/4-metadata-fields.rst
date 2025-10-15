@@ -8,8 +8,8 @@ The SpokenWeb schema describes both literary activities or events and the AV ass
 4.1. Cataloguer
 ***************
 
-That’s you.  The cataloguer refers to the individual who is cataloguing a particular artifact. [2]_  Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.  Enter the cataloguer name as **Cataloguer Last Name, First Name**.
-In a separate field, enter the Email address of the cataloguer.
+That’s you. The cataloguer refers to the individual who is cataloguing a particular artifact. Having your name associated with the entry will help us find you if we have any questions about how you’ve filled in a field, and also will identify your contributions to this project over time.   
+Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate field, enter the Email address of the cataloguer.
 
 ----
 
@@ -17,7 +17,7 @@ In a separate field, enter the Email address of the cataloguer.
 4.2. Classification Fields
 *******************************
 
-Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item. 
+Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
 
 **Examples of the classification structure:**
 
@@ -59,7 +59,7 @@ Example: Christopher Hand, Zeke’s Gallery Montreal Reading Series, 2004-2007, 
 
 **Contributing Unit:** Enter the Contributing Unit, for example, Collections and Rare Books (if available).
 
-**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_
+**Source Collection:** This will often be the same as the Label entry: enter a title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds.
 
 **Source Collection Description** 
 
@@ -83,9 +83,9 @@ Copy/paste source collection description from online library catalogue into the 
   * If so, are there any special permission notices or rights restrictions attached to the collection?
   * What makes this collection of interest to you and/or other students of literature?
 
-**Source Collection ID Number:** AA reference code or id number of the related resource from which the described resource is derived, for example: MsC 142.
+**Source Collection ID Number:** A reference code or id number of the related resource from which the described resource is derived, for example: MsC 142.
 
-**Persistent URL:** Provide a link to the Collection that you are describing, if available.
+**Persistent URL:** Provide a link to the collection that you are describing, if available.
 
 **Collection Image URL:** Provide a link to an image file that will represent the collection. 
 
@@ -110,7 +110,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 | Specific Example:
 | Collection Name: SGW POETRY READING SERIES
 | Series Title: Poetry 1
-|
+
 **Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, series website).
@@ -136,17 +136,17 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.3. Material Description (for Physical & Digital Items Fields)
 ***************************************************************
 
-**Definition:**  The Material Description for Physical and Digital Items provides information about the material specifications of the artifact or object being described.  Some of the questions this field will answer include: What is it made of?  What are the technical specifications according to which it functions?  What are its affordances or capacities?  What’s its condition? Etc.  The term Item refers to the original source item of the digital audio signal, or the original digital audio file (if born digital).  Related items (such as migration copies) may be accounted for in the Notes field.
+**Definition:**  The Material Description for Physical and Digital Items provides information about the material specifications of the artifact or object being described. Some of the questions this field will answer include: What is it made of? What are the technical specifications according to which it functions? What are its affordances or capacities? What’s its condition? Etc. The term Item refers to the original source item of the digital audio signal, or the original digital audio file (if born digital). Related items (such as migration copies) may be accounted for in the Notes field.
 
 **General Guidelines:**
 
   * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [5]_
-  * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If latter,  you have an option to provide individual metadata for each of the physical items that are a part of the event.
+  * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If the latter, you have an option to provide individual metadata for each of the physical items that are a part of the event.
   * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [6]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [7]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
-  * Most of the information you will seek can be found on the physical units of description (the material things you’re describing), including the container, labels and other materials that might accompany the Item.  For example, a reel to reel tape (physical unit of description) may come in a tape box (container) and have a card inside the box (other material) with additional technical info about the recording typed on it.
+  * Most of the information you will seek can be found on the physical units of description (the material things you’re describing), including the container, labels and other materials that might accompany the Item. For example, a reel to reel tape (physical unit of description) may come in a tape box (container) and have a card inside the box (other material) with additional technical info about the recording typed on it.
   * If information is taken from sources other than the Chief Source of Information (the Item and its container/components), please identify the sources of this externally-found information in the Notes.
 
 ----
@@ -155,9 +155,9 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.4. Preliminary Material Description Fields
 ********************************************
 
-**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident.  Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate **AV Type** and then go to the **Physical Items Fields** to continue entering the data.  If it is digital, select the appropriate **AV Type** and then go to the **Digital Items Fields** to continue entering the data.
+**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate **AV Type** and then go to the **Digital Items Fields** to continue entering the data.
 
-**AV Type:** Determine and indicate if the item contains audio or video (with audio).  Again, this will likely be self-evident, but should be indicated in the AV TYPE field.
+**AV Type:** Determine and indicate if the item contains audio or video (with audio). Again, this will likely be self-evident, but should be indicated in the AV TYPE field.
 
 Identify the AV Type with either Audio or Video.
 
