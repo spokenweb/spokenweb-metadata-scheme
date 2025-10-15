@@ -185,7 +185,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot ((jason.camlot@concordia.ca). [8]_
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [8]_
 
   * Reel to Reel
   * Cassette
@@ -203,8 +203,7 @@ Identify the AV Type with either Audio or Video.
   * Hi8
   * MiniDV
  
-
-**Physical Composition:**  This refers to the material medium used to capture the audio.  For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire.  A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum.  The most common materials for this category are as follows [9]_:
+**Physical Composition:**  This refers to the material medium used to capture the audio. For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire. A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum. The most common materials for this category are as follows [9]_:
 
   * Aluminum
   * Magnetic Disk
@@ -216,7 +215,7 @@ Identify the AV Type with either Audio or Video.
   * Laser (this includes CDs and videodiscs)
   * Magneto-Optical (this includes minidiscs)
 
-**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself.  This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [8]_ For example, was the recording made on a 60 minute tape or a 90 minute tape?  The time storage capacity should be written in the following manner:
+**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself. This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [10]_ For example, was the recording made on a 60 minute tape or a 90 minute tape? The time storage capacity should be written in the following manner:
 
   :T:
     indicates that a time value follows. (Any value with a time must begin with T).
@@ -236,7 +235,7 @@ For example:
    45 minutes = T00:45:00
    3 minutes and 21 seconds = T00 :03 :21
 
-**Extent:**  Extent refers to the size of the media storage material. [9]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension.  For example, common sizes are:
+**Extent:**  Extent refers to the size of the media storage material. [9]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
 
 Tape:
 
@@ -253,7 +252,7 @@ Tape:
     * 10 inch (often 78s were in this diameter,
     * 7 inch (the diameter of traditional “45s”
 
-**Side:**  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to.  So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field.  If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
+**Side:**  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to. So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field. If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
 
 **Playing Speed:**  Give the playback or playing speed of the physical unit as follows [10]_:
 
@@ -264,7 +263,7 @@ Tape:
   * 45 rpm
   * 78 rpm
 
-  For sound tape reels: give the playback speed in inches per second (ips). Round the playback speed to the nearest full figure, if appropriate.  The most common speeds are as follows:
+  For sound tape reels: give the playback speed in inches per second (ips). Round the playback speed to the nearest full figure, if appropriate. The most common speeds are as follows:
 
   * 1 7/8  ips
   * 3 3/4  ips
@@ -280,7 +279,7 @@ Tape:
 
 Where possible, include the following additional information in the Notes field:
 
-**Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example:  Half-track. 2 track. 4 track,  24 track [11]_
+**Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example: Half-track. 2 track. 4 track, 24 track [11]_.
 
 **Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [12]_. Some types of playback mode follow [13]_:
 
@@ -314,6 +313,7 @@ Where possible, include the following additional information in the Notes field:
     * Several tracks scratched through by operator
     * Recorded with a constant audible hum
     * Speed varies due to weak batteries at time of original recording
+
 **Conservation:** If the unit being described has received any specific conservation treatment, briefly indicate the nature of the work.
 
 **Other physical description:**
