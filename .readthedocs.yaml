@@ -1,7 +1,4 @@
 # Read the Docs configuration file for Sphinx projects
-# v2 YAML configuration
-# See: https://docs.readthedocs.io/en/stable/config-file/v2.html
-
 version: 2
 
 # Build environment configuration
@@ -9,30 +6,29 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3.12"
-    # Optional tools you might need:
+    # Optional tools:
     # nodejs: "20"
     # rust: "1.70"
     # golang: "1.20"
 
 # Python dependencies
 python:
-  version: "3.12"           # Make sure this matches the 'tools' version above
   install:
     - requirements: docs/requirements.txt
 
 # Sphinx configuration
 sphinx:
   configuration: docs/conf.py
-  builder: "html"            # Default: HTML, can change to 'dirhtml' for simpler URLs
-  fail_on_warning: true      # Fail the build if there are warnings (recommended)
+  builder: "html"          # Default builder
+  fail_on_warning: true    # Fail the build if there are warnings
 
-# Optional additional build formats
+# Optional additional formats
 formats:
   - htmlzip
   - pdf
   - epub
 
-# Optionally enable caching to speed up repeated builds
+# Optional caching (commented out)
 # cache:
 #   pip: true
 #   tools: true
