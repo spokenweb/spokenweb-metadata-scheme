@@ -17,6 +17,8 @@ Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate
 4.2. Classification Fields
 *******************************
 
+**Note:** Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.
+
 Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
 
 **Examples of the classification structure:**
