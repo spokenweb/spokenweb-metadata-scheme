@@ -14,10 +14,10 @@ Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate
 ----
 
 *******************************
-4.2. Classification Fields
+4.2. Classification Fields88
 *******************************
 
-**Note:** Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.
+**Note: Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.**
 
 Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
 
@@ -45,7 +45,7 @@ Below are the metadata guidelines for each classification level.
 4.2.2 Collection
 ================
 
-**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [3]_ This label will be used in front end applications. 
+**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in front end applications. 
 
 If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
 
@@ -94,7 +94,7 @@ Copy/paste source collection description from online library catalogue into the 
 4.2.3 Series
 ============
 
-A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [4]_
+A series describes documents arranged in accordance with a filing system or maintained as a unit because they result from the same accumulation or filing process, or the same activity; have a particular form; or because of some other relationship. [3]_
 
 SpokenWeb sometimes uses series to capture the way in which reading series have been named and branded.
 
@@ -142,9 +142,9 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
 **General Guidelines:**
 
-  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [5]_
+  * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
   * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If the latter, you have an option to provide individual metadata for each of the physical items that are a part of the event.
-  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [6]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [7]_ System requirements and modes of access should be described in the Note field.
+  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
@@ -187,7 +187,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [8]_
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
 
   * Reel to Reel
   * Cassette
@@ -205,7 +205,7 @@ Identify the AV Type with either Audio or Video.
   * Hi8
   * MiniDV
  
-**Physical Composition:**  This refers to the material medium used to capture the audio. For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire. A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum. The most common materials for this category are as follows [9]_:
+**Physical Composition:**  This refers to the material medium used to capture the audio. For example, reel to reel will usually refer to magnetic tape, but may also refer to a medium of magnetic wire. A flat disc record may be made of vinyl, but it may also be made of shellac or aluminum. The most common materials for this category are as follows [8]_:
 
   * Aluminum
   * Magnetic Disk
@@ -217,7 +217,7 @@ Identify the AV Type with either Audio or Video.
   * Laser (this includes CDs and videodiscs)
   * Magneto-Optical (this includes minidiscs)
 
-**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself. This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [10]_ For example, was the recording made on a 60 minute tape or a 90 minute tape? The time storage capacity should be written in the following manner:
+**Storage Capacity of Artifact:** In the case of some media formats, like audio cassette tapes, there will sometimes be a playing time duration indicated on the artifact itself. This refers to the total time storage capacity of the artifact when the media format is played at the standard speed associated with the medium. [9]_ For example, was the recording made on a 60 minute tape or a 90 minute tape? The time storage capacity should be written in the following manner:
 
   :T:
     indicates that a time value follows. (Any value with a time must begin with T).
@@ -237,7 +237,7 @@ For example:
    45 minutes = T00:45:00
    3 minutes and 21 seconds = T00 :03 :21
 
-**Extent:**  Extent refers to the size of the media storage material. [9]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
+**Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
 
 Tape:
 
@@ -256,7 +256,7 @@ Tape:
 
 **Side:**  For certain media such as audio cassette tapes that divide the length of the magnetic tape into half-tracks, and for two sided discs (vinyl, etc.) You should indicate the Side (A or B) that the content of the digital file refers to. So if a digital file has captured audio from Side A of an audio cassette tape, you should mark A in the Side field. If a digital file combines audio from both sides of an audiocassette or record, then you can mark A and B in this field.
 
-**Playing Speed:**  Give the playback or playing speed of the physical unit as follows [10]_:
+**Playing Speed:**  Give the playback or playing speed of the physical unit as follows [11]_:
 
   For analogue discs: give the playback speed in revolutions per minute (rpm). Examples of common playback speeds for analogue discs follow:
 
@@ -281,9 +281,9 @@ Tape:
 
 Where possible, include the following additional information in the Notes field:
 
-**Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example: Half-track. 2 track. 4 track, 24 track [11]_.
+**Track Configuration:**  For audio tapes, if possible, give the number of tracks, unless the number of tracks is standard for the unit being described. If necessary, give the track configuration. For example: Half-track. 2 track. 4 track, 24 track [12]_.
 
-**Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [12]_. Some types of playback mode follow [13]_:
+**Playback Mode:**  Give the playback mode [or number of sound channels] if the information is readily available, using one or more of the following terms as appropriate [13]_. Some types of playback mode follow [14]_:
 
     * Mono (1 channel)
     * Stereo  (2 channels, or “hi-fi”)
@@ -305,7 +305,7 @@ Where possible, include the following additional information in the Notes field:
 
 **Physical condition:** Make notes on the physical condition of the unit being described if that condition affects use or understanding of the unit.
 
-    Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [14]_
+    Indicate any important physical conditions, such as preservation requirements, that affect the use of the unit of description (ISAD G 3.4.4) or understanding of it. [15]_
 
     Examples:
 
@@ -1543,7 +1543,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [10] ISAD(G), 3.1.5, p.16
 .. [11] IASA 5.C.2 who based it on AACR26 .5C3, 7.5 C5 from RAD8.5 C3
 .. [12] "RAD," 8.5C6, p. 8-17
-.. [13] "RAD,"  8.5C7, p.8 - 17
+.. [13] "RAD," 8.5C7, p. 8-17
 .. [14] Based on IASA 5.C.6 expanded AACR2 6.5 C7
 .. [15] "ISAD(G)" 3.4.4, p.29
 .. [16] Federal Agencies Digital Guidelines Initiative. https://www.digitizationguidelines.gov/glossary.php.
