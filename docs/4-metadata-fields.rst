@@ -14,7 +14,7 @@ Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate
 ----
 
 *******************************
-4.2. Classification Fields88
+4.2. Classification Fields
 *******************************
 
 **Note: Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.**
