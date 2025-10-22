@@ -371,7 +371,7 @@ Where possible, include the following additional information in the Notes field:
 
 **Channels:** The number of audio data streams, for example, a mono recording of a microphone has 1 channel.
 
-**Sample rate:** The sample rate is measured in hertz (Hz) and represents the number of digital samples captured per second in order to represent the audio waveform. [15]_
+**Sample rate:** The sample rate is measured in hertz (Hz) and represents the number of digital samples captured per second in order to represent the audio waveform. [16]_
 
 **Precision (bit depth):** The number of bits of information in each sample, e.g. 16 bit, 24 bit. 
 
@@ -379,9 +379,9 @@ Where possible, include the following additional information in the Notes field:
 
 **Size:** The size of the digital file in kilobytes, megabytes, or gigabytes. E.g. 1.66 GB
 
-**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). [15]_
+**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). [16]_
 
-**Encoding:** The algorithmic process of transforming analog information into digital form. [15]_ Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
+**Encoding:** The algorithmic process of transforming analog information into digital form. [16]_ Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
 
 **Title:** The title of the digital image file.
 
@@ -391,17 +391,17 @@ Where possible, include the following additional information in the Notes field:
 
 A section for **Content Type** is used to indicate the item as either: 
 
-  **Sound Recording:** process of electrical or mechanical inscription of sound waves [16]_
+  **Sound Recording:** process of electrical or mechanical inscription of sound waves [17]_
   
-  **Video Recording:** single work, or take, made using the medium of video [17]_ 
+  **Video Recording:** single work, or take, made using the medium of video [18]_ 
   
-  **Poster:** any piece of printed paper designed to be attached to a wall or vertical surface [18]_
+  **Poster:** any piece of printed paper designed to be attached to a wall or vertical surface [19]_
   
-  **Photograph:** image created by light falling on a light-sensitive surface [19]_ 
+  **Photograph:** image created by light falling on a light-sensitive surface [20]_ 
   
-  **Document:** preserved information [20]_ 
+  **Document:** preserved information [21]_ 
   
-  **Artefact:** artifact created by humans which gives information about the culture of its creator and users [21]_
+  **Artefact:** artifact created by humans which gives information about the culture of its creator and users [22]_
 
 **Featured:** If you have more than one image you can identify the file to be used as the main visual link to the record on a frontend web application.
 
@@ -411,13 +411,13 @@ A section for **Content Type** is used to indicate the item as either:
 4.7. Title
 **********
 
-A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [22]_.
+A word or phrase, usually appearing on an artifact (either **digital file** or **analogue artifact** or **container**), naming the item or the work (often as a group of individual works or recorded sounds) contained in it [23]_.
 
 **Procedure:**
 
 The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primarily role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
 
-Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [23]_ Put square brackets around the descriptive title.
+Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [24]_ Put square brackets around the descriptive title.
 
 Example: [Phyllis Webb at Sir George Williams University, 1966]
 
@@ -425,7 +425,7 @@ Example: [Phyllis Webb at Sir George Williams University, 1966]
 
   Use the Title Source field to cite the sources of information.
 
-The following is the order of preference for the source of title information [23]_:
+The following is the order of preference for the source of title information [25]_:
 
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
@@ -502,7 +502,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 4.13. Production Context
 ************************
 
-This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [24]_
+This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [26]_
 
 Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact):
 
@@ -524,13 +524,13 @@ Note that most frequently used Production Context would be: Documentary recordin
 4.14. Genre
 ***********
 
-In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [25]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [26]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
+In our usage, genre is distinguished from recording type or kind, which we refer to and define in terms of the production context. [27]_ The recording type refers to the production scenario of the recording, whereas genre refers to the audiotextual forms audible (discernible) within the recording. [28]_ In this way, we are establishing a metadata field that is descriptive of content, from a generic perspective.
 
-**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [27]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre.
+**Definition:** Genre is a term or terms that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc. [29]_ In the generic terms we have chosen it is assumed that the genre refers to an audible source produced through speech or by other means. You will need to listen to the recording to determine genre.
 
-NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [28]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
+NOTE: A single recording can contain multiple genres. If the audiotext you are listening to consists of more than one genre, list them separated by comma.  However, in listing the genres of a recording, you should concentrate on the most *prominent* or *dominant* generic features and content of the audiotext. [30]_ For example, if an hour long recording of a poetry reading has a moment or two of conversation about the microphone at the start of the recording, the genre for this recording should be poetry, and not poetry, conversation.  You will have to use your judgment in determining the audiotextual genres most appropriate for your each recording you listen to.  We have provided a series of terms that will assist you in this work.
 
-Genre should be chosen from the following controlled vocabulary of terms. [29]_ Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
+Genre should be chosen from the following controlled vocabulary of terms. [31]_ Note that more than one genre might be applicable to a single artifact, and multiple terms are allowed. Again: how do you make a decision on when to assign a specific genre?  It has to be among the most salient audible features of an artifact.
 
 Here is the list of terms you must draw from:
 
@@ -573,11 +573,11 @@ Here is the list of terms you must draw from:
   * Text-Sound Compositions
   * Workshops (seminars)
 
-**Definitions of genre terms** [29]_
+**Definitions of genre terms** [32]_
 
 **Ambient sounds:** Recordings of sounds of the surrounding environment external to an audio system that are often recorded separately and mixed into other recordings to enhance live effect.
 
-**Autobiographical sound recordings:** Based on the narrower terms of the LOC subject heading "Autobiographies," this term includes sound recordings of memoirs, confessions, personal memoirs and egodocuments. [30]_
+**Autobiographical sound recordings:** Based on the narrower terms of the LOC subject heading "Autobiographies," this term includes sound recordings of memoirs, confessions, personal memoirs and egodocuments. [33]_
 
 **Conversation:** The informal exchange of ideas and information between two or more people by spoken words.
 
@@ -625,7 +625,7 @@ Here is the list of terms you must draw from:
 
 **Text-sound compositions:** Musical compositions consisting primarily of electronically and/or computer-altered or computer synthesized spoken words.
 
-**Workshops (seminars):**  Writing workshops, especially creative writing, or other methods and techniques based gatherings, but also "relatively small instructional sessions or classes emphasizing demonstration and practical application of skills and principles in a specialized field or occupation" that can include a seminar, as in academic (graduate) seminar. [31]_
+**Workshops (seminars):**  Writing workshops, especially creative writing, or other methods and techniques based gatherings, but also "relatively small instructional sessions or classes emphasizing demonstration and practical application of skills and principles in a specialized field or occupation" that can include a seminar, as in academic (graduate) seminar. [34]_
 
 ----
 
@@ -652,7 +652,7 @@ Special attention should be paid to include the different kinds of contribution 
 
 Responsibility can be extended to include not just voices/speakers on a given recording, but other creators/contributors not present. For example, a performance of a poem by another author would constitute a kind of responsibility.
 
-This schema includes two categories of responsibility [32]_ :
+This schema includes two categories of responsibility [35]_ :
 
 **Creators:** those persons or bodies responsible for the creation, organization, or programming of the recorded event such as a Series Organizer or Producer, and/or the creation of the recorded asset, such as a Recordist;
 
@@ -864,7 +864,7 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 4.18. Rights Fields
 *******************
 
-The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [34]_
+The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [36]_
 
 Required Field: **Rights**
 
@@ -876,8 +876,8 @@ Additional Field: **Rights Note**
 
 **Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights and License fields:
 
-  * Rights statements [35]_
-  * Creative Commons licenses [36]_
+  * Rights statements [37]_
+  * Creative Commons licenses [38]_
 
 One of the following 13 statements should be specified, using a URL:
 
@@ -1005,7 +1005,7 @@ Beyond providing basic information about the content of an audio or AV recording
 
 The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow.
 
-There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [37]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
+There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [39]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
 
 Our schema accommodates either Linear or Nested approaches to timestamping. A Linear approach timestamps sonic or AV events as sequential points on a line. A Nested approach may introduce hierarchies between sonic events, so that a series of smaller events can be framed within a larger set of labelled categories. 
 
@@ -1015,7 +1015,7 @@ As you produce your timestamped contents description of the recording, you shoul
 
 **Nested Timestamping**
 
-We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [38]_.
+We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40]_.
 
 **Degrees of Granularity**
 
