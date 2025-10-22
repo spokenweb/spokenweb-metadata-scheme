@@ -28,7 +28,7 @@ sphinx:
 
 # Optional additional build formats
 formats:
-  - html
+  - htmlzip
   - pdf
   - epub
 
