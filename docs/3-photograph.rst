@@ -28,4 +28,5 @@ Examples:
 * Ultimatum_5-3_Side1.png
 
 .. [*] Collection name may be derived from the name of the fonds. If the fonds is author fonds, then use the author’s last name (i.e. “Kiyooka”, “Gilbert”, etc.). If the fonds is an event series, use the name of the series (i.e. “Ultimatum”, “Véhicule”, etc.). Supply fonds and box number when available, and use any extant ID numbers if the collection has already been catalogued. The object is always the primary source of information for determining a unique ID number. 
+
 Note that there should be no spaces in the filename and that only the first letter of each term is capitalized. List all file names using a comma.
