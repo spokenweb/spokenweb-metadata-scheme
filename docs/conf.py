@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
-copyright = u'2020, SpokenWeb Team'
+copyright = u'2025, SpokenWeb Team'
 author = u'SpokenWeb Team'
 
 # The short X.Y version
