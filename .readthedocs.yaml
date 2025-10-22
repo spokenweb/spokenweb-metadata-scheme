@@ -1,0 +1,39 @@
+# .readthedocs.yaml
+version: 2
+
+build:
+  os: ubuntu-22.04
+
+python:
+  version: "3.7"
+  install:
+    - method: pip
+      path: .
+    - requirements: requirements.txt  # optional if you maintain one
+    - method: pip
+      packages:
+        - pip<=21.3.1
+        - setuptools<58.3.0
+        - mock==1.0.1
+        - pillow==5.4.1
+        - alabaster>=0.7,<0.8,!=0.7.5
+        - commonmark==0.8.1
+        - recommonmark==0.5.0
+        - sphinx<2
+        - sphinx-rtd-theme<0.5
+        - readthedocs-sphinx-ext<2.2
+
+sphinx:
+  configuration: docs/conf.py
+  builders:
+    - html
+    - readthedocssinglehtmllocalmedia
+    - latex
+    - epub
+
+# Commands to move PDF/EPUB outputs
+# RTD does not natively support moving files, so we use "commands"
+# after the Sphinx build to replicate your mv steps
+commands:
+  - mv -f docs/_build/latex/spokenweb-metadata-scheme.pdf sphinx_pdf/spokenweb-metadata-scheme.pdf
+  - mv -f docs/_build/epub/SpokenWebMetadataSchemeandCataloguingProcess.epub sphinx_epub/spokenweb-metadata-scheme.epub
