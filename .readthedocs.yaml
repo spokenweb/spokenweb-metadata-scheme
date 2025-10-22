@@ -3,37 +3,20 @@ version: 2
 
 build:
   os: ubuntu-22.04
-
-python:
-  version: "3.7"
-  install:
-    - method: pip
-      path: .
-    - requirements: requirements.txt  # optional if you maintain one
-    - method: pip
-      packages:
-        - pip<=21.3.1
-        - setuptools<58.3.0
-        - mock==1.0.1
-        - pillow==5.4.1
-        - alabaster>=0.7,<0.8,!=0.7.5
-        - commonmark==0.8.1
-        - recommonmark==0.5.0
-        - sphinx<2
-        - sphinx-rtd-theme<0.5
-        - readthedocs-sphinx-ext<2.2
+  tools:
+    python: "3.7"
+  commands:
+    # Upgrade pip and setuptools to pinned versions
+    - python -m pip install --upgrade --no-cache-dir pip<=21.3.1 setuptools<58.3.0
+    # Install other pinned dependencies
+    - python -m pip install --upgrade --no-cache-dir mock==1.0.1 pillow==5.4.1 alabaster>=0.7,<0.8,!=0.7.5 commonmark==0.8.1 recommonmark==0.5.0 sphinx<2 sphinx-rtd-theme<0.5 readthedocs-sphinx-ext<2.2
+    # Run Sphinx builds exactly like old build
+    - python -m sphinx -T -E -b html -d _build/doctrees -D language=en . _build/html
+    - python -m sphinx -T -b readthedocssinglehtmllocalmedia -d _build/doctrees -D language=en . _build/localmedia
+    - python -m sphinx -b latex -D language=en -d _build/doctrees . _build/latex
+    - mv -f docs/_build/latex/spokenweb-metadata-scheme.pdf sphinx_pdf/spokenweb-metadata-scheme.pdf
+    - python -m sphinx -T -b epub -d _build/doctrees -D language=en . _build/epub
+    - mv -f docs/_build/epub/SpokenWebMetadataSchemeandCataloguingProcess.epub sphinx_epub/spokenweb-metadata-scheme.epub
 
 sphinx:
   configuration: docs/conf.py
-  builders:
-    - html
-    - readthedocssinglehtmllocalmedia
-    - latex
-    - epub
-
-# Commands to move PDF/EPUB outputs
-# RTD does not natively support moving files, so we use "commands"
-# after the Sphinx build to replicate your mv steps
-commands:
-  - mv -f docs/_build/latex/spokenweb-metadata-scheme.pdf sphinx_pdf/spokenweb-metadata-scheme.pdf
-  - mv -f docs/_build/epub/SpokenWebMetadataSchemeandCataloguingProcess.epub sphinx_epub/spokenweb-metadata-scheme.epub
