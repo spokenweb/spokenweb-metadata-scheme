@@ -158,14 +158,10 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 # -- Options for LaTeX/PDF output -------------------------------------
 
 latex_elements = {
-    'preamble': r'''
-% Prevent Sphinx from adding automatic numbering in PDF when manual numbers exist
-\makeatletter
-% redefine \@seccntformat to print nothing before the title
-\renewcommand{\@seccntformat}[1]{}
-\makeatother
-''',
+    # Prevent automatic numbering for PDF, keep manual numbers in titles
+    'secnumdepth': 0,
 }
+
 
 
 # Grouping the document tree into LaTeX files. List of tuples
