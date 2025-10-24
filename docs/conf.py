@@ -22,7 +22,7 @@
 project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
 copyright = u'2025, SpokenWeb Team'
 author = u'SpokenWeb Team'
-language = 'en'
+
 
 
 # The short X.Y version
@@ -60,7 +60,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
