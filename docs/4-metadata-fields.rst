@@ -990,18 +990,16 @@ The basic procedure for generating a timestamped contents list entails using a t
 
 As you are producing your timestamped contents description of the recording you should timestamp and thus signal the start and end of each event of discrete significance. For our purposes this will usually mean changes in speaker and discrete literary works read. For example, If you are listening to a reading that has someone introducing the reader, you would first timestamp the beginning of the introduction and title this with the term Introduction and then the name of the Introducer. For example, Warren Tallman introduces Robert Creely. Then, when the reader steps up to the microphone you would indicate that with a new timestamp followed by the name of the reader. If the reader is introducing a poem, you would follow his/her name by Introduces and then the title of the poem, for example, Dorothy Livesay introduces Outrider. Then when the reading of that actual poem begins you would timestamp that moment with the name of the reader and the title of the poem, so, Dorothy Livesay reads Outrider.
  
-****************************
 4.20.1. Overview and Purpose
-****************************
+============================
 
 The Contents field serves to describe the audible or audiovisual (AV) content (speech and other sounds, video image) of the audio asset. By simple analogy, it can be understood as equivalent to the table of contents (TOC) of a book, using time-stamps instead of page numbers, but it has the potential to be much more detailed than a typical TOC, and to be linked to other data sources, if the cataloguer has the time and resources to make it so. **For the SpokenWeb schema, this field may exist on a continuum from containing no data at all to full transcription and detailed description of the sonic or AV signal, with added Wikidata links, where possible**. In principal, it is always more useful to have some information about what a recording contains than none, and the more information provided the more useful this field will become. That said, there are particular formatting requirements that we have established for providing information in the Contents field.Some contents information that a cataloguer holds may be more suitable to the Contents Note field than the Contents field, proper, if the information does not conform to the grammar of the field, as outlined in this guide.
 
 Beyond providing basic information about the content of an audio or AV recording, the primary purpose of this descriptive work is to make a recording easier for a user to navigate according to access points of information about the identities of speakers, what has been said, and actions are audibly and/or visibly registered in the recording. By timestamping such points of information along a timeline of the audio- or AV-documented event, the Contents field may be used to help users move across segments of a recording according to the points of greatest interest to them. It creates unique access points. This approach to documenting the contents of a recording, according to a set syntax, grammar and punctuation, also facilitates searching for, and locating, data points at particular moments within a sound recording and across a wide range of recordings.
 
 
-*************************************************
 4.20.2. General Process of Creating Contents Data
-*************************************************
+=================================================
 
 The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow.
 
@@ -1029,9 +1027,8 @@ The three basic degrees of granularity just described correspond roughly to the 
 
 Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it..
 
-*********************************************************
 4.20.3 Preparatory Decisions Prior to Content Description
-*********************************************************
+=========================================================
 
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
 
@@ -1076,9 +1073,8 @@ When multiple digital and analog assets are associated with a single event, such
 
 The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry. In all cases, the time-stamped Contents description is built around three key elements: The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label. Our explanation of the Contents field’s grammar begins with definitions of these three elements.
 
-********************************************************
 4.20.4. Contents Field Grammar and Controlled Vocabulary
-********************************************************
+========================================================
 
 **1. Core Elements of a Time-Stamped Contents Field Description**
 A timestamped description signals and provides information about a sonic or audiovisual event. It is composed of three elements: (A) The Speaker or Descriptor, (B) The Numerical Timestamp, and (C) The Descriptive Label. 
@@ -1507,6 +1503,7 @@ Example:
 	**Mario Campo at Ultimatum 1985 Night 1 [Tape 1, Tracks 1-4]**
 	**Formula: Ultimatum_Mixdown_Name_Tape_TTracks_Tape_TTracks.mp3** 
 	**Ex: Ultimatum_Mixdown_Daniel Guimond_U-1_T1_T2_T3_T4_T5_T6_T7_T8.mp3**
+
 
 ********************
 4.21. Contents Notes
