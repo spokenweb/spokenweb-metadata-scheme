@@ -90,6 +90,11 @@ List of Authors/ Contributors
 **Version 4 contributors:**
 
 | Jason Camlot (Concordia U)
+| Maia Harris (Concordia U)
+| Ella Hooper (Concordia U)
 | Corina MacDonald (Concordia U)
+| Hannah MacGregor (SFU)
+| Katherine McLeod (Concordia U)
 | Tomasz Neugebauer (Concordia U)
+
 
