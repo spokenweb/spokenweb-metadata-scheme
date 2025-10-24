@@ -26,9 +26,10 @@ author = u'SpokenWeb Team'
 
 
 # The short X.Y version
-version = u''
+version = u'4'
 # The full version, including alpha/beta/rc tags
-release = u'1'
+release = u'4'
+
 
 
 # -- General configuration ---------------------------------------------------
