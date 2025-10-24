@@ -158,15 +158,16 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 # -- Options for LaTeX/PDF output -------------------------------------
 
 latex_elements = {
-    # Workaround: prevent duplicated section numbers in PDF output
-    'preamble': r'''
+  'preamble': r'''
+% If your RST titles include manual numbers, suppress automatic section numbers in PDF
 \makeatletter
-\renewcommand{\thesection}{\arabic{section}}
-\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
-\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\renewcommand{\thesection}{}%
+\renewcommand{\thesubsection}{}%
+\renewcommand{\thesubsubsection}{}%
 \makeatother
 ''',
 }
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
