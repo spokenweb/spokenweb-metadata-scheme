@@ -158,12 +158,11 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 # -- Options for LaTeX/PDF output -------------------------------------
 
 latex_elements = {
-  'preamble': r'''
-% If your RST titles include manual numbers, suppress automatic section numbers in PDF
+    'preamble': r'''
+% Prevent Sphinx from adding automatic numbering in PDF when manual numbers exist
 \makeatletter
-\renewcommand{\thesection}{}%
-\renewcommand{\thesubsection}{}%
-\renewcommand{\thesubsubsection}{}%
+% redefine \@seccntformat to print nothing before the title
+\renewcommand{\@seccntformat}[1]{}
 \makeatother
 ''',
 }
