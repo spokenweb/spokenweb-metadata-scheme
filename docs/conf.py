@@ -138,7 +138,7 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
+#latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -154,6 +154,18 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+#}
+# -- Options for LaTeX/PDF output -------------------------------------
+
+latex_elements = {
+    # Workaround: prevent duplicated section numbers in PDF output
+    'preamble': r'''
+\makeatletter
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\makeatother
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
