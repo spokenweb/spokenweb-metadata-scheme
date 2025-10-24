@@ -10,9 +10,8 @@ SpokenWeb Metadata Scheme and Cataloguing Process
 .. toctree::
   1-intro
   2-troubleshoot
-  3-data-entry
-  4-photograph
-  5-metadata-fields
+  3-photograph
+  4-metadata-fields
 
 ----
 
