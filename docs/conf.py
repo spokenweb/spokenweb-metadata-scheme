@@ -22,6 +22,8 @@
 project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
 copyright = u'2025, SpokenWeb Team'
 author = u'SpokenWeb Team'
+language = 'en'
+
 
 # The short X.Y version
 version = u''
