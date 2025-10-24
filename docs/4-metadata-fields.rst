@@ -1390,7 +1390,7 @@ Wikidata links allow for an interconnected web of information. Prioritize linkin
 | Margaret Atwood
 | 00:00:00
 | Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073]| Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
-|
+
 **5. Summary of Typographical Rules**
 
 To facilitate research and to ensure proper conversion of the Contents field to XML when necessary, timestamping and description entered in the Contents field must follow certain typographical rules. This section outlines the main typographical markers and their functions for use in contents description.
