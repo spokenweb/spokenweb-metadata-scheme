@@ -157,9 +157,13 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 #}
 # -- Options for LaTeX/PDF output -------------------------------------
 
+# conf.py
+
 latex_elements = {
-    # Prevent automatic numbering for PDF, keep manual numbers in titles
-    'secnumdepth': 0,
+    'preamble': r'''
+        \setcounter{secnumdepth}{-1}
+        \renewcommand{\sphinxcaption}[2]{#2}
+    ''',
 }
 
 
