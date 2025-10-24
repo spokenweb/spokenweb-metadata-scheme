@@ -86,3 +86,10 @@ List of Authors/ Contributors
 
 | Roma Kail (Victoria University in the UofT)
 | Tomasz Neugebauer (Concordia U)
+
+**Version 4 contributors:**
+
+| Jason Camlot (Concordia U)
+| Corina MacDonald (Concordia U)
+| Tomasz Neugebauer (Concordia U)
+
