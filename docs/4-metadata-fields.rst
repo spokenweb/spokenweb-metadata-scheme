@@ -700,7 +700,7 @@ Authorized names of creators and contributors should be drawn from established a
 
 Enter the URL to the applicable authority record in the corresponding URI fields. For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092. For WikiData, provide the QID, for example, search for Leonard Cohen and then copy the correct URL: https://www.wikidata.org/wiki/Q1276. 
 
-**Creator / Contributor Nation:** Use this look-up field in Swallow to select Creator/Contributor Nation. The field is used to identify the specific Indigenous Nation(s) with which a creator is affiliated, drawing terminology directly from the First Nations, Métis, and Inuit Indigenous Ontology (FNMIIO) [33]. Multiple entries are supported, ensuring creators/contributors can be described in relation to all of their community affiliations.
+**Creator / Contributor Nation:** Use this look-up field in Swallow to select Creator/Contributor Nation. The field is used to identify the specific Indigenous Nation(s) with which a creator is affiliated, drawing terminology directly from the First Nations, Métis, and Inuit Indigenous Ontology (FNMIIO) [36]_. Multiple entries are supported, ensuring creators/contributors can be described in relation to all of their community affiliations.
 
 **Data Entry Syntax**
   * In both the creator and contributor fields the following format should be used:  Last, First
@@ -864,7 +864,7 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 4.18. Rights Fields
 *******************
 
-The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [36]_
+The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [37]_
 
 Required Field: **Rights**
 
@@ -876,8 +876,8 @@ Additional Field: **Rights Note**
 
 **Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights and License fields:
 
-  * Rights statements [37]_
-  * Creative Commons licenses [38]_
+  * Rights statements [38]_
+  * Creative Commons licenses [39]_
 
 One of the following 13 statements should be specified, using a URL:
 
@@ -1003,7 +1003,7 @@ Beyond providing basic information about the content of an audio or AV recording
 
 The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow.
 
-There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [39]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
+There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [40]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
 
 Our schema accommodates either Linear or Nested approaches to timestamping. A Linear approach timestamps sonic or AV events as sequential points on a line. A Nested approach may introduce hierarchies between sonic events, so that a series of smaller events can be framed within a larger set of labelled categories. 
 
@@ -1013,7 +1013,7 @@ As you produce your timestamped contents description of the recording, you shoul
 
 **Nested Timestamping**
 
-We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40]_.
+We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [41]_.
 
 **Degrees of Granularity**
 
@@ -1563,15 +1563,16 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [33] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
 .. [34] “Art & Architecture Thesaurus Full Record Display (Getty Research).” n.d. Www.getty.edu. Accessed October 3, 2021. http://www.getty.edu/vow/AATFullDisplay?find=workshop&logic=AND¬e=&subjectid=300069765.
 .. [35] Our schema draws from the definitions of Creator and Contributor found in the "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/. & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
-.. [36] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
-.. [37] http://rightsstatements.org/page/1.0/?language=en
-.. [38] https://creativecommons.org/licenses/
-.. [39] Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including:
+.. [36] First Nations, Metis and Inuit – Indigenous Ontologies (FNMIIO). National Indigenous Knowledge and Language Alliance/Alliance nationale des connaissances et des langues autochtones NIKLA-ANCLA. June 21, 2019.  https://nationalindigenousknowledgeandlanguagealliance.home.blog/2019/06/21/first-nations-metis-and-inuit-indigenous-ontologies-fnmiio/. 
+.. [37] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
+.. [38] http://rightsstatements.org/page/1.0/?language=en
+.. [39] https://creativecommons.org/licenses/
+.. [40] Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including:
   `ELAN (MPI) <https://archive.mpi.nl/tla/elan>`_ – An open-source annotation tool widely used in linguistics and oral history research. It allows users to create detailed, multi-layered, time-aligned transcripts for audio/video files. Requires downloading and installation. 
   `oTranscribe <https://otranscribe.com/>`_ – A free, open-source web app for manual transcription. It integrates playback controls with a text editor, making it easy to pause, rewind, and insert timestamps without leaving the editor.
   `Parlatype <https://www.parlatype.xyz/features.html>_` – A lightweight open-source transcription player (Linux) that syncs audio playback with text entry and allows quick insertion of timestamps. Requires installation. 
   `Transkriptor <https://transkriptor.com/>`_ is a commercial tool that is user-friendly and efficient for generating time-stamped transcripts quickly. 
-.. [40] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
+.. [41] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
 
 The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
 
