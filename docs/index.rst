@@ -89,6 +89,7 @@ List of Authors/ Contributors
 
 **Version 4 contributors:**
 
+| Yara Ajeeb (Concordia U)
 | Jason Camlot (Concordia U)
 | Maia Harris (Concordia U)
 | Ella Hooper (Concordia U)
