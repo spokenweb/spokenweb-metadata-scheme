@@ -1582,7 +1582,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
    |
    | Below is a simple series of timestamps represented as XML:
 
-   |.. code-block:: xml
+   .. code-block:: xml
 
   <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
       <Div label="Margaret Atwood">
@@ -1606,12 +1606,11 @@ Notes allow cataloguers to input additional information regarding the item. Ther
           <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
       </Div>
   </Item>
-   |
-   |.. code-block:: xml
+   
+   .. code-block:: xml
 
   <item label="Imaginary Recording of Dorothy Livesay">
     <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
     <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
     <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
   </item>
-   |
