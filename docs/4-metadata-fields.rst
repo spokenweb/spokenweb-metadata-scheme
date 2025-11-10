@@ -1529,7 +1529,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 4.23. References
 ****************
 
-.. [2] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
+.. [2] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, http://cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
 .. [3] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/app/uploads/2024/01/CBPS_2000_Guidelines_ISADG_Second-edition_EN.pdf .
 .. [4] "Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
 .. [5] "Area 5: Introduction," Physical Description, IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives  https://www.iasa-web.org/cataloguing-rules/50-introduction.
