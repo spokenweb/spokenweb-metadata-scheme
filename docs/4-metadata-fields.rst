@@ -1567,7 +1567,8 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [37] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
 .. [38] http://rightsstatements.org/page/1.0/?language=en
 .. [39] https://creativecommons.org/licenses/
-.. [40] Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including: 
+.. [40] 
+   | Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including: 
    | `ELAN (MPI) <https://archive.mpi.nl/tla/elan>`_ – An open-source annotation tool widely used in linguistics and oral history research. It allows users to create detailed, multi-layered, time-aligned transcripts for audio/video files. Requires downloading and installation. 
    |  `oTranscribe <https://otranscribe.com/>`_ – A free, open-source web app for manual transcription. It integrates playback controls with a text editor, making it easy to pause, rewind, and insert timestamps without leaving the editor. 
    |  `Parlatype <https://www.parlatype.xyz/features.html>`_ – A lightweight open-source transcription player (Linux) that syncs audio playback with text entry and allows quick insertion of timestamps. Requires installation. 
