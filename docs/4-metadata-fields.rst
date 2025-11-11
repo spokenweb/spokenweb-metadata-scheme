@@ -674,7 +674,6 @@ Assign roles to both creators and contributors where known. Role terms should be
   •	Publisher
   •	Distributor
   •	Manufacturer
-  •	Distributor
   •	Recordist
   •	Series organizer
   •	Collector
