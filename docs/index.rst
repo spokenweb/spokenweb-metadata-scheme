@@ -39,6 +39,7 @@ List of Authors/ Contributors
 | Ian Ferrier (Wired on Words)
 | Deanna Fong (SFU)
 | Roma Kail (Victoria University in the UofT) (also Metadata Controller)
+| Eva Lu (Victoria University in the UofT)
 | Sean Luyk (U Alberta)
 | Aurelio Meza (Concordia U)
 | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
@@ -49,7 +50,6 @@ List of Authors/ Contributors
 
 | Ali Barillaro (Concordia U)
 | Lee Hannigan (U Alberta)
-| Eva Lu (Victoria University in the UofT)
 | Cole Mash (SFU)
 | Holly Pickering (U Alberta)
 | Nathan Chandler (U Calgary)
