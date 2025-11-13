@@ -1581,31 +1581,31 @@ Notes allow cataloguers to input additional information regarding the item. Ther
    |  
    | Below is a simple series of timestamps represented as XML::
 
-  <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-      <Div label="Margaret Atwood">
-          <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
-          <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
-          <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
-          <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
-          <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
-          <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
-          <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
-          <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
-          <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
-          <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-      </Div>
+        <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
+            <Div label="Margaret Atwood">
+                <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
+                <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
+                <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
+                <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
+                <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
+                <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
+                <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
+                <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
+                <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
+                <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
+            </Div>
 
-      <Div label="Dorothy Livesay">
-          <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-          <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-          <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-          <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-          <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-      </Div>
-  </Item>
+            <Div label="Dorothy Livesay">
+                <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
+                <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
+                <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
+                <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
+                <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
+            </Div>
+        </Item>
    
-  <item label="Imaginary Recording of Dorothy Livesay">
-    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-  </item>
+        <item label="Imaginary Recording of Dorothy Livesay">
+            <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
+            <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
+            <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
+        </item>
