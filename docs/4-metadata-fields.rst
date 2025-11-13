@@ -1579,7 +1579,9 @@ Notes allow cataloguers to input additional information regarding the item. Ther
    |  
    | In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
    |  
-   | Below is a simple series of timestamps represented as XML::
+   | Below is a simple series of timestamps represented as XML:
+
+.. code-block:: xml
 
         <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
             <Div label="Margaret Atwood">
@@ -1603,7 +1605,9 @@ Notes allow cataloguers to input additional information regarding the item. Ther
                 <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
             </Div>
         </Item>
-   
+
+.. code-block:: xml
+
         <item label="Imaginary Recording of Dorothy Livesay">
             <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
             <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
