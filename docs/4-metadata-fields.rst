@@ -1582,8 +1582,6 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 
 		In the example of a poetry reading below, the title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the title. Atwood and Livesay are the only two performers here; each gets a Heading or div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.\
 
-		See also the XML example in [42]_.
-
 .. [42] Example XML representing nested timestamping in ERA A+V:
 
 		<item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">\
