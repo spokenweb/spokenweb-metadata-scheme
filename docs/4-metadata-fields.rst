@@ -1580,7 +1580,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 
    .. raw:: html
 
-      <div class="no-split">
+      <div style="column-span: all; display: block; width: 100%; max-width: 900px; overflow-x: auto;">
 
    ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
 
