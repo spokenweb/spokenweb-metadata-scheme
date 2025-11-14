@@ -1582,11 +1582,10 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 
 		In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
 
-  
-    Below is a simple series of timestamps represented as XML:
+    	Below is a simple series of timestamps represented as XML:
    
-    <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-      <Div label="Margaret Atwood">
+    	<Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
+      	<Div label="Margaret Atwood">
         <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
         <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
         <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
@@ -1597,19 +1596,19 @@ Notes allow cataloguers to input additional information regarding the item. Ther
         <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
         <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
         <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-      </Div>
+     	</Div>
    
-      <Div label="Dorothy Livesay">
-         <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-         <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-         <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-         <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-         <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-      </Div>
-    </Item>
+      	<Div label="Dorothy Livesay">
+        <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
+        <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
+        <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
+        <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
+        <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
+      	</Div>
+    	</Item>
    
-    <item label="Imaginary Recording of Dorothy Livesay">
-   |   <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-   |   <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-   |   <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-   | </item>
+    	<item label="Imaginary Recording of Dorothy Livesay">
+      	<span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
+      	<span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
+      	<span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
+    	</item>
