@@ -1592,7 +1592,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 
    .. raw:: html
 
-      <div style="overflow-x: auto; box-sizing: border-box; padding-bottom: 0.5rem;">
+      <div style="white-space: pre-wrap; word-break: break-word;">
 
 
    .. code-block:: xml
@@ -1629,10 +1629,11 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 
    .. raw:: html
 
-      </div>  <!-- end code-wrapper -->
+      </div>  <!-- end wrapping-forced-line-breaks -->
 
    .. raw:: html
 
       </div>  <!-- end footnote-wrapper -->
+
 
 
