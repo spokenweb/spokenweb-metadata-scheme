@@ -1576,39 +1576,49 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 		
 		`Transkriptor <https://transkriptor.com/>`_ is a commercial tool that is user-friendly and efficient for generating time-stamped transcripts quickly. \
 
-.. [41] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
+.. [41]
 
-       The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
+   .. raw:: html
 
-       In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
+      <div class="no-split">
 
-       .. code-block:: xml
+   ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
 
-          <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-              <Div label="Margaret Atwood">
-                  <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
-                  <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
-                  <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
-                  <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
-                  <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
-                  <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
-                  <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
-                  <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
-                  <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
-                  <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-              </Div>
+   The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
 
-              <Div label="Dorothy Livesay">
-                  <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-                  <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-                  <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-                  <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-                  <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-              </Div>
-          </Item>
+   In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
 
-          <item label="Imaginary Recording of Dorothy Livesay">
-              <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-              <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-              <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-          </item>
+   .. code-block:: xml
+
+      <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
+          <Div label="Margaret Atwood">
+              <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
+              <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
+              <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
+              <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
+              <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
+              <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
+              <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
+              <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
+              <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
+              <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
+          </Div>
+
+          <Div label="Dorothy Livesay">
+              <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
+              <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
+              <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
+              <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
+              <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
+          </Div>
+      </Item>
+
+      <item label="Imaginary Recording of Dorothy Livesay">
+          <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
+          <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
+          <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
+      </item>
+
+   .. raw:: html
+
+      </div>
