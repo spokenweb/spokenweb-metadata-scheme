@@ -162,10 +162,46 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 latex_elements = {
     'classoptions': ',openany',
-    'preamble': r'''
-        \setcounter{secnumdepth}{-1}
-        \renewcommand{\sphinxcaption}[2]{#2}
-    ''',
+
+    'preamble': r"""
+% -------------------------------------------------------------------
+% Existing settings
+\setcounter{secnumdepth}{-1}
+\renewcommand{\sphinxcaption}[2]{#2}
+
+% -------------------------------------------------------------------
+% Bulletproof symbolic footnote override for fn-collection
+% This forces ONLY the footnote with label [#fn-collection]
+% to use '*' in PDF (LaTeX), regardless of ordering, citations, etc.
+% -------------------------------------------------------------------
+\makeatletter
+
+% A flag used to mark the special footnote
+\newcommand{\iscollectionfn}{%
+  \ifcsname fn@collection\endcsname
+    1%
+  \else
+    0%
+  \fi
+}
+
+% Save the original marker
+\let\oldthefootnote\thefootnote
+
+% Override marker only when fn-collection is active
+\renewcommand{\thefootnote}{%
+  \ifnum\iscollectionfn=1 %
+    *%
+  \else
+    \oldthefootnote%
+  \fi
+}
+
+% Define the special footnote identifier
+\newcommand{\fn@collection}{}
+
+\makeatother
+"""
 }
 
 
