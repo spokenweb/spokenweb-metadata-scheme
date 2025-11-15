@@ -18,7 +18,7 @@ In taking photos of the archival audio artifacts, you will be generating new
 data (digital image files) and those files will also need to be named properly
 for easy use. Each filename of an image should have the following syntax:
 
-    [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg [†]_
+[Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg [†]_
 
 NOTE: Not all collections will be coming from archives, so this syntax will not
 apply to all.
