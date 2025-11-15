@@ -18,7 +18,7 @@ In taking photos of the archival audio artifacts, you will be generating new
 data (digital image files) and those files will also need to be named properly
 for easy use. Each filename of an image should have the following syntax:
 
-    [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg [*]_
+    [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg [†]_
 
 NOTE: Not all collections will be coming from archives, so this syntax will not
 apply to all.
@@ -30,7 +30,7 @@ Examples:
 * Gilbert_21_Side2.png
 * Ultimatum_5-3_Side1.png
 
-.. [*] Collection name may be derived from the name of the fonds. If the fonds
+.. [†] Collection name may be derived from the name of the fonds. If the fonds
    is author fonds, then use the author’s last name (“Kiyooka”, “Gilbert”, etc.).
    If the fonds is an event series, use the name of the series (“Ultimatum”,
    “Véhicule”, etc.). Supply fonds and box numbers when available, and use any
