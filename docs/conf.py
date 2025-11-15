@@ -159,7 +159,9 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 # conf.py
 
+
 latex_elements = {
+    'classoptions': ',openany',
     'preamble': r'''
         \setcounter{secnumdepth}{-1}
         \renewcommand{\sphinxcaption}[2]{#2}
