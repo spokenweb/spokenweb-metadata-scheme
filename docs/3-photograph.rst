@@ -1,3 +1,13 @@
+.. [#fn-collection]
+
+   .. raw:: html
+
+      <sup>*</sup>
+
+   .. raw:: latex
+
+      \textsuperscript{*}
+
 ####################################
 3. How to Photograph Archival Assets
 ####################################
@@ -16,7 +26,7 @@ If you are able to photograph the archival recordings, you should try to do so a
 
 In taking photos of the archival audio artifacts, you will be generating new data (digital image files) and those files will also need to be named properly for easy use. Each filename of an image should have the following syntax:
 
-  [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg [#fn-collection]_
+  [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg |star|[#fn-collection]_
 
 NOTE: Not all collections will be coming from archives, so this syntax won't apply to all. 
 
