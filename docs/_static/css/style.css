@@ -8,6 +8,40 @@
 }
 
 
+
+
+/* --------------------------------------------------------------
+   Make footnote [#fn-collection] display "*" in HTML (call site)
+   -------------------------------------------------------------- */
+a.footnote-reference[href$="#fn-collection"] {
+    font-size: 0 !important;  /* hide the default number */
+}
+
+a.footnote-reference[href$="#fn-collection"]::after {
+    content: "*";
+    font-size: 0.75em;         /* match RTD superscript size */
+    vertical-align: super;
+    margin-left: 1px;
+}
+
+/* --------------------------------------------------------------
+   Make the corresponding footnote entry show "*" instead of "1."
+   -------------------------------------------------------------- */
+dl.footnote dt label[for="fn-collection"] {
+    font-size: 0 !important;  /* hide the auto-generated number */
+}
+
+dl.footnote dt label[for="fn-collection"]::after {
+    content: "*";
+    font-size: 0.9em;
+    margin-right: 4px;
+}
+
+
+
+
+
+
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal;
 }
