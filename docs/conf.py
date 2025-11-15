@@ -164,45 +164,41 @@ latex_elements = {
     'classoptions': ',openany',
 
     'preamble': r"""
+% ===================================================================================
+% Sphinx LaTeX preamble for SpokenWeb Metadata Scheme
+% ===================================================================================
+
 % -------------------------------------------------------------------
-% Existing settings
+% CUSTOM: make only *one specific footnote* display as a star ("*")
+% -------------------------------------------------------------------
+% Usage in RST:
+%
+%   .. raw:: latex
+%
+%      \nextfootnotestar
+%
+%   .. [#fn-collection] Your footnote text here...
+%
+% This affects ONLY the next footnote produced, then resets automatically.
+%
+\makeatletter
+\newcommand{\nextfootnotestar}{%
+  % Redefine the footnote marker only for the next footnote
+  \gdef\thefootnote{*}%
+  % Prevent LaTeX from incrementing the footnote counter
+  \global\setcounter{footnote}{\value{footnote}-1}%
+}
+\makeatother
+
+% -------------------------------------------------------------------
+% EXISTING SETTINGS (keep these)
+% -------------------------------------------------------------------
 \setcounter{secnumdepth}{-1}
 \renewcommand{\sphinxcaption}[2]{#2}
 
-% -------------------------------------------------------------------
-% Bulletproof symbolic footnote override for fn-collection
-% This forces ONLY the footnote with label [#fn-collection]
-% to use '*' in PDF (LaTeX), regardless of ordering, citations, etc.
-% -------------------------------------------------------------------
-\makeatletter
-
-% A flag used to mark the special footnote
-\newcommand{\iscollectionfn}{%
-  \ifcsname fn@collection\endcsname
-    1%
-  \else
-    0%
-  \fi
-}
-
-% Save the original marker
-\let\oldthefootnote\thefootnote
-
-% Override marker only when fn-collection is active
-\renewcommand{\thefootnote}{%
-  \ifnum\iscollectionfn=1 %
-    *%
-  \else
-    \oldthefootnote%
-  \fi
-}
-
-% Define the special footnote identifier
-\newcommand{\fn@collection}{}
-
-\makeatother
 """
 }
+
 
 
 
