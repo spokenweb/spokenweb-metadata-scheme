@@ -1524,11 +1524,10 @@ Notes allow cataloguers to input additional information regarding the item. Ther
   
   **Preservation:** Specific notes about preservation details typically found from third parties such as, who did it, what happened to the object, or extra XML information. 
 
-.. only:: html
 
-   ****************
-   4.23. References
-   ****************
+
+
+
 
 .. [2] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, http://cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
 .. [3] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/app/uploads/2024/01/CBPS_2000_Guidelines_ISADG_Second-edition_EN.pdf .
