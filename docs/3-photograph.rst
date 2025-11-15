@@ -14,9 +14,11 @@ If you are able to photograph the archival recordings, you should try to do so a
 3.2. How to name and format image files
 ***************************************
 
-In taking photos of the archival audio artifacts, you will be generating new data (digital image files) and those files will also need to be named properly for easy use. Each filename of an image should have the following syntax:
+In taking photos of the archival audio artifacts, you will be generating new
+data (digital image files) and those files will also need to be named properly
+for easy use. Each filename of an image should have the following syntax:
 
-  [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg 
+    [Collection name]_[Fonds number]_[Box number]_ID_Side number.jpeg
 
 .. only:: html
 
@@ -24,13 +26,9 @@ In taking photos of the archival audio artifacts, you will be generating new dat
 
 .. only:: latex
 
-   \footnote{*~Collection name may be derived from the name of the fonds.
-   If the fonds is author fonds, then use the author’s last name (“Kiyooka”,
-   “Gilbert”, etc.). If the fonds is an event series, use the name of the
-   series (“Ultimatum”, “Véhicule”, etc.). Supply fonds and box numbers when
-   available, and use any extant ID numbers if the collection has already been
-   catalogued. The object is always the primary source of information for
-   determining a unique ID number.}
+   .. raw:: latex
+
+      \footnotemark[*]
 
 NOTE: Not all collections will be coming from archives, so this syntax will not
 apply to all.
@@ -51,5 +49,17 @@ Examples:
       numbers when available, and use any extant ID numbers if the collection
       has already been catalogued. The object is always the primary source of
       information for determining a unique ID number.
+
+.. only:: latex
+
+   .. raw:: latex
+
+      \footnotetext[*]{Collection name may be derived from the name of the
+      fonds. If the fonds is author fonds, then use the author’s last name
+      (“Kiyooka”, “Gilbert”, etc.). If the fonds is an event series, use the
+      name of the series (“Ultimatum”, “Véhicule”, etc.). Supply fonds and box
+      numbers when available, and use any extant ID numbers if the collection
+      has already been catalogued. The object is always the primary source of
+      information for determining a unique ID number.}
 
 
