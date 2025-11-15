@@ -30,9 +30,4 @@ Examples:
 * Gilbert_21_Side2.png
 * Ultimatum_5-3_Side1.png
 
-.. [†] Collection name may be derived from the name of the fonds. If the fonds
-   is author fonds, then use the author’s last name (“Kiyooka”, “Gilbert”, etc.).
-   If the fonds is an event series, use the name of the series (“Ultimatum”,
-   “Véhicule”, etc.). Supply fonds and box numbers when available, and use any
-   extant ID numbers if the collection has already been catalogued. The object is
-   always the primary source of information for determining a unique ID number.
+.. [†] Collection name may be derived from the name of the fonds. If the fonds is author fonds, then use the author’s last name (“Kiyooka”, “Gilbert”, etc.). If the fonds is an event series, use the name of the series (“Ultimatum”,“Véhicule”, etc.). Supply fonds and box numbers when available, and use any extant ID numbers if the collection has already been catalogued. The object is always the primary source of information for determining a unique ID number.
