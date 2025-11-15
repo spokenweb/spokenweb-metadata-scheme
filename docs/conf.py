@@ -162,42 +162,12 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 latex_elements = {
     'classoptions': ',openany',
-
-    'preamble': r"""
-% ===================================================================================
-% Sphinx LaTeX preamble for SpokenWeb Metadata Scheme
-% ===================================================================================
-
-% -------------------------------------------------------------------
-% CUSTOM: make only *one specific footnote* display as a star ("*")
-% -------------------------------------------------------------------
-% Usage in RST:
-%
-%   .. raw:: latex
-%
-%      \nextfootnotestar
-%
-%   .. [#fn-collection] Your footnote text here...
-%
-% This affects ONLY the next footnote produced, then resets automatically.
-%
-\makeatletter
-\newcommand{\nextfootnotestar}{%
-  % Redefine the footnote marker only for the next footnote
-  \gdef\thefootnote{*}%
-  % Prevent LaTeX from incrementing the footnote counter
-  \global\setcounter{footnote}{\value{footnote}-1}%
+    'preamble': r'''
+        \setcounter{secnumdepth}{-1}
+        \renewcommand{\sphinxcaption}[2]{#2}
+    ''',
 }
-\makeatother
 
-% -------------------------------------------------------------------
-% EXISTING SETTINGS (keep these)
-% -------------------------------------------------------------------
-\setcounter{secnumdepth}{-1}
-\renewcommand{\sphinxcaption}[2]{#2}
-
-"""
-}
 
 
 
