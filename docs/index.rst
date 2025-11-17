@@ -1,7 +1,4 @@
-.. SpokenWeb Metadata Scheme and Cataloguing Process documentation master file, created by
-   sphinx-quickstart on Thu Mar  7 17:09:47 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. SpokenWeb Metadata Scheme and Cataloguing Process documentation master file
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SpokenWeb Metadata Scheme and Cataloguing Process
@@ -23,7 +20,6 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U)
 | Jared Wiercinski (Concordia U)
 
-
 **Version 2 authors:**
 
 | Jason Camlot (Concordia U)
@@ -37,7 +33,6 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
 | Jared Wiercinski (Concordia U)
 
-
 **Version 2 contributors:**
 
 | Ali Barillaro (Concordia U)
@@ -45,7 +40,6 @@ List of Authors/ Contributors
 | Cole Mash (SFU)
 | Holly Pickering (U Alberta)
 | Nathan Chandler (U Calgary)
-
 
 **Metadata Controllers:**
 
@@ -64,7 +58,6 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
 | Jared Wiercinski (Concordia U)
 
-
 **Version 3 contributors:**
 
 | Ali Barillaro (Concordia U)
@@ -72,7 +65,6 @@ List of Authors/ Contributors
 | Linara Kolosov (SFU)
 | Cole Mash (SFU)
 | Andrew Roberge (Concordia U)
-
 
 **Metadata Controllers:**
 
@@ -92,16 +84,11 @@ List of Authors/ Contributors
 | Ella Hooper (Concordia U)
 | Hannah MacGregor (SFU)
 
-
 .. toctree::
-  1-intro
-  2-troubleshoot
-  3-photograph
-  4-metadata-fields
+   :maxdepth: 2
+   :caption: Contents
 
-----
-
-
-
-
-
+   1-intro
+   2-troubleshoot
+   3-photograph
+   4-metadata-fields
