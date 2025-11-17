@@ -7,97 +7,90 @@
 SpokenWeb Metadata Scheme and Cataloguing Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. only:: latex
+#############################
+List of Authors/ Contributors
+#############################
 
-   .. raw:: latex
+**Version 1 authors:**
 
-      \clearpage
-      \thispagestyle{plain}
-
-   #############################
-   List of Authors/ Contributors
-   #############################
-
-   **Version 1 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U)
-   | Jared Wiercinski (Concordia U)
+| Jason Camlot (Concordia U)
+| Rebecca Dowson (SFU)
+| Ian Ferrier (Wired on Words)
+| Deanna Fong (SFU)
+| Roma Kail (Victoria University in the UofT)
+| Sean Luyk (U Alberta)
+| Aurelio Meza (Concordia U)
+| Tomasz Neugebauer (Concordia U)
+| Jared Wiercinski (Concordia U)
 
 
-   **Version 2 authors:**
+**Version 2 authors:**
 
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT) (also Metadata Controller)
-   | Eva Lu (Victoria University in the UofT)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
-   | Jared Wiercinski (Concordia U)
-
-
-   **Version 2 contributors:**
-
-   | Ali Barillaro (Concordia U)
-   | Lee Hannigan (U Alberta)
-   | Cole Mash (SFU)
-   | Holly Pickering (U Alberta)
-   | Nathan Chandler (U Calgary)
+| Jason Camlot (Concordia U)
+| Rebecca Dowson (SFU)
+| Ian Ferrier (Wired on Words)
+| Deanna Fong (SFU)
+| Roma Kail (Victoria University in the UofT) (also Metadata Controller)
+| Eva Lu (Victoria University in the UofT)
+| Sean Luyk (U Alberta)
+| Aurelio Meza (Concordia U)
+| Tomasz Neugebauer (Concordia U) (also Metadata Controller)
+| Jared Wiercinski (Concordia U)
 
 
-   **Metadata Controllers:**
+**Version 2 contributors:**
 
-   | Roma Kail (Victoria University in the UofT)
-   | Tomasz Neugebauer (Concordia U)
-
-   **Version 3 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT) (also Metadata Controller)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
-   | Jared Wiercinski (Concordia U)
+| Ali Barillaro (Concordia U)
+| Lee Hannigan (U Alberta)
+| Cole Mash (SFU)
+| Holly Pickering (U Alberta)
+| Nathan Chandler (U Calgary)
 
 
-   **Version 3 contributors:**
+**Metadata Controllers:**
 
-   | Ali Barillaro (Concordia U)
-   | Jakob Knudsen (SFU)
-   | Linara Kolosov (SFU)
-   | Cole Mash (SFU)
-   | Andrew Roberge (Concordia U)
+| Roma Kail (Victoria University in the UofT)
+| Tomasz Neugebauer (Concordia U)
+
+**Version 3 authors:**
+
+| Jason Camlot (Concordia U)
+| Rebecca Dowson (SFU)
+| Ian Ferrier (Wired on Words)
+| Deanna Fong (SFU)
+| Roma Kail (Victoria University in the UofT) (also Metadata Controller)
+| Sean Luyk (U Alberta)
+| Aurelio Meza (Concordia U)
+| Tomasz Neugebauer (Concordia U) (also Metadata Controller)
+| Jared Wiercinski (Concordia U)
 
 
-   **Metadata Controllers:**
+**Version 3 contributors:**
 
-   | Roma Kail (Victoria University in the UofT)
-   | Tomasz Neugebauer (Concordia U)
+| Ali Barillaro (Concordia U)
+| Jakob Knudsen (SFU)
+| Linara Kolosov (SFU)
+| Cole Mash (SFU)
+| Andrew Roberge (Concordia U)
 
-   **Version 4 authors:**
 
-   | Jason Camlot (Concordia U)
-   | Corina MacDonald (Concordia U)
-   | Tomasz Neugebauer (Concordia U)
+**Metadata Controllers:**
 
-   **Version 4 contributors:**
+| Roma Kail (Victoria University in the UofT)
+| Tomasz Neugebauer (Concordia U)
 
-   | Yara Ajeeb (Concordia U)
-   | Maia Harris (Concordia U)
-   | Ella Hooper (Concordia U)
-   | Hannah MacGregor (SFU)
+**Version 4 authors:**
+
+| Jason Camlot (Concordia U)
+| Corina MacDonald (Concordia U)
+| Tomasz Neugebauer (Concordia U)
+
+**Version 4 contributors:**
+
+| Yara Ajeeb (Concordia U)
+| Maia Harris (Concordia U)
+| Ella Hooper (Concordia U)
+| Hannah MacGregor (SFU)
 
 
 .. toctree::
@@ -108,94 +101,7 @@ SpokenWeb Metadata Scheme and Cataloguing Process
 
 ----
 
-.. only:: html
 
-   #############################
-   List of Authors/ Contributors
-   #############################
-
-   **Version 1 authors:**
-   **Version 1 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U)
-   | Jared Wiercinski (Concordia U)
-
-
-   **Version 2 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT) (also Metadata Controller)
-   | Eva Lu (Victoria University in the UofT)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
-   | Jared Wiercinski (Concordia U)
-
-
-   **Version 2 contributors:**
-
-   | Ali Barillaro (Concordia U)
-   | Lee Hannigan (U Alberta)
-   | Cole Mash (SFU)
-   | Holly Pickering (U Alberta)
-   | Nathan Chandler (U Calgary)
-
-
-   **Metadata Controllers:**
-
-   | Roma Kail (Victoria University in the UofT)
-   | Tomasz Neugebauer (Concordia U)
-
-   **Version 3 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Rebecca Dowson (SFU)
-   | Ian Ferrier (Wired on Words)
-   | Deanna Fong (SFU)
-   | Roma Kail (Victoria University in the UofT) (also Metadata Controller)
-   | Sean Luyk (U Alberta)
-   | Aurelio Meza (Concordia U)
-   | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
-   | Jared Wiercinski (Concordia U)
-
-
-   **Version 3 contributors:**
-
-   | Ali Barillaro (Concordia U)
-   | Jakob Knudsen (SFU)
-   | Linara Kolosov (SFU)
-   | Cole Mash (SFU)
-   | Andrew Roberge (Concordia U)
-
-
-   **Metadata Controllers:**
-
-   | Roma Kail (Victoria University in the UofT)
-   | Tomasz Neugebauer (Concordia U)
-
-   **Version 4 authors:**
-
-   | Jason Camlot (Concordia U)
-   | Corina MacDonald (Concordia U)
-   | Tomasz Neugebauer (Concordia U)
-
-   **Version 4 contributors:**
-
-   | Yara Ajeeb (Concordia U)
-   | Maia Harris (Concordia U)
-   | Ella Hooper (Concordia U)
-   | Hannah MacGregor (SFU)
-   | Katherine McLeod (Concordia U)
 
 
 
