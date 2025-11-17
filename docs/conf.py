@@ -165,8 +165,25 @@ latex_elements = {
     'preamble': r'''
         \setcounter{secnumdepth}{-1}
         \renewcommand{\sphinxcaption}[2]{#2}
+
+        % --- Inject "Cite as" block onto the title page ---
+        \usepackage{etoolbox}
+        \makeatletter
+        \apptocmd{\sphinxmaketitle}{
+          \vspace{2cm}
+          \begin{center}
+          \begin{minipage}{0.8\textwidth}
+          \textbf{Cite as:}\\[6pt]
+          SpokenWeb Team (2025).
+          \textit{SpokenWeb Metadata Scheme and Cataloguing Process}.\\
+          DOI: 10.1234/swmts-2025
+          \end{minipage}
+          \end{center}
+        }{}{}
+        \makeatother
     ''',
 }
+
 
 
 
