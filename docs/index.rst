@@ -9,7 +9,11 @@ SpokenWeb Metadata Scheme and Cataloguing Process
 
 .. only:: latex
 
-   \newpage
+   .. raw:: latex
+
+      \clearpage
+      \thispagestyle{plain}
+
    #############################
    List of Authors/ Contributors
    #############################
