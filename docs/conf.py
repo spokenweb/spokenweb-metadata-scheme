@@ -197,11 +197,7 @@ latex_elements = {
 \vspace*{2\baselineskip}
 \begin{flushleft}   % <<< add this
 \normalfont\normalsize   % reset to regular weight + standard size
-\\
-\\
-\\
-\\
-\\
+\\[12pt]
 {\large\bfseries Cite as:}\\[6pt]
 {\small
   Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Chandler, N., Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J., MacGregor, H., Mash, C., McLeod, K., Pickering, H., Roberge, A. 
