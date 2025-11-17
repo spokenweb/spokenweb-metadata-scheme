@@ -163,26 +163,68 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 latex_elements = {
     'classoptions': ',openany',
     'preamble': r'''
-        \setcounter{secnumdepth}{-1}
-        \renewcommand{\sphinxcaption}[2]{#2}
+\setcounter{secnumdepth}{-1}
+\renewcommand{\sphinxcaption}[2]{#2}
 
-        % --- Insert "Cite as" immediately AFTER the author block ---
-        \usepackage{etoolbox}
-        \makeatletter
+% --- Custom title page with "Cite as" under the author ---
+\makeatletter
+\renewcommand{\sphinxmaketitle}{%
+  \let\sphinxrestorepageanchorsetting\relax
+  \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi
+  \hypersetup{pageanchor=false}% avoid duplicate destination warnings
+  \begin{titlepage}%
+    \let\footnotesize\small
+    \let\footnoterule\relax
+    \noindent\rule{\textwidth}{1pt}\par
+      \begingroup % for PDF information dictionary
+       \def\endgraf{ }\def\and{\& }%
+       \pdfstringdefDisableCommands{\def\\{, }}% overwrite hyperref setup
+       \hypersetup{pdfauthor={\@author}, pdftitle={\@title}}%
+      \endgroup
+    \begin{flushright}%
+      \sphinxlogo
+      \py@HeaderFamily
+      {\Huge \@title \par}
+      {\itshape\LARGE \py@release\releaseinfo \par}
+      \vfill
+      {\LARGE
+        \begin{tabular}[t]{c}
+          \@author
+        \end{tabular}\kern-\tabcolsep
+        \par}
 
-        % Patch \@author inside the title page layout
-        \apptocmd{\@author}{
-            \\[1.5cm]
-            \textbf{Cite as:}\\[6pt]
-            SpokenWeb Team (2025).\\
-            \textit{SpokenWeb Metadata Scheme and Cataloguing Process}.\\
-            DOI: 10.1234/swmts-2025
-            \\[1cm]
-        }{}{}
+      % ----- Cite as block (directly under author) -----
+      \vspace*{2\baselineskip}
+      {\large\bfseries Cite as:\par}
+      {\small
+        SpokenWeb Team (2025).\newline
+        \emph{SpokenWeb Metadata Scheme and Cataloguing Process}.\newline
+        Version \version.\newline
+        Available at \url{https://spokenweb.ca/}%
+      \par}
+      % ----- end Cite as block -----
 
-        \makeatother
-    ''',
+      \vfill\vfill
+      {\large
+       \@date \par
+       \vfill
+       \py@authoraddress \par
+      }%
+    \end{flushright}%\par
+    \@thanks
+  \end{titlepage}%
+  \setcounter{footnote}{0}%
+  \let\thanks\relax\let\maketitle\relax
+  %\gdef\@thanks{}\gdef\@author{}\gdef\@title{}
+  \clearpage
+  \ifdefined\sphinxbackoftitlepage\sphinxbackoftitlepage\fi
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \sphinxrestorepageanchorsetting
 }
+\makeatother
+''',
+}
+
 
 
 
