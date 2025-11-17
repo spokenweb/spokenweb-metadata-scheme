@@ -21,7 +21,7 @@
 
 project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
 copyright = u'2025, SpokenWeb Team'
-author = u'SpokenWeb Team'
+author = u'SpokenWeb Metadata Task Force'
 
 
 
@@ -241,7 +241,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess.tex', u'SpokenWeb Metadata Scheme and Cataloguing Process Documentation',
-     u'SpokenWeb Team', 'manual'),
+     u'SpokenWeb Metadata Task Force', 'manual'),
 ]
 
 
