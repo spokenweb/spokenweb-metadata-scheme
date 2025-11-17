@@ -202,7 +202,7 @@ latex_elements = {
   (2025).\\
   \emph{SpokenWeb Metadata Scheme and Cataloguing Process}.\\
   Version \version.\\
-  Available at \url{https://doi.org/10.11573/spectrum.library.concordia.ca.XXXXXXX}
+  Available at \url{https://doi.org/10.11573/spectrum.library.concordia.ca.00996470}
 \par}
 \end{flushleft}     % <<< add this
 % ----- end Cite as block -----
