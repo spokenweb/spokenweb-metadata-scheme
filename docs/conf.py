@@ -166,23 +166,25 @@ latex_elements = {
         \setcounter{secnumdepth}{-1}
         \renewcommand{\sphinxcaption}[2]{#2}
 
-        % --- Inject "Cite as" block onto the title page ---
+        % --- Inject "Cite as" block at the TOP of the title page ---
         \usepackage{etoolbox}
         \makeatletter
-        \apptocmd{\sphinxmaketitle}{
-          \vspace{2cm}
+        \pretocmd{\sphinxmaketitle}{
           \begin{center}
-          \begin{minipage}{0.8\textwidth}
+          \vspace*{1cm} % adjust this to move it up/down
+          \begin{minipage}{0.9\textwidth}
           \textbf{Cite as:}\\[6pt]
-          SpokenWeb Team (2025).
+          SpokenWeb Team (2025).\\
           \textit{SpokenWeb Metadata Scheme and Cataloguing Process}.\\
           DOI: 10.1234/swmts-2025
           \end{minipage}
+          \vspace{1cm} % spacing before the title itself
           \end{center}
         }{}{}
         \makeatother
     ''',
 }
+
 
 
 
