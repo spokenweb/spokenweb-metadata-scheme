@@ -174,24 +174,24 @@ SpokenWeb Metadata Scheme and Cataloguing Process
    | Andrew Roberge (Concordia U)
 
 
-**Metadata Controllers:**
+   **Metadata Controllers:**
 
-| Roma Kail (Victoria University in the UofT)
-| Tomasz Neugebauer (Concordia U)
+   | Roma Kail (Victoria University in the UofT)
+   | Tomasz Neugebauer (Concordia U)
 
-**Version 4 authors:**
+   **Version 4 authors:**
 
-| Jason Camlot (Concordia U)
-| Corina MacDonald (Concordia U)
-| Tomasz Neugebauer (Concordia U)
+   | Jason Camlot (Concordia U)
+   | Corina MacDonald (Concordia U)
+   | Tomasz Neugebauer (Concordia U)
 
-**Version 4 contributors:**
+   **Version 4 contributors:**
 
-| Yara Ajeeb (Concordia U)
-| Maia Harris (Concordia U)
-| Ella Hooper (Concordia U)
-| Hannah MacGregor (SFU)
-| Katherine McLeod (Concordia U)
+   | Yara Ajeeb (Concordia U)
+   | Maia Harris (Concordia U)
+   | Ella Hooper (Concordia U)
+   | Hannah MacGregor (SFU)
+   | Katherine McLeod (Concordia U)
 
 
 
