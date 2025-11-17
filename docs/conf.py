@@ -161,6 +161,7 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 
 latex_elements = {
+    'releasename': 'Version',
     'classoptions': ',openany',
     'preamble': r'''
 \setcounter{secnumdepth}{-1}
