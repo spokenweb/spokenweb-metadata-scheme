@@ -194,15 +194,19 @@ latex_elements = {
         \par}
 
       % ----- Cite as block (directly under author) -----
-      \vspace*{2\baselineskip}
-      {\large\bfseries Cite as:\par}
-      {\small
-        SpokenWeb Team (2025).\newline
-        \emph{SpokenWeb Metadata Scheme and Cataloguing Process}.\newline
-        Version \version.\newline
-        Available at \url{https://spokenweb.ca/}%
-      \par}
-      % ----- end Cite as block -----
+\vspace*{2\baselineskip}
+\begin{flushleft}   % <<< add this
+{\large\bfseries Cite as:}\\[6pt]
+{\small
+  Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Chandler, N.,  Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J.,  ... Roberge, A. 
+  (2025).\\
+  \emph{SpokenWeb Metadata Scheme and Cataloguing Process}.\\
+  Version \version.\\
+  Available at \url{https://doi.org/10.11573/spectrum.library.concordia.ca.XXXXXXX}
+\par}
+\end{flushleft}     % <<< add this
+% ----- end Cite as block -----
+
 
       \vfill\vfill
       {\large
