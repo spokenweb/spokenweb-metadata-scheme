@@ -13,3 +13,7 @@ SpokenWeb Metadata Scheme and Cataloguing Process
    2-troubleshoot
    3-photograph
    4-metadata-fields
+
+.. only:: html
+
+   .. include:: acknowledgements.rst
