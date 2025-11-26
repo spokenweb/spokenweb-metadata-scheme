@@ -2,7 +2,7 @@
 List of Authors/ Contributors
 #############################
 
-**Version 1 authors:**
+**Version 1 authors (2019):**
 
 | Jason Camlot (Concordia U)
 | Rebecca Dowson (SFU)
@@ -14,7 +14,7 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U)
 | Jared Wiercinski (Concordia U)
 
-**Version 2 authors:**
+**Version 2 authors (2019):**
 
 | Jason Camlot (Concordia U)
 | Rebecca Dowson (SFU)
@@ -27,7 +27,7 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
 | Jared Wiercinski (Concordia U)
 
-**Version 2 contributors:**
+**Version 2 contributors (2019):**
 
 | Ali Barillaro (Concordia U)
 | Lee Hannigan (U Alberta)
@@ -35,12 +35,12 @@ List of Authors/ Contributors
 | Holly Pickering (U Alberta)
 | Nathan Chandler (U Calgary)
 
-**Metadata Controllers:**
+**Metadata Controllers (2019):**
 
 | Roma Kail (Victoria University in the UofT)
 | Tomasz Neugebauer (Concordia U)
 
-**Version 3 authors:**
+**Version 3 authors (2020):**
 
 | Jason Camlot (Concordia U)
 | Rebecca Dowson (SFU)
@@ -52,7 +52,7 @@ List of Authors/ Contributors
 | Tomasz Neugebauer (Concordia U) (also Metadata Controller)
 | Jared Wiercinski (Concordia U)
 
-**Version 3 contributors:**
+**Version 3 contributors (2020):**
 
 | Ali Barillaro (Concordia U)
 | Jakob Knudsen (SFU)
@@ -60,18 +60,18 @@ List of Authors/ Contributors
 | Cole Mash (SFU)
 | Andrew Roberge (Concordia U)
 
-**Metadata Controllers:**
+**Metadata Controllers (2020):**
 
 | Roma Kail (Victoria University in the UofT)
 | Tomasz Neugebauer (Concordia U)
 
-**Version 4 authors:**
+**Version 4 authors (2025):**
 
 | Jason Camlot (Concordia U)
 | Corina MacDonald (Concordia U)
 | Tomasz Neugebauer (Concordia U)
 
-**Version 4 contributors:**
+**Version 4 contributors (2025):**
 
 | Yara Ajeeb (Concordia U)
 | Maia Harris (Concordia U)
