@@ -101,7 +101,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 **Example of using the series field**
 
 | General Example:
-| Collection Name: Spoken Web Archive of the Present
+| Collection Name: SpokenWeb Archive of the Present
 | Series Title: Listening Practices
 | Sub-series: Virtual Listening Practice 2020
 |
@@ -1560,7 +1560,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [30] LOC, "Genre/Form Terms"
 .. [31] LOC, "Genre/Form Terms"
 .. [32] www.merriam-webster.com/; other dictionaries and common sense
-.. [33] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
+.. [33] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). 
 .. [34] “Art & Architecture Thesaurus Full Record Display (Getty Research).” n.d. Www.getty.edu. Accessed October 3, 2021. http://www.getty.edu/vow/AATFullDisplay?find=workshop&logic=AND¬e=&subjectid=300069765.
 .. [35] Our schema draws from the definitions of Creator and Contributor found in the "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/. & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
 .. [36] First Nations, Metis and Inuit – Indigenous Ontologies (FNMIIO). National Indigenous Knowledge and Language Alliance/Alliance nationale des connaissances et des langues autochtones NIKLA-ANCLA. June 21, 2019.  https://nationalindigenousknowledgeandlanguagealliance.home.blog/2019/06/21/first-nations-metis-and-inuit-indigenous-ontologies-fnmiio/. 
