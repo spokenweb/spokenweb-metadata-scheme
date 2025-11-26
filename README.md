@@ -1,4 +1,4 @@
-# SpokenWeb-Metadata-Scheme-and-Cataloguing-Process
+# SpokenWeb-Metadata-Schema-and-Cataloguing-Process
 
 The source files for the documentation build for the SpokenWeb Metadata Schema and Cataloguing Process
 
