@@ -1,7 +1,7 @@
 .. SpokenWeb Metadata Scheme and Cataloguing Process documentation master file
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-SpokenWeb Metadata Scheme and Cataloguing Process
+SpokenWeb Metadata Schema and Cataloguing Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
