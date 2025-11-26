@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
+project = u'SpokenWeb Metadata Schema and Cataloguing Process'
 copyright = u'2025, SpokenWeb Team'
 author = u'SpokenWeb Metadata Task Force'
 
@@ -243,7 +243,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess.tex', u'SpokenWeb Metadata Scheme and Cataloguing Process',
+    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess.tex', u'SpokenWeb Metadata Schema and Cataloguing Process',
      u'SpokenWeb Metadata Task Force', 'manual'),
 ]
 
@@ -264,7 +264,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess', u'SpokenWeb Metadata Scheme and Cataloguing Process',
+    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess', u'SpokenWeb Metadata Schema and Cataloguing Process',
      author, 'SpokenWebMetadataSchemeandCataloguingProcess', 'One line description of project.',
      'Miscellaneous'),
 ]
