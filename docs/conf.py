@@ -203,7 +203,7 @@ latex_elements = {
 {\small
   Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Chandler, N., Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J., MacGregor, H., Mash, C., McLeod, K., Pickering, H., Roberge, A. 
   (2025). 
-  \emph{SpokenWeb Metadata Scheme and Cataloguing Process}. 
+  \emph{SpokenWeb Metadata Schema and Cataloguing Process}. 
   Version \version.
   \url{https://doi.org/10.11573/spectrum.library.concordia.ca.00996470}
 \par}
