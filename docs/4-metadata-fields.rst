@@ -144,7 +144,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
   * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
   * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If the latter, you have an option to provide individual metadata for each of the physical items that are a part of the event.
-  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
+  * As noted by most schemas consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
@@ -187,7 +187,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
+**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our schema, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
 
   * Reel to Reel
   * Cassette
