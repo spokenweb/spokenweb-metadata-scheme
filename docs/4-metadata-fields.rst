@@ -299,7 +299,7 @@ Where possible, include the following additional information in the Notes field:
 
     * Copy from an original loaned by UTARMS
 
-**Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
+**Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (e.g. sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
 
 **Sound Quality:** Based on broad categories of clarity and audibility, grade the audio quality of the recording as either Excellent, Good, or Poor.
 
@@ -379,9 +379,9 @@ Where possible, include the following additional information in the Notes field:
 
 **Size:** The size of the digital file in kilobytes, megabytes, or gigabytes. E.g. 1.66 GB
 
-**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). [16]_
+**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). 
 
-**Encoding:** The algorithmic process of transforming analog information into digital form. [16]_ Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
+**Encoding:** The algorithmic process of transforming analog information into digital form. Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
 
 **Title:** The title of the digital image file.
 
@@ -415,7 +415,7 @@ A word or phrase, usually appearing on an artifact (either **digital file** or *
 
 **Procedure:**
 
-The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primarily role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
+The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primary role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
 
 Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [24]_ Put square brackets around the descriptive title.
 
@@ -430,7 +430,7 @@ The following is the order of preference for the source of title information [25
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
   3. a container that is an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. sound `cartridge <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#21>`__, video `cassette <http://http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__, sleeve, container for video); or from
-  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself. If the information is taken from a secondary source, cite the source in a **Title Source**.
+  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the item (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the item itself. If the information is taken from a secondary source, cite the source in a **Title Source**.
   5. For the unidentified information, listen to the recording.
 
 For listing titles of individual works that are read within a given recording, see procedures for timestamping in the **Contents Field** (below).
@@ -443,7 +443,7 @@ For listing titles of individual works that are read within a given recording, s
 
 Indicate Title Source using one of the two options described below, in order of preference:
 
-Option 1. Please specify a URI or other permanent identifier if possible, for example, if the title was retrieved from an online archival catalogue: https://concordia.accesstomemory.org/artist-as-worker-ideas-on-work
+Option 1. Please specify a URI or other permanent identifier if possible, for example, if the title was retrieved from an online archival catalogue. Example: https://concordia.accesstomemory.org/artist-as-worker-ideas-on-work
 
 Option 2. If no URI is possible, please cite the secondary source in free text
 
@@ -463,7 +463,6 @@ Option 2. If no URI is possible, please cite the secondary source in free text
 | Publisher’s brochure                                        | Such material is available                               |
 +-------------------------------------------------------------+----------------------------------------------------------+
 
-----
 
 ***************
 4.9. Title Note
@@ -494,7 +493,14 @@ Provide a link to the Item that you are describing, if available.
 4.12. Language
 **************
 
-Select from the drop-down menu the language of a recording. More languages will be added as we are listening through the collection.
+Enter the language(s) of a recording. More languages will be added as we are listening through the collection.
+
+| Examples:
+| English
+| French
+| English, French
+| English, French, Spanish
+| English, Cree
 
 ----
 
