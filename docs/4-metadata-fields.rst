@@ -510,7 +510,7 @@ Enter the language(s) of a recording. More languages will be added as we are lis
 
 This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [26]_
 
-Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact):
+Enter the appropriate Production Context, see definitions below (note that only one Production Context should be applicable to a single artifact):
 
   * Audiobook: A recording of a oral reading of a book designed for commercial distribution and consumption.
   * Broadcast: A recording of a radio broadcast.
@@ -732,6 +732,8 @@ Statement of responsibility can apply to different levels of a given resource:
 +-----------------------+-----------+-----------+-----------------+-----------+-------------+
 | Creeley, Robert White | 1926-2005 | Performer | Blackburn, Paul | 1926-1971 | Broadcaster |
 +-----------------------+-----------+-----------+-----------------+-----------+-------------+
+
+|
 
 +-------------------------------------------------------------------------------------------+
 | **EXAMPLE 2: Ballade pour Robert Creeley, c. 1993**                                       |
