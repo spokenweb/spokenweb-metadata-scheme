@@ -724,7 +724,8 @@ Statement of responsibility can apply to different levels of a given resource:
 
 **Sample Records** (based on various entries from `Robert Creeley Penn Sound author page <http://writing.upenn.edu/pennsound/x/Creeley.php>`__)
 
-Example 1
+| Example 1
+
 +-------------------------------------------------------------------------------------------+
 | **EXAMPLE 1: from Exact Change Yearbook c.1963, broadcast by Paul Blackburn               |
 | on "Contemporary Poetry"**                                                                |
@@ -734,7 +735,8 @@ Example 1
 | Creeley, Robert White | 1926-2005 | Performer | Blackburn, Paul | 1926-1971 | Broadcaster |
 +-----------------------+-----------+-----------+-----------------+-----------+-------------+
 
-Example 2
+| Example 2
+
 +-------------------------------------------------------------------------------------------+
 | **EXAMPLE 2: Ballade pour Robert Creeley, c. 1993**                                       |
 +-----------------------+-----------+-----------+-----------------+-----------+-------------+
