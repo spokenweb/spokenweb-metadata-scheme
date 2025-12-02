@@ -232,11 +232,11 @@ Identify the AV Type with either Audio or Video.
     Thh:mm:ss
 
 For example:
-
-90 minutes = T01:30:00 \
-45 minutes = T00:45:00 \
-3 minutes and 21 seconds = T00 :03 :21 \
-
+|
+| 90 minutes = T01:30:00 
+| 45 minutes = T00:45:00 
+| 3 minutes and 21 seconds = T00 :03 :21 
+|
 **Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
 
 Tape:
