@@ -232,7 +232,7 @@ Identify the AV Type with either Audio or Video.
     Thh:mm:ss
 
 For example:
-|
+
 | 90 minutes = T01:30:00 
 | 45 minutes = T00:45:00 
 | 3 minutes and 21 seconds = T00 :03 :21 
