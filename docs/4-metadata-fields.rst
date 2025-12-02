@@ -19,7 +19,7 @@ Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate
 
 **Note: Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.**
 
-Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
+Partner institutions, collections, series, and sub-series are managed separately from individual items in the SpokenWeb metadata schema. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
 
 **Examples of the classification structure:**
 
@@ -45,7 +45,7 @@ Below are the metadata guidelines for each classification level.
 4.2.2 Collection
 ================
 
-**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in front end applications. 
+**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in SpokenWeb front end applications. 
 
 If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
 
@@ -113,7 +113,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 | Collection Name: SGW POETRY READING SERIES
 | Series Title: Poetry 1
 
-**Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
+**Label (mandatory):** Enter the Series title. This label will be used in SpokenWeb frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, series website).
 
@@ -124,7 +124,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.2.4 Sub-series
 ================
 
-**Label (mandatory):** Enter the Sub-series title. This label will be used in frontend applications.
+**Label (mandatory):** Enter the Sub-series title. This label will be used in SpokenWeb frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, sub-series website).
 
@@ -157,7 +157,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.4. Preliminary Material Description Fields
 ********************************************
 
-**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate **AV Type** and then go to the **Digital Items Fields** to continue entering the data.
+**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate AV Type and then go to the **Digital Items Fields** to continue entering the data.
 
 **AV Type:** Determine and indicate if the item contains audio or video (with audio). Again, this will likely be self-evident, but should be indicated in the AV TYPE field.
 
@@ -187,7 +187,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our schema, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
+**Material Designation:** Assign a specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our schema, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
 
   * Reel to Reel
   * Cassette
@@ -233,9 +233,9 @@ Identify the AV Type with either Audio or Video.
 
 For example:
 
- 90 minutes = T01:30:00
-   45 minutes = T00:45:00
-   3 minutes and 21 seconds = T00 :03 :21
+| 90 minutes = T01:30:00
+| 45 minutes = T00:45:00
+| 3 minutes and 21 seconds = T00 :03 :21
 
 **Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
 
