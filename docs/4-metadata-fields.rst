@@ -493,7 +493,7 @@ Provide a link to the Item that you are describing, if available.
 4.12. Language
 **************
 
-Enter the language(s) of a recording. More languages will be added as we are listening through the collection.
+Enter the language(s) of a recording. More languages can be added as needed.
 
 | Examples:
 | English
