@@ -769,13 +769,13 @@ If the information is taken from a source other than one of these sources, this 
 
 **Procedure:** Perform the following steps as closely as possible in order to catalogue the item:
 
-  1. Decide and select from the dropdown menu which one of the following two Date Types best describes the work:
+  1. Decide and select which one of the following two Date Types best describes the work:
 
     * Production Date– when the recording was produced
     * Publication Date- when the recording was broadcast, distributed or first made public
     * Performance Date- when the reading/event was performed
 
-  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave blank if the date cannot be determined.
+  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave all elements blank if the date cannot be determined.
 
   3. Enter as outlined below according to the prescribed syntax and punctuation.  It is very important that all date entries use this specific syntax:
 
