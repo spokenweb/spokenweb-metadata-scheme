@@ -157,7 +157,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.4. Preliminary Material Description Fields
 ********************************************
 
-**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate AV Type and then go to the **Digital Items Fields** to continue entering the data.
+**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate AV Type and then go to the **Digital Items Fields** to continue entering the data.
 
 **AV Type:** Determine and indicate if the item contains audio or video (with audio). Again, this will likely be self-evident, but should be indicated in the AV TYPE field.
 
