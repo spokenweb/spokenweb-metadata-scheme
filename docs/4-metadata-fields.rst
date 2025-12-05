@@ -1556,7 +1556,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [20] “Photograph.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q125191. 
 .. [21] “Document.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q49848. 
 .. [22] “Cultural Artifact.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q1791627. 
-.. [23] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
+.. [23] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, https://web.archive.org/web/20240418162441/https://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
 .. [24] IFLA, 0.8, p.16
 .. [25] Anglo American Cataloguing Rules (2005)
 .. [26] IASA. Sound Archives - A Guide to their Establishment and Development. https://www.iasa-web.org/sound-archives/cataloguing
