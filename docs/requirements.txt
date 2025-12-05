@@ -1,0 +1,23 @@
+# Modern Python build dependencies for Sphinx docs
+
+# Core documentation engine
+sphinx>=7.0,<8.0
+
+# Read the Docs theme
+sphinx-rtd-theme>=1.2,<2.0
+
+# Modern Markdown support for Sphinx (replaces recommonmark)
+myst-parser>=0.18
+
+# Common Sphinx extensions
+sphinxcontrib-bibtex>=2.0
+sphinx-autodoc-typehints>=1.22
+
+# Optional: nice default theme for local development
+alabaster>=0.7,<1.0
+
+# Image handling
+pillow>=9.0
+
+# Testing / mocking if your docs run tests
+mock>=4.0,<6.0

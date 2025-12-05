@@ -1,5 +1,56 @@
 @import url("theme.css");
 
+/* Add a clear rule above citation-style references in HTML */
+.rst-content .footnote-list.brackets {
+    border-top: 2px solid #ccc;
+    padding-top: 1.2em;
+    margin-top: 2.5em;
+}
+
+
+
+
+
+
+/* ============================================================
+   1. CALL-SITE: Replace [1] link with [*]
+   ============================================================ */
+a.footnote-reference[href="#fn-collection"] {
+    font-size: 0 !important;     /* hide the original [1] */
+    line-height: 1;               /* keep layout stable */
+}
+
+a.footnote-reference[href="#fn-collection"]::after {
+    content: "[*]";
+    font-size: 0.75rem !important;  /* restore readable size */
+    vertical-align: super;
+    line-height: 1;
+    margin-left: 2px;
+    display: inline;                /* force inline display */
+}
+
+/* ============================================================
+   2. FOOTNOTE LIST LABEL: Replace [1] with [*]
+   ============================================================ */
+aside.footnote[id="fn-collection"] .label {
+    font-size: 0 !important;        /* hide original */
+    line-height: 1;
+}
+
+aside.footnote[id="fn-collection"] .label::after {
+    content: "[*]";
+    font-size: 1rem !important;     /* force visible size */
+    line-height: 1;
+    margin-right: 0.4em;
+    display: inline;                /* ensure visibility */
+}
+
+
+
+
+
+
+
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal;
 }

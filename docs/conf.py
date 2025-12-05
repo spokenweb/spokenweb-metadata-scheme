@@ -19,14 +19,17 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'SpokenWeb Metadata Scheme and Cataloguing Process'
-copyright = u'2020, SpokenWeb Team'
-author = u'SpokenWeb Team'
+project = u'SpokenWeb Metadata Schema and Cataloguing Process'
+copyright = u'2025, SpokenWeb Team'
+author = u'SpokenWeb Metadata Task Force'
+
+
 
 # The short X.Y version
-version = u''
+version = u'4'
 # The full version, including alpha/beta/rc tags
-release = u'1'
+release = u'4'
+
 
 
 # -- General configuration ---------------------------------------------------
@@ -58,7 +61,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -135,7 +138,7 @@ htmlhelp_basename = 'SpokenWebMetadataSchemeandCataloguingProcessdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
+#latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -151,14 +154,97 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+#}
+# -- Options for LaTeX/PDF output -------------------------------------
+
+# conf.py
+
+
+latex_elements = {
+    'releasename': 'Version',
+    'classoptions': ',openany',
+    'preamble': r'''
+\setcounter{secnumdepth}{-1}
+\renewcommand{\sphinxcaption}[2]{#2}
+
+% --- Custom title page with "Cite as" under the author ---
+\makeatletter
+\renewcommand{\sphinxmaketitle}{%
+  \let\sphinxrestorepageanchorsetting\relax
+  \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi
+  \hypersetup{pageanchor=false}% avoid duplicate destination warnings
+  \begin{titlepage}%
+    \let\footnotesize\small
+    \let\footnoterule\relax
+    \noindent\rule{\textwidth}{1pt}\par
+      \begingroup % for PDF information dictionary
+       \def\endgraf{ }\def\and{\& }%
+       \pdfstringdefDisableCommands{\def\\{, }}% overwrite hyperref setup
+       \hypersetup{pdfauthor={\@author}, pdftitle={\@title}}%
+      \endgroup
+    \begin{flushright}%
+      \sphinxlogo
+      \py@HeaderFamily
+      {\Huge \@title \par}
+      {\itshape\LARGE \py@release\releaseinfo \par}
+      \vfill
+      {\LARGE
+        \begin{tabular}[t]{c}
+          \@author
+        \end{tabular}\kern-\tabcolsep
+        \par}
+
+      % ----- Cite as block (directly under author) -----
+\vspace*{2\baselineskip}
+\begin{flushleft}   % <<< add this
+\normalfont\normalsize   % reset to regular weight + standard size
+\\[36pt]
+{\large\bfseries Cite as:}\\[6pt]
+{\small
+  Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Chandler, N., Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J., MacGregor, H., Mash, C., McLeod, K., Pickering, H., Roberge, A. 
+  (2025). 
+  \emph{SpokenWeb Metadata Schema and Cataloguing Process}. 
+  Version \version.
+  \url{https://doi.org/10.11573/spectrum.library.concordia.ca.00996470}
+\par}
+\end{flushleft}     % <<< add this
+% ----- end Cite as block -----
+
+
+      \vfill\vfill
+      {\large
+       \@date \par
+       \vfill
+       \py@authoraddress \par
+      }%
+    \end{flushright}%\par
+    \@thanks
+  \end{titlepage}%
+  \setcounter{footnote}{0}%
+  \let\thanks\relax\let\maketitle\relax
+  %\gdef\@thanks{}\gdef\@author{}\gdef\@title{}
+  \clearpage
+  \ifdefined\sphinxbackoftitlepage\sphinxbackoftitlepage\fi
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \sphinxrestorepageanchorsetting
 }
+\makeatother
+''',
+}
+
+
+
+
+
+
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess.tex', u'SpokenWeb Metadata Scheme and Cataloguing Process Documentation',
-     u'SpokenWeb Team', 'manual'),
+    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess.tex', u'SpokenWeb Metadata Schema and Cataloguing Process',
+     u'SpokenWeb Metadata Task Force', 'manual'),
 ]
 
 
@@ -167,7 +253,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'spokenwebmetadataschemeandcataloguingprocess', u'SpokenWeb Metadata Scheme and Cataloguing Process Documentation',
+    (master_doc, 'spokenwebmetadataschemeandcataloguingprocess', u'SpokenWeb Metadata Scheme and Cataloguing Process',
      [author], 1)
 ]
 
@@ -178,7 +264,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess', u'SpokenWeb Metadata Scheme and Cataloguing Process Documentation',
+    (master_doc, 'SpokenWebMetadataSchemeandCataloguingProcess', u'SpokenWeb Metadata Schema and Cataloguing Process',
      author, 'SpokenWebMetadataSchemeandCataloguingProcess', 'One line description of project.',
      'Miscellaneous'),
 ]

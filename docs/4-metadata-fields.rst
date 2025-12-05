@@ -19,7 +19,7 @@ Enter the cataloguer name as **Cataloguer Last Name, First Name**. In a separate
 
 **Note: Classification fields will in most cases be added by the administrators of the SpokenWeb metadata management system.**
 
-Partner institutions, collections, series, and sub-series are managed separately from individual items catalogued in Swallow. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
+Partner institutions, collections, series, and sub-series are managed separately from individual items in the SpokenWeb metadata schema. They are organized in hierarchical relationships, in which a partner institution has one or more collections, each collection has one or more series, and each series has one or more sub-series, and so on indefinitely. When an item is catalogued as belonging to a specific level of this classification, for example when an item is assigned to a series, the relevant collection and institution will also be automatically assigned to the item.
 
 **Examples of the classification structure:**
 
@@ -45,7 +45,7 @@ Below are the metadata guidelines for each classification level.
 4.2.2 Collection
 ================
 
-**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in front end applications. 
+**Label (mandatory):** Enter title proper for a fonds or collection to provide sufficient information to identify and find the original resource, for example: Daphne Marlatt fonds. [2]_ This label will be used in SpokenWeb front end applications. 
 
 If the collection is not deposited in an institutional archive but has been made available by a community organization via Internet Archive or another open access repository, use the name of the collection provided by that organization. If there is no clear title provided to a collection, a title must be created at least two of the following: 
 
@@ -101,7 +101,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 **Example of using the series field**
 
 | General Example:
-| Collection Name: Spoken Web Archive of the Present
+| Collection Name: SpokenWeb Archive of the Present
 | Series Title: Listening Practices
 | Sub-series: Virtual Listening Practice 2020
 |
@@ -113,7 +113,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 | Collection Name: SGW POETRY READING SERIES
 | Series Title: Poetry 1
 
-**Label (mandatory):** Enter the Series title. This label will be used in frontend applications.
+**Label (mandatory):** Enter the Series title. This label will be used in SpokenWeb frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, series website).
 
@@ -124,7 +124,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.2.4 Sub-series
 ================
 
-**Label (mandatory):** Enter the Sub-series title. This label will be used in frontend applications.
+**Label (mandatory):** Enter the Sub-series title. This label will be used in SpokenWeb frontend applications.
 
 **URI:** Enter a URL or other permanent identifier if possible (e.g. Wikidata, sub-series website).
 
@@ -144,7 +144,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 
   * Provide information about any important physical or material characteristics, or technical requirements that affect use of the item of description or understanding of the item. [4]_
   * Describe the item. Material Description also allows for multiple entries associated with one performance, for example, in cases when one event had been recorded on multiple assets. If the latter, you have an option to provide individual metadata for each of the physical items that are a part of the event.
-  * As noted by most schemes consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
+  * As noted by most schemas consulted, “technology for digital audio files and mass storage systems is [and was] still evolving.” [5]_ Therefore, include “at least a minimum of information and description of the physical characteristics for Local Access Files that will allow the configuration of equipment to play back the files correctly. [6]_ System requirements and modes of access should be described in the Note field.
 
 **Chief Source(s) of Information:**
 
@@ -157,7 +157,7 @@ SpokenWeb sometimes uses series to capture the way in which reading series have 
 4.4. Preliminary Material Description Fields
 ********************************************
 
-**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital from the drop-down menu. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate **AV Type** and then go to the **Digital Items Fields** to continue entering the data.
+**Recording Type:** Determine if the original unit of description is analogue or digital. (This will probably be self-evident. Basically determine if it’s a thing or a digital file). Select Analogue or Digital. If it is Analogue, select the appropriate AV Type and then go to the **Physical Items Fields** to continue entering the data. If it is digital, select the appropriate AV Type and then go to the **Digital Items Fields** to continue entering the data.
 
 **AV Type:** Determine and indicate if the item contains audio or video (with audio). Again, this will likely be self-evident, but should be indicated in the AV TYPE field.
 
@@ -187,7 +187,7 @@ Identify the AV Type with either Audio or Video.
   * Accompanying material
   * Other
 
-**Material Designation:** Assign a Specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our scheme, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
+**Material Designation:** Assign a specific Material Designation to the Item.  The specific material designation identifies the particular class of material to which the item belongs.  For our schema, we have identified a set number of material designations that we believe will be the most common within our collections.  For material designations not found on our list, please contact Jason Camlot (jason.camlot@concordia.ca). [7]_
 
   * Reel to Reel
   * Cassette
@@ -233,9 +233,9 @@ Identify the AV Type with either Audio or Video.
 
 For example:
 
- 90 minutes = T01:30:00
-   45 minutes = T00:45:00
-   3 minutes and 21 seconds = T00 :03 :21
+| 90 minutes = T01:30:00 
+| 45 minutes = T00:45:00 
+| 3 minutes and 21 seconds = T00 :03 :21 
 
 **Extent:**  Extent refers to the size of the media storage material. [10]_ For tapes this refers to the width of the tape.  For discs, the size of the record’s diameter dimension. For example, common sizes are:
 
@@ -299,7 +299,7 @@ Where possible, include the following additional information in the Notes field:
 
     * Copy from an original loaned by UTARMS
 
-**Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
+**Tape Brand:** Where indicated on the artifact, or reliably on the container, record the tape brand and the specific type number, for example, Ampex 456 or Scotch 250. This makes all the difference in being able to track degradation issues (e.g. sticky shed syndrome) from the item metadata. Knowing if it’s Scotch 200, or Scotch 250, or Scotch 300 is relevant for the preservation purposes.  When the info is available, it’s usually written clearly on the box. Older tapes will often have named lines of tape, sometimes on a shiny sticker or something that might say, for example, “Radio Mastering Extraordinaire”. This can be helpful to know, and would be great to record, if it’s readily available. If it’s not obvious, then write down “Unknown acetate”.
 
 **Sound Quality:** Based on broad categories of clarity and audibility, grade the audio quality of the recording as either Excellent, Good, or Poor.
 
@@ -379,9 +379,9 @@ Where possible, include the following additional information in the Notes field:
 
 **Size:** The size of the digital file in kilobytes, megabytes, or gigabytes. E.g. 1.66 GB
 
-**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). [16]_
+**Bit rate:** The number of computer bits conveyed or processed per unit of time in an audio or video file. Normally expressed in kilobits per second (Kbps), or megabits per second (Mbps). 
 
-**Encoding:** The algorithmic process of transforming analog information into digital form. [16]_ Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
+**Encoding:** The algorithmic process of transforming analog information into digital form. Digital audio files are often encoded in formats WAV or MPEG-3, image files in JPEG or PNG, and video files in MPEG-4.
 
 **Title:** The title of the digital image file.
 
@@ -415,7 +415,7 @@ A word or phrase, usually appearing on an artifact (either **digital file** or *
 
 **Procedure:**
 
-The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primarily role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
+The Title field has two objectives: 1) to identify the artifact and 2) to describe it. The primary role for the Title is to identify the artifact. If the information on the artifact is useful for this purpose, it should be used as a Title. If the information on the artifact does not allow to identify the item (for example, if all of the artifacts in the collection have the same information written on them), then a descriptive Title should be generated to identify each artifact in a collection. If sufficiently descriptive, format it like this: [Name of Speaker] at [Venue] and [Year].
 
 Capitalize the first letter of the first word and of the first letter of proper nouns and additional words according to the appropriate usage in the language in which the material is catalogued. [24]_ Put square brackets around the descriptive title.
 
@@ -430,7 +430,7 @@ The following is the order of preference for the source of title information [25
   1. the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself (including any permanently affixed labels, or title frames, or the audio itself);
   2. accompanying textual material (e.g. `cassette <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__ insert, `CD <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#24>`__ slick, inlay or booklet, recording/project accompanying documentation such as correspondence, donor agreements, recordist’s worksheets, script, transcript, cue sheet);
   3. a container that is an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. sound `cartridge <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#21>`__, video `cassette <http://http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#22>`__, sleeve, container for video); or from
-  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the `item <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#103>`__ itself. If the information is taken from a secondary source, cite the source in a **Title Source**.
+  4. a secondary source such as reference or research works, a publisher’s or distributor’s brochure, `broadcast <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#19>`__ program schedule, abstract, index or other available finding aid, container which is not an original part of the item (e.g. a `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ can used to store a `reel <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#165>`__ of `film <http://www.iasa-web.org/cataloguing-rules/appendix-d-glossary#81>`__ , tape box for storing audio tape), or the audiovisual content of the item itself. If the information is taken from a secondary source, cite the source in a **Title Source**.
   5. For the unidentified information, listen to the recording.
 
 For listing titles of individual works that are read within a given recording, see procedures for timestamping in the **Contents Field** (below).
@@ -443,7 +443,7 @@ For listing titles of individual works that are read within a given recording, s
 
 Indicate Title Source using one of the two options described below, in order of preference:
 
-Option 1. Please specify a URI or other permanent identifier if possible, for example, if the title was retrieved from an online archival catalogue: https://concordia.accesstomemory.org/artist-as-worker-ideas-on-work
+Option 1. Please specify a URI or other permanent identifier if possible, for example, if the title was retrieved from an online archival catalogue. Example: https://concordia.accesstomemory.org/artist-as-worker-ideas-on-work
 
 Option 2. If no URI is possible, please cite the secondary source in free text
 
@@ -463,7 +463,6 @@ Option 2. If no URI is possible, please cite the secondary source in free text
 | Publisher’s brochure                                        | Such material is available                               |
 +-------------------------------------------------------------+----------------------------------------------------------+
 
-----
 
 ***************
 4.9. Title Note
@@ -494,7 +493,14 @@ Provide a link to the Item that you are describing, if available.
 4.12. Language
 **************
 
-Select from the drop-down menu the language of a recording. More languages will be added as we are listening through the collection.
+Enter the language(s) of a recording. More languages can be added as needed.
+
+| Examples:
+| English
+| French
+| English, French
+| English, French, Spanish
+| English, Cree
 
 ----
 
@@ -504,7 +510,7 @@ Select from the drop-down menu the language of a recording. More languages will 
 
 This refers to the production scenario of the recording and is determined by the circumstances under which the recording was produced, as well as its intended audience and purpose. [26]_
 
-Select the appropriate Production Context from the dropdown menu, see definitions below (note that only one Production Context should be applicable to a single artifact):
+Enter the appropriate Production Context, see definitions below (note that only one Production Context should be applicable to a single artifact):
 
   * Audiobook: A recording of a oral reading of a book designed for commercial distribution and consumption.
   * Broadcast: A recording of a radio broadcast.
@@ -674,7 +680,6 @@ Assign roles to both creators and contributors where known. Role terms should be
   •	Publisher
   •	Distributor
   •	Manufacturer
-  •	Distributor
   •	Recordist
   •	Series organizer
   •	Collector
@@ -700,7 +705,7 @@ Authorized names of creators and contributors should be drawn from established a
 
 Enter the URL to the applicable authority record in the corresponding URI fields. For example, if using VIAF, for Irving Layton, choose “Personal Names” for fields to search in VIAF, and then take the permalink from the Irving Layton record http://viaf.org/viaf/66482092. For WikiData, provide the QID, for example, search for Leonard Cohen and then copy the correct URL: https://www.wikidata.org/wiki/Q1276. 
 
-**Creator / Contributor Nation:** Use this look-up field in Swallow to select Creator/Contributor Nation. The field is used to identify the specific Indigenous Nation(s) with which a creator is affiliated, drawing terminology directly from the First Nations, Métis, and Inuit Indigenous Ontology (FNMIIO) [33]. Multiple entries are supported, ensuring creators/contributors can be described in relation to all of their community affiliations.
+**Creator / Contributor Nation:** Use this look-up field in Swallow to select Creator/Contributor Nation. The field is used to identify the specific Indigenous Nation(s) with which a creator is affiliated, drawing terminology directly from the First Nations, Métis, and Inuit Indigenous Ontology (FNMIIO) [36]_. Multiple entries are supported, ensuring creators/contributors can be described in relation to all of their community affiliations.
 
 **Data Entry Syntax**
   * In both the creator and contributor fields the following format should be used:  Last, First
@@ -764,13 +769,13 @@ If the information is taken from a source other than one of these sources, this 
 
 **Procedure:** Perform the following steps as closely as possible in order to catalogue the item:
 
-  1. Decide and select from the dropdown menu which one of the following two Date Types best describes the work:
+  1. Decide and select which one of the following two Date Types best describes the work:
 
     * Production Date– when the recording was produced
     * Publication Date- when the recording was broadcast, distributed or first made public
     * Performance Date- when the reading/event was performed
 
-  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave blank if the date cannot be determined.
+  2. The Date Field is required: this means that the elements of this field cannot be left empty -- some value must be entered. Leave all elements blank if the date cannot be determined.
 
   3. Enter as outlined below according to the prescribed syntax and punctuation.  It is very important that all date entries use this specific syntax:
 
@@ -864,7 +869,7 @@ For **Latitude and Longitude:**  Copy and paste the LL numbers you find from Ope
 4.18. Rights Fields
 *******************
 
-The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [36]_
+The Rights section includes the Rights field to express the copyright status of a digital object, as well as a License field for information about how you can access and re-use the objects. The Rights statements are designed to be used by cultural heritage institutions to communicate the copyright and re-use status of digital objects to their users. Works that are known to be free from copyright or licensed under a known Creative Commons license should be labelled as such using the License field. [37]_
 
 Required Field: **Rights**
 
@@ -876,8 +881,8 @@ Additional Field: **Rights Note**
 
 **Controlled Vocabulary:**  Use the following two controlled vocabularies for specifying the Rights and License fields:
 
-  * Rights statements [37]_
-  * Creative Commons licenses [38]_
+  * Rights statements [38]_
+  * Creative Commons licenses [39]_
 
 One of the following 13 statements should be specified, using a URL:
 
@@ -990,22 +995,20 @@ The basic procedure for generating a timestamped contents list entails using a t
 
 As you are producing your timestamped contents description of the recording you should timestamp and thus signal the start and end of each event of discrete significance. For our purposes this will usually mean changes in speaker and discrete literary works read. For example, If you are listening to a reading that has someone introducing the reader, you would first timestamp the beginning of the introduction and title this with the term Introduction and then the name of the Introducer. For example, Warren Tallman introduces Robert Creely. Then, when the reader steps up to the microphone you would indicate that with a new timestamp followed by the name of the reader. If the reader is introducing a poem, you would follow his/her name by Introduces and then the title of the poem, for example, Dorothy Livesay introduces Outrider. Then when the reading of that actual poem begins you would timestamp that moment with the name of the reader and the title of the poem, so, Dorothy Livesay reads Outrider.
  
-****************************
 4.20.1. Overview and Purpose
-****************************
+============================
 
 The Contents field serves to describe the audible or audiovisual (AV) content (speech and other sounds, video image) of the audio asset. By simple analogy, it can be understood as equivalent to the table of contents (TOC) of a book, using time-stamps instead of page numbers, but it has the potential to be much more detailed than a typical TOC, and to be linked to other data sources, if the cataloguer has the time and resources to make it so. **For the SpokenWeb schema, this field may exist on a continuum from containing no data at all to full transcription and detailed description of the sonic or AV signal, with added Wikidata links, where possible**. In principal, it is always more useful to have some information about what a recording contains than none, and the more information provided the more useful this field will become. That said, there are particular formatting requirements that we have established for providing information in the Contents field.Some contents information that a cataloguer holds may be more suitable to the Contents Note field than the Contents field, proper, if the information does not conform to the grammar of the field, as outlined in this guide.
 
 Beyond providing basic information about the content of an audio or AV recording, the primary purpose of this descriptive work is to make a recording easier for a user to navigate according to access points of information about the identities of speakers, what has been said, and actions are audibly and/or visibly registered in the recording. By timestamping such points of information along a timeline of the audio- or AV-documented event, the Contents field may be used to help users move across segments of a recording according to the points of greatest interest to them. It creates unique access points. This approach to documenting the contents of a recording, according to a set syntax, grammar and punctuation, also facilitates searching for, and locating, data points at particular moments within a sound recording and across a wide range of recordings.
 
 
-*************************************************
 4.20.2. General Process of Creating Contents Data
-*************************************************
+=================================================
 
 The Contents field is developed through a process that involves listening, looking, timestamping important moments in the recording, and, at times, research in order to determine correct names, titles, and other kinds of information relevant to the recording. The basic procedure for generating a timestamped contents list entails using a transcription software that allows you to control the listening and viewing speed of a recording, enter notes through an automated timestamping mechanism provided by the software, and then export that information as a text file so that it can be pasted into the Contents field in Swallow.
 
-There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [39]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
+There are many tools for Mac and PC that may be used, some for audio-only, and some that can handle both audio and AV assets [40]_. Tools may facilitate manual timestamped transcriptions or generate automated transcripts. In either case, the goal is to produce an accurate and informative transcript of the actions and speech of a recorded event with time stamps that will help users navigate the contents of the recording. The transcription process will be indicated as a note in the Contents Note field (see 4.21 below). Details about the transcription tool and process used may also be added as a Preservation Note (see 4.22 below). 
 
 Our schema accommodates either Linear or Nested approaches to timestamping. A Linear approach timestamps sonic or AV events as sequential points on a line. A Nested approach may introduce hierarchies between sonic events, so that a series of smaller events can be framed within a larger set of labelled categories. 
 
@@ -1015,7 +1018,7 @@ As you produce your timestamped contents description of the recording, you shoul
 
 **Nested Timestamping**
 
-We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [40]_.
+We have mostly used linear timestamping for SpokenWeb collections. However, the SpokenWeb team at the University of Alberta worked with a nested timestamping format through ERA A+V. For a detailed discussion of their process see [41]_, [42]_.
 
 **Degrees of Granularity**
 
@@ -1029,9 +1032,8 @@ The three basic degrees of granularity just described correspond roughly to the 
 
 Normally, all entries of a specific collection will be described at the same level of granularity.  The cataloguing team will thus need to make some decisions about how detailed their Content entries for a collection will be prior to cataloguing it..
 
-*********************************************************
 4.20.3 Preparatory Decisions Prior to Content Description
-*********************************************************
+=========================================================
 
 In addition to choosing between a Linear or Nested approach to timestamping, there are two primary decisions that should be made about the approach that will be taken to describing the audio/AV contents of a collection. As mentioned, the first pertains to the level of granularity of the description. The second pertains to how the digitized or digital files to be described will be handled in relation to the events they might document and the primary entity of description. Let’s take a moment to think about some factors and considerations surrounding these important preparatory decisions.
 
@@ -1076,9 +1078,8 @@ When multiple digital and analog assets are associated with a single event, such
 
 The following sections will explain, with examples, the prescribed grammar (the rules about standard terms, punctuation, and other structural elements) for the Contents Field. The Contents field grammar begins with the core elements of a discrete time-stamped descriptive entry. In all cases, the time-stamped Contents description is built around three key elements: The Speaker or Descriptor, the Numerical Timestamp, and the Descriptive Label. Our explanation of the Contents field’s grammar begins with definitions of these three elements.
 
-********************************************************
 4.20.4. Contents Field Grammar and Controlled Vocabulary
-********************************************************
+========================================================
 
 **1. Core Elements of a Time-Stamped Contents Field Description**
 A timestamped description signals and provides information about a sonic or audiovisual event. It is composed of three elements: (A) The Speaker or Descriptor, (B) The Numerical Timestamp, and (C) The Descriptive Label. 
@@ -1119,7 +1120,7 @@ Example:
 
 **C) The Descriptive Label (short name: Label)**
 
-	The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. To facilitate the conversion of transcripts in Avalon XML, there should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
+	The label holds the description of the sonic or audiovisual event as well as keywords. When both are used, a pipe [|] separates both portions. The descriptive portion exists on a spectrum from short description to full transcript. The keywords are a list of linkable data points (access points) present in the described sonic or AV event. There should always be something in the label. For instance, you can use markers of silence or uncertainty such as [silence] or [?] to avoid leaving the field blank. The one exception is the END timestamp which may be left blank. While the format of the label might differ between institutions, cataloguers should normally maintain the same degree of specificity or granularity across a given collection.
 
 **2. Overview of Controlled Vocabularies and Grammar**
 There is no exhaustive list of terms to use in every possible timestamping context and many descriptive situations will be formulated at the cataloguer’s discretion. However, in order to create cohesion across a wide range of collections catalogued at different sites, we have developed a select controlled vocabulary to be followed whenever possible. 
@@ -1390,8 +1391,8 @@ Wikidata links allow for an interconnected web of information. Prioritize linkin
 | Margaret Atwood
 | 00:00:00
 | Introduces “This is a Photograph of Me” from The Circle Game [https://www.wikidata.org/wiki/Q7723073]| Keywords: voice; Tallulah Bankhead [https://www.wikidata.org/wiki/Q255815]; apologize; Montreal; Kafka [https://www.wikidata.org/wiki/Q905]; The Trial [https://www.wikidata.org/wiki/Q36097];Wordsworth [https://www.wikidata.org/wiki/Q45546]; “I Wandered Lonely as a Cloud” [https://www.wikidata.org/wiki/Q2295398]; London [Ontario].
-|
-**5. Summary of Typographical Rules**
+
+**4. Summary of Typographical Rules**
 
 To facilitate research and to ensure proper conversion of the Contents field to XML when necessary, timestamping and description entered in the Contents field must follow certain typographical rules. This section outlines the main typographical markers and their functions for use in contents description.
 
@@ -1479,9 +1480,9 @@ Ex.
 	| 00:27:31
 	| [File 2 of 3]
 
-**6. Instructions for identifying assets.**
+**5. Instructions for identifying assets.**
 
-Given that a single Swallow Item can comprise multiple recordings, the cataloguer should clearly identify each asset in question at the start of every Contents field entry (in addition to documenting it in the Digital File Description Contents entry). This practice will minimize confusion and mark transitions between separately timestamped or transcribed assets which is especially useful if compiled one after another in the same box of the Contents field. Indicate the filename or chosen title, followed by a description of the type of recording and its position in relation to the subsequent recordings, followed by a comma and any further specifications **when necessary** (ex: Tracks #s or Sides) between square brackets. 
+Given that a single Item can comprise multiple recordings, the cataloguer should clearly identify each asset in question at the start of every Contents field entry (in addition to documenting it in the Digital File Description Contents entry). This practice will minimize confusion and mark transitions between separately timestamped or transcribed assets which is especially useful if compiled one after another in the same box of the Contents field. Indicate the filename or chosen title, followed by a description of the type of recording and its position in relation to the subsequent recordings, followed by a comma and any further specifications **when necessary** (ex: Tracks #s or Sides) between square brackets. 
 
 Examples: 
 
@@ -1508,6 +1509,7 @@ Example:
 	**Formula: Ultimatum_Mixdown_Name_Tape_TTracks_Tape_TTracks.mp3** 
 	**Ex: Ultimatum_Mixdown_Daniel Guimond_U-1_T1_T2_T3_T4_T5_T6_T7_T8.mp3**
 
+
 ********************
 4.21. Contents Notes
 ********************
@@ -1528,11 +1530,12 @@ Notes allow cataloguers to input additional information regarding the item. Ther
   
   **Preservation:** Specific notes about preservation details typically found from third parties such as, who did it, what happened to the object, or extra XML information. 
 
-****************
-4.23. References
-****************
 
-.. [2] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, cdncouncilarchives.ca/RAD/RADcomplete_July2008.pdf.
+
+
+
+
+.. [2] "Rules for Archival Description," Canadian Archival Council, Bureau of Canadian Archivists, July 2008, https://archivescanada.ca/wp-content/uploads/2022/08/RADComplete_July2008.pdf.
 .. [3] Committee on Descriptive Standards. “ISAD(G): General International Standard Archival Description.” INTERNATIONAL COUNCIL ON ARCHIVES, 2000. https://www.ica.org/app/uploads/2024/01/CBPS_2000_Guidelines_ISADG_Second-edition_EN.pdf .
 .. [4] "Physical characteristics and technical requirements," ISAD(G): General International Standard Archival Description, INTERNATIONAL COUNCIL ON ARCHIVES,  19-22 September 1999, 3.4.4, p.29, https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ISAD%28G%29_Second-edition_EN.pdf.
 .. [5] "Area 5: Introduction," Physical Description, IASA Cataloguing Rules, The International Association of Sound and Audiovisual Archives  https://www.iasa-web.org/cataloguing-rules/50-introduction.
@@ -1553,7 +1556,7 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [20] “Photograph.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q125191. 
 .. [21] “Document.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q49848. 
 .. [22] “Cultural Artifact.” Wikidata. Accessed January 19, 2021. https://www.wikidata.org/wiki/Q1791627. 
-.. [23] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, http://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
+.. [23] "International Standard Bibliographic Description for Non-Book Materials ISBD(NBM),"  International Federation of Library Associations and Institutions (IFLA), 1987, p.7, https://web.archive.org/web/20240418162441/https://archive.ifla.org/VII/s13/pubs/ISBDNBM_sept28_04.pdf
 .. [24] IFLA, 0.8, p.16
 .. [25] Anglo American Cataloguing Rules (2005)
 .. [26] IASA. Sound Archives - A Guide to their Establishment and Development. https://www.iasa-web.org/sound-archives/cataloguing
@@ -1563,54 +1566,57 @@ Notes allow cataloguers to input additional information regarding the item. Ther
 .. [30] LOC, "Genre/Form Terms"
 .. [31] LOC, "Genre/Form Terms"
 .. [32] www.merriam-webster.com/; other dictionaries and common sense
-.. [33] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). It stems from observations made by Isabella Wang of Spoken Web.
+.. [33] This genre term is an original variation of the standard LOC narrower terms for "Autobiographies" (http://id.loc.gov/authorities/genreForms/gf2014026047.html). 
 .. [34] “Art & Architecture Thesaurus Full Record Display (Getty Research).” n.d. Www.getty.edu. Accessed October 3, 2021. http://www.getty.edu/vow/AATFullDisplay?find=workshop&logic=AND¬e=&subjectid=300069765.
 .. [35] Our schema draws from the definitions of Creator and Contributor found in the "Dublin Core Metadata Element Set Version 1.1: Reference Description," Dublin Core Metadata Initiative, Accessed 12 October 2018, v.1, 1, https://www.dublincore.org/specifications/dublin-core/dces/2012-06-14/. & "Outline of Elements and Attributes in MODS Version 3.7," Metadata Object Description Schema (MODS), Library of Congress (LOC), July 31, 2018, Version 3, https://loc.gov/standards/mods/mods-outline-3-7.html#name,%20v.3.
-.. [36] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
-.. [37] http://rightsstatements.org/page/1.0/?language=en
-.. [38] https://creativecommons.org/licenses/
-.. [39] Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including:
-  `ELAN (MPI) <https://archive.mpi.nl/tla/elan>`_ – An open-source annotation tool widely used in linguistics and oral history research. It allows users to create detailed, multi-layered, time-aligned transcripts for audio/video files. Requires downloading and installation. 
-  `oTranscribe <https://otranscribe.com/>`_ – A free, open-source web app for manual transcription. It integrates playback controls with a text editor, making it easy to pause, rewind, and insert timestamps without leaving the editor.
-  `Parlatype <https://www.parlatype.xyz/features.html>_` – A lightweight open-source transcription player (Linux) that syncs audio playback with text entry and allows quick insertion of timestamps. Requires installation. 
-  `Transkriptor <https://transkriptor.com/>`_ is a commercial tool that is user-friendly and efficient for generating time-stamped transcripts quickly. 
-.. [40] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.
+.. [36] First Nations, Metis and Inuit – Indigenous Ontologies (FNMIIO). National Indigenous Knowledge and Language Alliance/Alliance nationale des connaissances et des langues autochtones NIKLA-ANCLA. June 21, 2019.  https://nationalindigenousknowledgeandlanguagealliance.home.blog/2019/06/21/first-nations-metis-and-inuit-indigenous-ontologies-fnmiio/. 
+.. [37] https://rightsstatements.org/en/documentation/#use-by-cultural-heritage-institutions
+.. [38] http://rightsstatements.org/page/1.0/?language=en
+.. [39] https://creativecommons.org/licenses/
+.. [40] Transcriva for Mac was the first transcription software used for timestamping SpokenWeb audio collections contents. As of 2020 it is no longer supported, but there are other options available including:\
+		
+		`ELAN (MPI) <https://archive.mpi.nl/tla/elan>`_ – An open-source annotation tool widely used in linguistics and oral history research. It allows users to create detailed, multi-layered, time-aligned transcripts for audio/video files. Requires downloading and installation.\
+		
+		`oTranscribe <https://otranscribe.com/>`_ – A free, open-source web app for manual transcription. It integrates playback controls with a text editor, making it easy to pause, rewind, and insert timestamps without leaving the editor.\
+		
+		`Parlatype <https://www.parlatype.xyz/features.html>`_ – A lightweight open-source transcription player (Linux) that syncs audio playback with text entry and allows quick insertion of timestamps. Requires installation.\
+		
+		`Transkriptor <https://transkriptor.com/>`_ is a commercial tool that is user-friendly and efficient for generating time-stamped transcripts quickly. \
 
-The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (Divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the Spans themselves are clearly marked individually.
+.. [41] ERA A+V allows users to add hierarchical navigational structures to any file. These structures can be created in XML, or through a graphical user interface that generates XML when changes are saved. When working with the graphical interface, users can see the waveform of the file in question and easily start and stop the recording as they work through the timestamping process.\
+		
+		The highest-order label is the “Title,” which is the name of the event. After that, subsequent labels called “Headings” or Divs are given to each speaker if there are multiple speakers in an event. Within each Heading are “Timespans” or Spans, which are the specific utterances made by a speaker over time--a poem, for example. Each of these Timespans has its own label, such as the title of a poem. Each Span has a beginning (when a poem begins) and an end. In ERA A+V, distinct sections of a file (or, in the case of audio interviews or literary readings, different speakers within an event) can be given their own distinct labels (divs). The higher-level labels or Divs do not have their own total timestamp encompassing the contents within it (the Spans). However, the spans themselves are clearly marked individually.\
 
-In the example of a poetry reading below, the Title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the Title. Atwood and Livesay are the only two performers here; each gets a Heading or Div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.
+		In the example of a poetry reading below, the title is “Margaret Atwood and Dorothy Livesay, 1969-02-20,” which appears at the top of the graphical interface, and is one of the first lines in XML. All subsequent Headings (the names of the speakers) are subordinate to the title. Atwood and Livesay are the only two performers here; each gets a Heading or div. Each performed poem is represented by a subordinate Timespan. Below, the first Timespan is given the label “The Shrunken Forest,” which is the name of the first poem that Atwood reads. The Timespan begins at 00:00:00.00 (the beginning of the event) and ends at 00:01:07.00, with the poem’s conclusion. After a brief pause, which has no Timespan, Atwood introduces the next poem, “Two Versions of Sweaters,” and the process repeats. Later in the event, when Livesay takes over, she gets her own Heading or Div, her poems are represented as Timespans and given labels for their titles, and the process continues.\
 
-Below is a simple series of timestamps represented as XML:
+.. [42] Example XML representing nested timestamping in ERA A+V:
 
-.. code-block:: xml
+		<item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">\
 
-  <Item label="Margaret Atwood and Dorothy Livesay, 1969-02-20">
-      <Div label="Margaret Atwood">
-          <Span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>
-          <Span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>
-          <Span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>
-          <Span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>
-          <Span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>
-          <Span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>
-          <Span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>
-          <Span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>
-          <Span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>
-          <Span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>
-      </Div>
+		<div label="Margaret Atwood">\
 
-      <Div label="Dorothy Livesay">
-          <Span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>
-          <Span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>
-          <Span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>
-          <Span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>
-          <Span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>
-      </Div>
-  </Item>
+		<span label="Atwood performs &quot;The Shrunken Forest&quot;" begin="0:00:00" end="0:01:07"/>\
+		<span label="Atwood introduces and reads &quot;Two Versions of Sweaters&quot;" begin="0:01:09" end="0:02:24"/>\
+		<span label="Atwood performs &quot;Woman Skating&quot;" begin="0:02:28" end="0:03:53"/>\
+		<span label="Atwood performs “Even Here in the Cupboard”" begin="0:03:56" end="0:04:20"/>\
+		<span label="Atwood introduces “Christmas Tree Farm, Oro Township”" begin="0:04:21" end="0:04:37"/>\
+		<span label="Atwood performs “Christmas Tree Farm, Oro Township” (in five sections)" begin="0:04:38" end="0:04:48"/>\
+		<span label="Atwood performs &quot;II&quot;" begin="0:04:49" end="0:05:13"/>\
+		<span label="Atwood performs &quot;III&quot;" begin="0:05:14" end="0:05:31"/>\
+		<span label="Atwood performs &quot;IV&quot;" begin="0:05:32" end="0:05:49"/>\
+		<span label="Atwood performs &quot;V&quot;" begin="0:05:50" end="0:06:21"/>\
 
-.. code-block:: xml
+		</div>\
 
-  <item label="Imaginary Recording of Dorothy Livesay">
-    <span label="Warren Tallman introduces Dorothy Livesay" begin="00:02:35.00" end="00:04:06.00"/>
-    <span label="Dorothy Livesay reads Outrider" begin="00:04:08.00" end="00:08:06.00"/>
-    <span label="Dorothy Livesay reads Day and Night" begin="00:08:09.00" end="00:18:06.00"/>
-  </item>
+		<div label="Dorothy Livesay">\
+
+		<span label="Livesay introduces Nisei" begin="0:06:50" end="0:08:09"/>\
+		<span label="Livesay performs selections from Nisei" begin="0:08:10" end="0:13:51"/>\
+		<span label="Livesay introduces another section of Nisei" begin="0:13:52" end="0:14:33"/>\
+		<span label="Livesay performs another section of Nisei" begin="0:14:34" end="0:18:12"/>\
+		<span label="Unknown Host’s concluding remarks" begin="0:18:23" end="0:19:33"/>\
+
+		</div>\
+
+		</item>\
+
