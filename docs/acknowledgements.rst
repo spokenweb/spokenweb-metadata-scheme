@@ -30,10 +30,12 @@ List of Authors/ Contributors
 **Version 2 contributors (2019):**
 
 | Ali Barillaro (Concordia U)
+| Nathan Chandler (U Calgary)
 | Lee Hannigan (U Alberta)
 | Cole Mash (SFU)
 | Holly Pickering (U Alberta)
-| Nathan Chandler (U Calgary)
+| Melissa Salrin (Simon Fraser University)
+| Felicity Tayler (University of Ottawa)
 
 **Metadata Controllers (2019):**
 
@@ -59,6 +61,9 @@ List of Authors/ Contributors
 | Linara Kolosov (SFU)
 | Cole Mash (SFU)
 | Andrew Roberge (Concordia U)
+| Melissa Salrin (Simon Fraser University)
+| Felicity Tayler (University of Ottawa)
+| Isabella Wang (Simon Fraser University)
 
 **Metadata Controllers (2020):**
 
@@ -77,3 +82,4 @@ List of Authors/ Contributors
 | Maia Harris (Concordia U)
 | Ella Hooper (Concordia U)
 | Hannah MacGregor (SFU)
+| Felicity Tayler (University of Ottawa)
