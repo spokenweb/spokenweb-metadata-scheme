@@ -201,7 +201,7 @@ latex_elements = {
 \\[36pt]
 {\large\bfseries Cite as:}\\[6pt]
 {\small
-  Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Chandler, N., Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J., MacGregor, H., Mash, C., McLeod, K., Pickering, H., Roberge, A. 
+  Camlot, J., Dowson, R., Ferrier, I., Fong, D., Kail, R., Lu, E., Luyk, S., MacDonald, C.,  Meza, A., Neugebauer, T., Wiercinski, J., Ajeeb, Y., Barillaro, A., Barker, S., Beauchesne, N., Chandler, N., Hannigan, L., Harris, M., Hooper, E., Kolosov, L., Knudsen, J., MacGregor, H., Mash, C., McLeod, K., Miya, C., Paré, F., Pickering, H., Pittella, C.,  Roberge, A., Salrin, M., Tayler, F., Telaro, E., Wang, I., Wiener, S. 
   (2025). 
   \emph{SpokenWeb Metadata Schema and Cataloguing Process}. 
   Version \version.
