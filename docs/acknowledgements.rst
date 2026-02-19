@@ -79,7 +79,14 @@ List of Authors/ Contributors
 **Version 4 contributors (2025):**
 
 | Yara Ajeeb (Concordia U)
+| Sadie Barker (Concordia U)
+| Nicholas Beauchesne (University of Alberta)
 | Maia Harris (Concordia U)
 | Ella Hooper (Concordia U)
 | Hannah MacGregor (SFU)
+| Chelsea Miya (University of Alberta)
+| Faith Paré (Concordia U)
+| Carlos Pittella (Concordia U)
 | Felicity Tayler (University of Ottawa)
+| Emma Telaro (Concordia U)
+| Salena Wiener (Concordia U)
